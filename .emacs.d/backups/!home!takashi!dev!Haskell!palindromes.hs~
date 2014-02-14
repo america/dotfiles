@@ -1,0 +1,7 @@
+respondPalindromes :: String -> String
+respondpalindromes = 
+    unlines .
+    map (\xs -> if isPal xs then "palindrome" else "not a palindrome") . lines
+
+isPal :: String -> Bool
+isPal xs = xs == reverse xs

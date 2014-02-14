@@ -1,0 +1,4 @@
+findKey :: (Eq k) => -> [(k, v)] -> Maybe v
+findKey key ((k,v):xs)
+    | key == k  = just v
+    | otherwise = findKey key xs

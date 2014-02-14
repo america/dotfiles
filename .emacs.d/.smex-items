@@ -1,0 +1,20 @@
+
+;; ----- smex-history -----
+(
+ make-directory
+ rename-file
+ eval-buffer
+ load-file
+ cd
+ 5x5
+ arp
+)
+
+;; ----- smex-data -----
+(
+ (load-file . 8)
+ (eval-buffer . 6)
+ (clojure-mode . 1)
+ (make-directory . 2)
+ (rename-file . 1)
+)
