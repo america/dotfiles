@@ -15,6 +15,6 @@
  ("/home/takashi/.emacs.d/elpa/starter-kit-eshell-2.0.3/starter-kit-eshell-autoloads.el" . 1836)
  ("/home/takashi/.emacs.d/elpa/starter-kit-lisp-2.0.3/starter-kit-lisp-autoloads.el" . 1937)
  ("/home/takashi/.emacs.d/elpa/undo-tree-0.6.5/undo-tree-autoloads.el" . 1709)
- ("/home/takashi/.emacs.d/init.el" . 1896)
  ("/home/takashi/.zshrc" . 1412)
- ("/home/takashi/dev/my-project/project.clj" . 367))
+ ("/home/takashi/dev/my-project/project.clj" . 367)
+ ("/home/takashi/dotfiles/.emacs.d/init.el" . 1574))

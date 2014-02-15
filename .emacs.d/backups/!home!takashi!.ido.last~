@@ -6,7 +6,7 @@
  ("/home/takashi/dev/" . "Haskell/")
  ("/home/" . "takashi/")
  ("/" . "home/")
- ("/home/takashi/" . "dev/")
+ ("/home/takashi/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
@@ -23,6 +23,8 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "20140215.hs"
+ "palindromes.hs"
  "bytestring_sumple.hs"
  "todo1.hs"
  ".zshrc"
@@ -30,23 +32,21 @@
  "appendtodo.hs"
  "arg-test.hs"
  "baabaa2.hs"
- "baabaa.hs"
- "baabaa.txt"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/takashi/.emacs.d/" (21246 12188 531779 693000) "places" "url/" ".smex-items" "init.el" ".git/" "ac-comphist.dat" "ac-dict/" ".gitignore" "elpa/" "auto-complete.el" "auto-save-list/" "auto-complete-pkg.el" "../" "./" "backups/" "auto-complete-config.el" "auto-complete/")
+ ("/home/takashi/.emacs.d/" (21247 978 533804 773000) "places" "url/" ".smex-items" "init.el" "ac-comphist.dat" "ac-dict/" "elpa/" "auto-complete.el" "auto-save-list/" "auto-complete-pkg.el" "../" "./" "backups/" "auto-complete-config.el" "auto-complete/")
 
- ("/home/takashi/dev/Haskell/" (21242 15385 533290 225000) "Primes.hs" "Tree.hs" "appendtodo.o" "shortLines.txt" "todo" "YesNo.hs" "findKey.hs" "phoneBook.hs" "todo1.hi" "wordNums.hs" "shortlinesonly.hi" "todo1" "reverse.hs" "encode.hs" "reverse.o" "arg-test.o" "reverse" "shortlinesonly.o" "baabaa2.hs" "helloworld.hs" "toto.txt" "baabaa2.hi" "todo.o" "haiku.txt" "random_string.o" "capslocker.hs" ".#deletetodo.hs" "capslocker" "Vector.hs" "baabaa.hs" "random_string" "arg-test" "baby.hs" "todo1.o" "baabaacaps.txt" "first40.hs" "baabaa.hi" "Eq.hs" "findKey2.hs" "helloworld.o" "rocker.hs" "appendtodo.hi" "baabaa2" "Person.hs" "arg-test.hi" "helloworld" "List.hs" "baabaa" "arg-test.hs" "reverse.hi" "baabaa.o" "Data.Map.hs" "bytestring_sumple.hs" "todo1.hs" "Geometry.hs" "../" "Geometry/" "baabaa.txt" "./" "deletetodo.hs" "shortlinesonly.hs" "deletetodo.o" "shortlinesonly" "palindromes.hi" "sample.hs" "threeCoins.hs" "palindromes" "deletetodo" "words.txt" "capslocker.o" "deletetodo.hi" ".#wordNums.hs" "palindromes.hs" "Main.hs" "appendtodo.hs" "palindromes.o" "Shapes.hs" "solveRPN.hs" "todo.txt" "helloworld.hi" "appendtodo" "random_string.hs" "todo.hi" "TrafficLight.hs" "capslocker.hi" "baabaa2.o" "random_string.hi")
+ ("/home/takashi/" (21247 983 317804 573000) ".thumbnails/" ".gtkrc-xfce" ".PlayOnLinux/" ".mozilla/" ".viminfo" ".oh-my-zsh" ".gnome2/" ".profile" "Public/" ".zcompdump" ".emacs.d/" ".zsh_history" ".bash_history" ".dropbox/" ".gstreamer-0.10/" ".bash_logout" ".macromedia/" ".m2/" ".make.sh" ".ghci" ".dmrc" ".gnome2_private/" ".pki/" ".gtkrc-2.0" ".xinputrc" "dotfiles_old/" ".ido.last" "dev/" "Dropbox/" ".ICEauthority" ".linuxmint/" "Videos/" ".zshrc" "Templates/" ".gem/" ".recentf" "Pictures/" ".xsession-errors" "bin/" "program/" ".gitconfig" ".config/" ".wine/" ".mozc/" "Music/" ".gconf/" ".ghc/" "../" ".Xresources" "Downloads/" "./" ".Xauthority" ".private" ".adobe/" "Documents/" "Desktop/" ".git-credential-cache/" "dotfiles/" ".local/" ".cache/" "PlayOnLinux's virtual drives/" "01_soft/" ".gksu.lock" ".cabal/" ".dropbox-dist/" ".vimrc" ".lein/" ".bashrc" ".dbus/" ".java/" ".ssh/" ".scrotwm.conf" ".vim")
 
- ("/home/takashi/" (21241 62734 704903 642000) ".thumbnails/" ".gtkrc-xfce" ".mozilla/" ".gnome2/" ".profile" "Public/" ".zcompdump" ".emacs.d/" ".zsh_history" ".bash_history" ".dropbox/" ".gstreamer-0.10/" ".bash_logout" ".macromedia/" ".m2/" ".ghci" ".dmrc" ".gnome2_private/" ".pki/" ".gtkrc-2.0" ".xinputrc" ".ido.last" "dev/" "Dropbox/" ".ICEauthority" ".linuxmint/" "Videos/" ".zshrc" "Templates/" ".gem/" ".recentf" "Pictures/" ".xsession-errors" "bin/" "program/" ".gitconfig" ".config/" ".wine/" ".mozc/" "Music/" ".gconf/" ".ghc/" "../" "Downloads/" "./" ".Xauthority" ".adobe/" "Documents/" "Desktop/" ".local/" ".cache/" "01_soft/" ".gksu.lock" ".dropbox-dist/" ".lein/" ".dbus/" ".java/")
+ ("/home/takashi/dev/Haskell/" (21246 65122 81863 9000) "Primes.hs" "Tree.hs" "appendtodo.o" "shortLines.txt" "todo" "YesNo.hs" "findKey.hs" "phoneBook.hs" "todo1.hi" "wordNums.hs" "shortlinesonly.hi" "todo1" "reverse.hs" "encode.hs" "reverse.o" "arg-test.o" "reverse" "shortlinesonly.o" "baabaa2.hs" "helloworld.hs" "toto.txt" "baabaa2.hi" "todo.o" "haiku.txt" "random_string.o" "capslocker.hs" "capslocker" "Vector.hs" "baabaa.hs" "random_string" "arg-test" "baby.hs" "todo1.o" "baabaacaps.txt" "first40.hs" "baabaa.hi" "Eq.hs" "findKey2.hs" "helloworld.o" "rocker.hs" "appendtodo.hi" "baabaa2" "Person.hs" "arg-test.hi" "helloworld" "pair.hs" "List.hs" "baabaa" "arg-test.hs" "reverse.hi" "baabaa.o" "Data.Map.hs" "bytestring_sumple.hs" "todo1.hs" "Geometry.hs" "../" "Geometry/" "baabaa.txt" "./" "20140215.hs" "deletetodo.hs" "shortlinesonly.hs" "deletetodo.o" "shortlinesonly" "palindromes.hi" "sample.hs" "threeCoins.hs" "palindromes" "deletetodo" "words.txt" "capslocker.o" "deletetodo.hi" "palindromes.hs" "Main.hs" "appendtodo.hs" "palindromes.o" "Shapes.hs" "solveRPN.hs" "todo.txt" "helloworld.hi" "appendtodo" "random_string.hs" "todo.hi" "TrafficLight.hs" "capslocker.hi" "baabaa2.o" "random_string.hi")
+
+ ("/home/takashi/dev/" (21243 43905 857211 558000) "Clojure/" "my-project/" "../" "./" "ring1/" "sample/" "Haskell/")
 
  ("/home/takashi/dev/Haskell/Geometry/" (21232 62993 24324 215000) "Sphere.hs" "Cuboid.hs" "../" "Cube.hs" "./")
 
  ("/home/takashi/.ghc/" (21228 40752 165231 653000) ".#ghci_history" "ghci_history" "../" "./")
-
- ("/home/takashi/dev/" (21225 9476 757441 832000) "Clojure/" "my-project/" "../" "./" "ring1/" "sample/" "Haskell/")
 
  ("/home/takashi/Desktop/" (21206 42499 439757 864000) "../" "./")
 
