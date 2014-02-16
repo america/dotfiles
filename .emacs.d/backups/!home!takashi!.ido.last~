@@ -6,13 +6,13 @@
  ("/home/takashi/dev/" . "Haskell/")
  ("/home/" . "takashi/")
  ("/" . "home/")
- ("/home/takashi/" . ".emacs.d/")
+ ("/home/takashi/" . "dev/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/takashi/.emacs.d/"
  "/home/takashi/dev/Haskell/"
+ "/home/takashi/.emacs.d/"
  "/home/takashi/"
  "/home/takashi/dev/Haskell/Geometry/"
  "/home/takashi/.ghc/"
@@ -22,8 +22,8 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
  "20140215.hs"
+ "init.el"
  "palindromes.hs"
  "bytestring_sumple.hs"
  "todo1.hs"
@@ -36,9 +36,9 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/takashi/.emacs.d/" (21247 978 533804 773000) "places" "url/" ".smex-items" "init.el" "ac-comphist.dat" "ac-dict/" "elpa/" "auto-complete.el" "auto-save-list/" "auto-complete-pkg.el" "../" "./" "backups/" "auto-complete-config.el" "auto-complete/")
+ ("/home/takashi/" (21247 1786 377770 986000) ".thumbnails/" ".gtkrc-xfce" ".PlayOnLinux/" ".mozilla/" ".viminfo" ".oh-my-zsh" ".gnome2/" ".profile" "Public/" ".zcompdump" ".emacs.d/" ".zsh_history" ".bash_history" ".dropbox/" ".gstreamer-0.10/" ".bash_logout" "lib/" ".macromedia/" ".m2/" ".make.sh" ".ghci" ".dmrc" ".gnome2_private/" ".pki/" ".gtkrc-2.0" ".xinputrc" "dotfiles_old/" ".ido.last" "dev/" "Dropbox/" ".ICEauthority" ".linuxmint/" "Videos/" ".zshrc" "Templates/" ".gem/" ".recentf" "Pictures/" ".xsession-errors" "bin/" "program/" ".gitconfig" ".config/" ".wine/" ".mozc/" "Music/" ".gconf/" ".ghc/" "../" ".Xresources" "Downloads/" "./" ".Xauthority" ".private" ".adobe/" "Documents/" "Desktop/" ".git-credential-cache/" "dotfiles/" ".local/" ".cache/" "PlayOnLinux's virtual drives/" "01_soft/" ".gksu.lock" ".cabal/" ".dropbox-dist/" ".vimrc" ".lein/" ".bashrc" ".dbus/" ".java/" ".ssh/" ".scrotwm.conf" ".vim")
 
- ("/home/takashi/" (21247 983 317804 573000) ".thumbnails/" ".gtkrc-xfce" ".PlayOnLinux/" ".mozilla/" ".viminfo" ".oh-my-zsh" ".gnome2/" ".profile" "Public/" ".zcompdump" ".emacs.d/" ".zsh_history" ".bash_history" ".dropbox/" ".gstreamer-0.10/" ".bash_logout" ".macromedia/" ".m2/" ".make.sh" ".ghci" ".dmrc" ".gnome2_private/" ".pki/" ".gtkrc-2.0" ".xinputrc" "dotfiles_old/" ".ido.last" "dev/" "Dropbox/" ".ICEauthority" ".linuxmint/" "Videos/" ".zshrc" "Templates/" ".gem/" ".recentf" "Pictures/" ".xsession-errors" "bin/" "program/" ".gitconfig" ".config/" ".wine/" ".mozc/" "Music/" ".gconf/" ".ghc/" "../" ".Xresources" "Downloads/" "./" ".Xauthority" ".private" ".adobe/" "Documents/" "Desktop/" ".git-credential-cache/" "dotfiles/" ".local/" ".cache/" "PlayOnLinux's virtual drives/" "01_soft/" ".gksu.lock" ".cabal/" ".dropbox-dist/" ".vimrc" ".lein/" ".bashrc" ".dbus/" ".java/" ".ssh/" ".scrotwm.conf" ".vim")
+ ("/home/takashi/.emacs.d/" (21247 1712 661774 69000) "places" "#init.el#" "url/" ".smex-items" "init.el" "ac-comphist.dat" "ac-dict/" "elpa/" "auto-complete.el" "auto-save-list/" "auto-complete-pkg.el" "../" "./" "backups/" "auto-complete-config.el" "auto-complete/")
 
  ("/home/takashi/dev/Haskell/" (21246 65122 81863 9000) "Primes.hs" "Tree.hs" "appendtodo.o" "shortLines.txt" "todo" "YesNo.hs" "findKey.hs" "phoneBook.hs" "todo1.hi" "wordNums.hs" "shortlinesonly.hi" "todo1" "reverse.hs" "encode.hs" "reverse.o" "arg-test.o" "reverse" "shortlinesonly.o" "baabaa2.hs" "helloworld.hs" "toto.txt" "baabaa2.hi" "todo.o" "haiku.txt" "random_string.o" "capslocker.hs" "capslocker" "Vector.hs" "baabaa.hs" "random_string" "arg-test" "baby.hs" "todo1.o" "baabaacaps.txt" "first40.hs" "baabaa.hi" "Eq.hs" "findKey2.hs" "helloworld.o" "rocker.hs" "appendtodo.hi" "baabaa2" "Person.hs" "arg-test.hi" "helloworld" "pair.hs" "List.hs" "baabaa" "arg-test.hs" "reverse.hi" "baabaa.o" "Data.Map.hs" "bytestring_sumple.hs" "todo1.hs" "Geometry.hs" "../" "Geometry/" "baabaa.txt" "./" "20140215.hs" "deletetodo.hs" "shortlinesonly.hs" "deletetodo.o" "shortlinesonly" "palindromes.hi" "sample.hs" "threeCoins.hs" "palindromes" "deletetodo" "words.txt" "capslocker.o" "deletetodo.hi" "palindromes.hs" "Main.hs" "appendtodo.hs" "palindromes.o" "Shapes.hs" "solveRPN.hs" "todo.txt" "helloworld.hi" "appendtodo" "random_string.hs" "todo.hi" "TrafficLight.hs" "capslocker.hi" "baabaa2.o" "random_string.hi")
 
