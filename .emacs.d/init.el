@@ -1,1 +1,0 @@
-/Users/takashi/dotfiles/init.el_osx

@@ -8,9 +8,16 @@
 
 (require 'package)
 (add-to-list 'package-archives
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(when (< emacs-major-version 24)
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+
+(add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") )
 (package-initialize)
 
+; melpa.el
+;(require 'melpa)
 
 ;; Add Clojure and other supporting packages to the Emacs environment
 ;; Packages are installed if they are not already present
@@ -48,7 +55,34 @@
 ;;; Enable undo-tree for everything, so you can M - _ to redo
 (global-undo-tree-mode)
 
+;;----------------------------------------------------------------------
+;; load-path configuration
+;;----------------------------------------------------------------------
+(setq load-path
+      (append
+       (list
+        (expand-file-name "~/.emacs.d/elisp")
+        (expand-file-name "~/.emacs.d/elisp/navi2ch")
+        (expand-file-name "~/.emacs.d/elisp/library")
+        (expand-file-name "~/.emacs.d/elisp/library/apel")
+        (expand-file-name "~/.emacs.d/elisp/library/emu")
+        (expand-file-name "~/.emacs.d/elisp/mode")
+        (expand-file-name "~/.emacs.d/elisp/mode/bat")
+        (expand-file-name "~/.emacs.d/elisp/mode/pukiwiki")
+        (expand-file-name "~/.emacs.d/site-lisp")
+        )
+       load-path))
+
+;;----------------------------------------------------------------------
+;; load settings
+;;----------------------------------------------------------------------
+;(require 'init-loader)
+;(init-loader-load "~/.emacs.d/conf")
+(require 'magit)
+
+;;---------------------------------------------------------
 ;; haskell
+;;---------------------------------------------------------
 (add-to-list 'load-path "~/.emacs.d/elisp/haskell-mode-2.8.0")
 (require 'haskell-mode)
 (require 'haskell-cabal)

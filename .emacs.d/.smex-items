@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ magit-status
+ magit-status-mode
+ package-install
+ list-packages
+ package-list-packages-no-fetch
  make-directory
  rename-file
- eval-buffer
- load-file
- cd
- 5x5
- arp
 )
 
 ;; ----- smex-data -----
@@ -17,4 +17,9 @@
  (clojure-mode . 1)
  (make-directory . 2)
  (rename-file . 1)
+ (package-install . 17)
+ (list-packages . 8)
+ (package-list-packages-no-fetch . 1)
+ (magit-status-mode . 1)
+ (magit-status . 1)
 )
