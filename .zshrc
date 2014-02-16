@@ -66,13 +66,16 @@ kterm*|xterm)
   ;;
 esac
 
-# set core dump configuration
+# core dump configuration
 #
 ulimit -c unlimited
 
 # set PATH for clojure
 #
 export PATH=$PATH:$HOME/bin
+
+# for brew
+export PATH=/usr/local/bin:$PATH
 
 ## load user .zshrc configuration file
 #
