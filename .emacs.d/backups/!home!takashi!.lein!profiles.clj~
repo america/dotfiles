@@ -1,4 +1,0 @@
-{:user {:plugins [
-                  [lein-pprint "1.1.1"]
-                  [lein-jruby "0.1.0"]
-                  ]}}
