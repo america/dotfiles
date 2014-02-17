@@ -1,31 +1,13 @@
 ;; @jr0cket - community developer > http://blog.jr0cket.co.uk/
 
 ;; Lightweight clojure setup for Emacs
-;; requires emacs24 and leiningen
-
-
-;; Add Marmalade package archive for Emacs starter kit and other Emacs packages
-
-(require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(when (< emacs-major-version 24)
-  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
-
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") )
-(package-initialize)
-
-; melpa.el
-;(require 'melpa)
-
-;; Add Clojure and other supporting packages to the Emacs environment
+;; requires emacs24 and leiningenu
+ 
+;; clojure and other supporting packages to the Emacs environment
 ;; Packages are installed if they are not already present
 ;; The list includes packages for the starter kit, Clojure and markdown files (used by github)
 
-(when (not package-archive-contents)
- 	(package-refresh-contents))
-
+;; Add starter kit and other Emacs packages
 (defvar my-packages '(starter-kit starter-kit-lisp starter-kit-eshell starter-kit-bindings
 	clojure-mode clojure-test-mode
         rainbow-delimiters
@@ -36,11 +18,6 @@
 
 ;;; auto-complete only seems to work as a manual install, however that
 ;;; manual install relies on popup being available
- 
-
-(dolist (p my-packages)
-  (when (not (package-installed-p p))
-    (package-install p)))
 
 
 ;; Useful global settings as Emacs is used predominantely for Clojure development
@@ -49,11 +26,8 @@
 ;; Global shortcut definition to fire up clojure repl and connect to it
 (global-set-key (kbd "C-c C-j") 'clojure-jack-in)
 
-;; Colour match parens and other structure characters to make code easy to follow
-(global-rainbow-delimiters-mode)
-
 ;;; Enable undo-tree for everything, so you can M - _ to redo
-(global-undo-tree-mode)
+;(global-undo-tree-mode)
 
 ;;----------------------------------------------------------------------
 ;; load-path configuration
@@ -73,11 +47,18 @@
         )
        load-path))
 
+(let ((default-directory (expand-file-name "~/.emacs.d/site-lisp")))
+  (add-to-list 'load-path default-directory)
+  (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
+      (normal-top-level-add-subdirs-to-load-path)))
+
 ;;----------------------------------------------------------------------
 ;; load settings
 ;;----------------------------------------------------------------------
-;(require 'init-loader)
-;(init-loader-load "~/.emacs.d/conf")
+(require 'init-loader)
+(setq init-loader-show-log-after-init nil)
+(init-loader-load "~/.emacs.d/inits")
+
 (require 'magit)
 
 ;;---------------------------------------------------------
@@ -101,7 +82,7 @@
 (push
  '("^\\(\.+\.hs\\|\.lhs\\):\\([0-9]+\\):\\([0-9]+\\):\\(.+\\)"
    1 2 3 4) flymake-err-line-patterns)
- 
+
 (add-hook 'haskell-mode-hook
           '(lambda ()
              (if (not (null buffer-file-name)) (flymake-mode))
