@@ -9,6 +9,7 @@
  ("/Users/takashi/.emacs.d/elpa/google-c-style-20130412.1415/google-c-style-autoloads.el" . 199)
  ("/Users/takashi/.emacs.d/elpa/haskell-mode-20140206.757/haskell-mode-autoloads.el" . 23549)
  ("/Users/takashi/.emacs.d/elpa/magit-20140215.505/magit-autoloads.el" . 25936)
+<<<<<<< HEAD
  ("/Users/takashi/.emacs.d/elpa/open-junk-file-20130131.720/open-junk-file-autoloads.el" . 199)
  ("/Users/takashi/.emacs.d/elpa/php-mode-20131203.1308/php-mode-autoloads.el" . 895)
  ("/Users/takashi/.emacs.d/elpa/rainbow-delimiters-20131015.404/rainbow-delimiters-autoloads.el" . 1725)
@@ -23,4 +24,12 @@
  ("/Users/takashi/dotfiles/.zshrc" . 1458)
  ("/Users/takashi/dotfiles/init_linux.el" . 1475)
  ("/Users/takashi/dotfiles/init_osx.el" . 1127)
+=======
+ ("/Users/takashi/.emacs.d/init.el" . 149)
+ ("/Users/takashi/.emacs.d/inits/50_auto-complete.el" . 35)
+ ("/Users/takashi/dotfiles/.emacs.d/inits/20-package.el" . 459)
+ ("/Users/takashi/dotfiles/.zshrc" . 1458)
+ ("/Users/takashi/dotfiles/init_linux.el" . 1475)
+ ("/Users/takashi/dotfiles/init_osx.el" . 1098)
+>>>>>>> 0b6fcfd3ed2b9ec9abf1576d0c4686cad33d97c0
  ("/Users/takashi/tool/sh/flycheck_haskell.pl" . 1834))

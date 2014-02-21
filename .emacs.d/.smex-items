@@ -2,6 +2,10 @@
 ;; ----- smex-history -----
 (
  magit-status
+<<<<<<< HEAD
+=======
+ package-install
+>>>>>>> 0b6fcfd3ed2b9ec9abf1576d0c4686cad33d97c0
  list-packages
  package-list-packages-no-fetch
  package-install
@@ -21,5 +25,9 @@
  (list-packages . 9)
  (package-list-packages-no-fetch . 2)
  (magit-status-mode . 1)
+<<<<<<< HEAD
  (magit-status . 16)
+=======
+ (magit-status . 7)
+>>>>>>> 0b6fcfd3ed2b9ec9abf1576d0c4686cad33d97c0
 )

@@ -1,4 +1,7 @@
 backups
 init.el
+<<<<<<< HEAD
 *bak
 elisp/*
+=======
+>>>>>>> 0b6fcfd3ed2b9ec9abf1576d0c4686cad33d97c0

@@ -4,6 +4,7 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
+<<<<<<< HEAD
 
 (require 'cl)
 
@@ -25,3 +26,5 @@
     (package-refresh-contents)
     (dolist (pkg not-installed)
               (package-install pkg))))
+=======
+>>>>>>> 0b6fcfd3ed2b9ec9abf1576d0c4686cad33d97c0
