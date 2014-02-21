@@ -1,4 +1,4 @@
-(require 'solarized-dark-theme)
+;(require 'solarized-dark-theme)
 
 ;; タブ, 全角スペース, 行末空白表示
 (defface my-face-b-1 '((t (:background "NavajoWhite4"))) nil) ; 全角ス
