@@ -1,12 +1,3 @@
-;; @jr0cket - community developer > http://blog.jr0cket.co.uk/
-
-;; Lightweight clojure setup for Emacs
-;; requires emacs24 and leiningenu
- 
-;; clojure and other supporting packages to the Emacs environment
-;; Packages are installed if they are not already present
-;; The list includes packages for the starter kit, Clojure and markdown files (used by github)
-
 ;; Add starter kit and other Emacs packages
 (defvar my-packages '(starter-kit starter-kit-lisp starter-kit-eshell starter-kit-bindings
 	clojure-mode clojure-test-mode
@@ -16,12 +7,6 @@
         popup
         undo-tree ))
 
-;;; auto-complete only seems to work as a manual install, however that
-;;; manual install relies on popup being available
-
-
-;; Useful global settings as Emacs is used predominantely for Clojure development
-
 ;; Launch the Clojure repl via Leiningen - M-x clojure-jack-in 
 ;; Global shortcut definition to fire up clojure repl and connect to it
 (global-set-key (kbd "C-c C-j") 'clojure-jack-in)
@@ -29,25 +14,7 @@
 ;;; Enable undo-tree for everything, so you can M - _ to redo
 ;(global-undo-tree-mode)
 
-;;----------------------------------------------------------------------
-;; load-path configuration
-;;----------------------------------------------------------------------
-(setq load-path
-      (append
-       (list
-        (expand-file-name "~/.emacs.d/elisp")
-        (expand-file-name "~/.emacs.d/elisp/navi2ch")
-        (expand-file-name "~/.emacs.d/elisp/library")
-        (expand-file-name "~/.emacs.d/elisp/library/apel")
-        (expand-file-name "~/.emacs.d/elisp/library/emu")
-        (expand-file-name "~/.emacs.d/elisp/mode")
-        (expand-file-name "~/.emacs.d/elisp/mode/bat")
-        (expand-file-name "~/.emacs.d/elisp/mode/pukiwiki")
-        (expand-file-name "~/.emacs.d/site-lisp")
-        )
-       load-path))
-
-(let ((default-directory (expand-file-name "~/.emacs.d/site-lisp")))
+(let ((default-directory (expand-file-name "~/.emacs.d")))
   (add-to-list 'load-path default-directory)
   (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
       (normal-top-level-add-subdirs-to-load-path)))
@@ -59,63 +26,3 @@
 (setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/inits")
 
-(require 'magit)
-
-;;---------------------------------------------------------
-;; haskell
-;;---------------------------------------------------------
-(add-to-list 'load-path "~/.emacs.d/elisp/haskell-mode-2.8.0")
-(require 'haskell-mode)
-(require 'haskell-cabal)
-(require 'flymake)
-(defun flymake-haskell-init ()
-  (let* ((temp-file   (flymake-init-create-temp-buffer-copy
-                       'flymake-create-temp-inplace))
-         (local-dir   (file-name-directory buffer-file-name))
-         (local-file  (file-relative-name
-                       temp-file
-                       local-dir)))
-    (list "~/tool/sh/flycheck_haskell.pl" (list local-file local-dir))))
- 
-(push '(".+\\hs$" flymake-haskell-init) flymake-allowed-file-name-masks)
-(push '(".+\\lhs$" flymake-haskell-init) flymake-allowed-file-name-masks)
-(push
- '("^\\(\.+\.hs\\|\.lhs\\):\\([0-9]+\\):\\([0-9]+\\):\\(.+\\)"
-   1 2 3 4) flymake-err-line-patterns)
-
-(add-hook 'haskell-mode-hook
-          '(lambda ()
-             (if (not (null buffer-file-name)) (flymake-mode))
-          ))
-(add-to-list 'auto-mode-alist '("\\.hs$" . haskell-mode))
- 
-(global-set-key "\C-cd"
-                'flymake-show-and-sit )
-  
- (setq haskell-doc-idle-delay 0.1)
-  
- (defun flymake-show-and-sit ()
-  "Displays the error/warning for the current line in the minibuffer"
-  (interactive)
-  (progn
-    (let* ( (line-no             (flymake-current-line-no) )
-         (line-err-info-list  (nth 0 (flymake-find-err-info flymake-err-info line-no)))
-         (count               (length line-err-info-list))
-         )
-    (while (> count 0)
-      (when line-err-info-list
-        (let* ((file       (flymake-ler-file (nth (1- count) line-err-info-list)))
-               (full-file  (flymake-ler-full-file (nth (1- count) line-err-info-list)))
-               (text (flymake-ler-text (nth (1- count) line-err-info-list)))
-               (line       (flymake-ler-line (nth (1- count) line-err-info-list))))
-          (message "[%s] %s" line text)
-          )
-        )
-      (setq count (1- count)))))
-  (sit-for 60.0)
-  )
-  
- ;; Auto enter flymake
- (add-hook 'haskell-mode-hook
-          '(lambda ()
-             (flymake-mode)))
