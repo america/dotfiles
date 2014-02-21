@@ -2,9 +2,9 @@
 ;; ----- smex-history -----
 (
  magit-status
- package-install
  list-packages
  package-list-packages-no-fetch
+ package-install
  make-directory
  rename-file
  load-file
@@ -18,8 +18,8 @@
  (make-directory . 2)
  (rename-file . 1)
  (package-install . 17)
- (list-packages . 8)
- (package-list-packages-no-fetch . 1)
+ (list-packages . 9)
+ (package-list-packages-no-fetch . 2)
  (magit-status-mode . 1)
- (magit-status . 7)
+ (magit-status . 16)
 )
