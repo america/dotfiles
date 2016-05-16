@@ -1,12 +1,33 @@
 if has('vim_starting')
-    set runtimepath+=~/.vim/bundle/neobundle.vim
-    call neobundle#rc(expand('~/.vim/bundle/'))
+  set rtp+=~/.vim/bundle/neobundle.vim/
 endif
 
+" NeoBundleを初期化
+call neobundle#begin()
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/neomru.vim'
+NeoBundle 'Shougo/unite-outline'
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'kana/vim-smartinput'
+NeoBundle 'kana/vim-operator-user'
+NeoBundle 'kana/vim-textobj-user'
+NeoBundle 'kana/vim-operator-replace'
+NeoBundle 'rhysd/vim-operator-surround'
+
+" for Python
+NeoBundle 'davidhalter/jedi-vim'
+NeoBundle 'andviro/flake8-vim'
+NeoBundle 'hynek/vim-python-pep8-indent'
+NeoBundle 'jmcantrell/vim-virtualenv'
+NeoBundle 'hachibeeDI/python_hl_lvar.vim'
+NeoBundle 'kana/vim-textobj-indent'
+NeoBundle 'bps/vim-textobj-python'
+" NeoBundle 'hachibeeDI/smartinput-petterns'
+
+filetype plugin indent on
 
 " solarized カラースキーム
 NeoBundle 'altercation/vim-colors-solarized'
@@ -33,6 +54,10 @@ NeoBundle 'tomasr/molokai'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'ujihisa/unite-colorscheme'
 
+call neobundle#end()
+
+NeoBundleCheck
+
 """"""""""""""""""""""""""""""""""
 "            vimfiler            "
 """"""""""""""""""""""""""""""""""
@@ -50,9 +75,12 @@ nnoremap <silent> <C-n>  :<C-u>Unite buffer <CR>
 nnoremap <silent> <Leader>d :<C-u>Unite file<CR>
 
 " Common ---------------------------
+syntax on                               " シンタックスカラーリングオン
 set nocompatible                        " be iMproved
-colorscheme jellybeans                  " カラースキームの設定
-set background=light                    " 背景色の傾向(カラースキームがそれに併せて色の明暗を変えてくれる)
+" colorscheme jellybeans                  " カラースキームの設定
+set background=dark                     " 背景色の傾向(カラースキームがそれに併せて色の明暗を変えてくれる)
+set t_Co=256
+set fileformats=unix,dos
 
 " Indent -------------------------------
 " tabstop:                              Tab文字を画面上で何文字分に展開するか
@@ -62,6 +90,8 @@ set tabstop=2
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+set smarttab
+set virtualedit=block
 
 set autoindent smartindent              " 自動インデント，スマートインデント
 
@@ -71,13 +101,12 @@ set hidden                              " 編集中でも他のファイルを�
 set noswapfile                          " スワップファイルを作らない
 set nobackup                            " バックアップを取らない
 autocmd BufWritePre * :%s/\s\+$//ge     " 保存時に行末の空白を除去する
-syntax on                               " シンタックスカラーリングオン
 
 " Assist imputting ---------------------
 set backspace=indent,eol,start          " バックスペースで特殊記号も削除可能に
 set formatoptions=lmoq                  " 整形オプション，マルチバイト系を追加
 set whichwrap=b,s,h,s,<,>,[,]           " カーソルを行頭、行末で止まらないようにする
-"set clipboard=unnamed,autoselect       " バッファにクリップボードを利用する
+" set clipboard=unnamed,autoselect       " バッファにクリップボードを利用する
 
 " Complement Command -------------------
 set wildmenu                            " コマンド補完を強化
@@ -89,20 +118,22 @@ set ignorecase                          " 大文字小文字無視
 set smartcase                           " 大文字ではじめたら大文字小文字無視しない
 set incsearch                           " インクリメンタルサーチ
 set hlsearch                            " 検索文字をハイライト
+set nohlsearch
 
 " View ---------------------------------
 set showmatch                           " 括弧の対応をハイライト
 set showcmd                             " 入力中のコマンドを表示
 set showmode                            " 現在のモードを表示
 set number                              " 行番号表示
-"set nowrap                             " 画面幅で折り返さない
+" set nowrap                             " 画面幅で折り返さない
 set list                                " 不可視文字表示
-set listchars=tab:>\                    " 不可視文字の表示方法
+set listchars=tab:>-,trail:-           " 不可視文字の表示方法
 set notitle                             " タイトル書き換えない
 set scrolloff=5                         " 行送り
 set display=uhex                        " 印字不可能文字を16進数で表示
 
-hi ZenkakuSpace gui=underline guibg=DarkBlue cterm=underline ctermfg=LightBlue " 全角スペースの定義
+" 全角スペースの定義
+hi ZenkakuSpace gui=underline guibg=DarkBlue cterm=underline ctermfg=LightBlue
 match ZenkakuSpace /　/                 " 全角スペースの色を変更
 
 set cursorline                          " カーソル行をハイライト
@@ -111,14 +142,15 @@ augroup cch
         autocmd WinLeave * set nocursorline
         autocmd WinEnter,BufRead * set cursorline
 augroup END
-:hi clear CursorLine
-:hi CursorLine gui=underline
+hi clear CursorLine
+hi CursorLine gui=underline
 hi CursorLine ctermbg=black guibg=black
 
 
 " StatusLine ---------------------------
 set laststatus=2                        " ステータスラインを2行に
-set statusline=%<%f\ #%n%m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%y%=%l,%c%V%8P
+
+set showtabline=2
 
 " Charset, Line ending -----------------
 set termencoding=utf-8
@@ -126,5 +158,21 @@ set encoding=utf-8
 set fileencodings=utf-8,cp932,euc-jp,iso-2022-jp
 set ffs=unix,dos,mac                    " LF, CRLF, CR
 if exists('&ambiwidth')
-    set ambiwidth=double                " UTF-8の□や○でカーソル位置がずれないようにする
+    set ambiwidth=double                " UTF-8の□や○でカーソル位置がずれないようにす
 endif
+
+if has('path_extra')
+  set tags& tags +=.tags,tags
+endif
+
+set clipboard=unnamed
+
+set backspace=eol,indent,start
+
+set wildmenu
+
+set wildmode=list:full
+
+set wildignore=*.o,*.obj,*.pyc,*.so,*.dll
+
+let g:python_highlight_all = 1

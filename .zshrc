@@ -74,9 +74,21 @@ ulimit -c unlimited
 #
 export PATH=$PATH:$HOME/bin
 
-# for brew
+# for homebrew
 export PATH=/usr/local/bin:$PATH
+
+# for PHP
+#export PATH=/home/takashi/tmp/usr/bin:$PATH
 
 ## load user .zshrc configuration file
 #
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
+
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
+
+#export PATH="$HOME/.rbenv/bin:$HOME/.phpenv/bin:$PATH"
+#export $HOME/.phpenv/bin:$PATH"
+
+#eval "$(rbenv init -)"
+eval "$(phpenv init -)"
