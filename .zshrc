@@ -25,6 +25,8 @@ setopt auto_cd
 autoload predict-on
 predict-on
 
+export LANG=ja_JP.UTF-8
+
 ## Alias configuration
 #
 # expand aliases before completing
@@ -52,6 +54,11 @@ alias df="df -h"
 
 alias su="su -l"
 
+alias vi="vim"
+
+alias python="python3"
+alias pip="pip3.5"
+
 # set terminal title including current directory
 #
 case "${TERM}" in
@@ -71,7 +78,6 @@ esac
 ulimit -c unlimited
 
 # set PATH for clojure
-#
 export PATH=$PATH:$HOME/bin
 
 # for homebrew
@@ -91,4 +97,9 @@ eval "$(anyenv init -)"
 #export $HOME/.phpenv/bin:$PATH"
 
 #eval "$(rbenv init -)"
-eval "$(phpenv init -)"
+#eval "$(phpenv init -)"
+
+#export PYENV_ROOT=$HOME/.pyenv
+#export PATH=$PYENV_ROOT/bin:$PATH
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"

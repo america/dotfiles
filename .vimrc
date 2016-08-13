@@ -1,9 +1,11 @@
-if has('vim_starting')
-  set rtp+=~/.vim/bundle/neobundle.vim/
-endif
+set nocompatible
 
+filetype plugin indent off
+
+set runtimepath+=~/.vim/bundle/neobundle.vim/
 " NeoBundleを初期化
-call neobundle#begin()
+call neobundle#begin(expand('~/.vim/bundle'))
+
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Shougo/unite.vim'
@@ -22,10 +24,11 @@ NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'andviro/flake8-vim'
 NeoBundle 'hynek/vim-python-pep8-indent'
 NeoBundle 'jmcantrell/vim-virtualenv'
-NeoBundle 'hachibeeDI/python_hl_lvar.vim'
+"NeoBundle 'hachibeeDI/python_hl_lvar.vim'
 NeoBundle 'kana/vim-textobj-indent'
 NeoBundle 'bps/vim-textobj-python'
 " NeoBundle 'hachibeeDI/smartinput-petterns'
+NeoBundle "scrooloose/syntastic"
 
 filetype plugin indent on
 

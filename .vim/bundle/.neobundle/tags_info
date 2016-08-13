@@ -9,7 +9,7 @@ mustang-vim
 neobundle.vim
 neosnippet
 neosnippet-snippets
-python_hl_lvar.vim
+syntastic
 unite-colorscheme
 unite-outline
 unite.vim
