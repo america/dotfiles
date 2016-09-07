@@ -27,8 +27,6 @@ omap <buffer> ac <Plug>(textobj-python-class-a)
 xmap <buffer> ic <Plug>(textobj-python-class-i)
 omap <buffer> ic <Plug>(textobj-python-class-i)
 
-setlocal omnifunc=jedi#completions
-
 if version < 600
   syntax clear
 elseif exists('b:current_after_syntax')

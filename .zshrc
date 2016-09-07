@@ -54,7 +54,8 @@ alias df="df -h"
 
 alias su="su -l"
 
-alias vi="vim"
+alias vi="/usr/local/bin/vim"
+export EDITOR=vi
 
 alias python="python3"
 alias pip="pip3.5"
@@ -74,7 +75,6 @@ kterm*|xterm*)
 esac
 
 # core dump configuration
-#
 ulimit -c unlimited
 
 # set PATH for clojure
@@ -87,19 +87,6 @@ export PATH=/usr/local/bin:$PATH
 #export PATH=/home/takashi/tmp/usr/bin:$PATH
 
 ## load user .zshrc configuration file
-#
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
 
-export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(anyenv init -)"
-
-#export PATH="$HOME/.rbenv/bin:$HOME/.phpenv/bin:$PATH"
-#export $HOME/.phpenv/bin:$PATH"
-
-#eval "$(rbenv init -)"
-#eval "$(phpenv init -)"
-
-#export PYENV_ROOT=$HOME/.pyenv
-#export PATH=$PYENV_ROOT/bin:$PATH
-#eval "$(pyenv init -)"
-#eval "$(pyenv virtualenv-init -)"
+export PATH=$HOME/dev/python/Python/.tox/py35/lib/python3.5/site-packages:$HOME/Applications/python3.5/lib/python3.5/site-packages:$HOME/Applications/python3.5/bin:$HOME/Applications/python2.7.12/bin:$PATH

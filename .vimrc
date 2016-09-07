@@ -4,7 +4,7 @@ filetype plugin indent off
 
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 " NeoBundleを初期化
-call neobundle#begin(expand('~/.vim/bundle'))
+call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
 
@@ -12,6 +12,7 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'kana/vim-smartinput'
 NeoBundle 'kana/vim-operator-user'
@@ -20,17 +21,17 @@ NeoBundle 'kana/vim-operator-replace'
 NeoBundle 'rhysd/vim-operator-surround'
 
 " for Python
-NeoBundle 'davidhalter/jedi-vim'
-NeoBundle 'andviro/flake8-vim'
+NeoBundle "scrooloose/syntastic"
 NeoBundle 'hynek/vim-python-pep8-indent'
 NeoBundle 'jmcantrell/vim-virtualenv'
-"NeoBundle 'hachibeeDI/python_hl_lvar.vim'
 NeoBundle 'kana/vim-textobj-indent'
 NeoBundle 'bps/vim-textobj-python'
-" NeoBundle 'hachibeeDI/smartinput-petterns'
 NeoBundle "scrooloose/syntastic"
+NeoBundle 'Shougo/neocomplete.vim'
 
-filetype plugin indent on
+" Jedi for python
+NeoBundleLazy "davidhalter/jedi-vim", {
+    \ "autoload": { "filetypes": [ "python", "python3", "djangohtml"] }}
 
 " solarized カラースキーム
 NeoBundle 'altercation/vim-colors-solarized'
@@ -59,26 +60,45 @@ NeoBundle 'ujihisa/unite-colorscheme'
 
 call neobundle#end()
 
+syntax on                               " シンタックスカラーリングオン
+filetype plugin indent on
+
 NeoBundleCheck
 
+let mapleader = "\<Space>"
 """"""""""""""""""""""""""""""""""
 "            vimfiler            "
 """"""""""""""""""""""""""""""""""
-
 let g:vimfiler_as_default_explorer = 1
 
 """"""""""""""""""""""""""""""""""
-"             unite              "
+"            unite               "
 """"""""""""""""""""""""""""""""""
-
 let g:unite_update_time = 1000
 
 nnoremap <silent> <C-r>  :<C-u>Unite file_mru<CR>
 nnoremap <silent> <C-n>  :<C-u>Unite buffer <CR>
-nnoremap <silent> <Leader>d :<C-u>Unite file<CR>
+nnoremap <silent> <Leader> :<C-u>Unite file<CR>
+nnoremap <silent> <C-o>  :<C-u>Unite outline<CR>
+
+""""""""""""""""""""""""""""""""""
+"            pathogen            "
+""""""""""""""""""""""""""""""""""
+execute pathogen#infect()
+""""""""""""""""""""""""""""""""""
+"            syntastic           "
+""""""""""""""""""""""""""""""""""
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_python_flake8_args="--max-line-length=120"
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " Common ---------------------------
-syntax on                               " シンタックスカラーリングオン
 set nocompatible                        " be iMproved
 " colorscheme jellybeans                  " カラースキームの設定
 set background=dark                     " 背景色の傾向(カラースキームがそれに併せて色の明暗を変えてくれる)

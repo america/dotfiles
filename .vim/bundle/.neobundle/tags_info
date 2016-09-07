@@ -1,12 +1,13 @@
 Lucius
 Zenburn
-flake8-vim
 jedi-vim
 jellybeans.vim
 molokai
 mrkn256.vim
 mustang-vim
 neobundle.vim
+neocomplete.vim
+neomru.vim
 neosnippet
 neosnippet-snippets
 syntastic
