@@ -54,7 +54,7 @@ alias df="df -h"
 
 alias su="su -l"
 
-alias vi="/usr/local/bin/vim"
+#alias vi="/usr/local/bin/vim"
 export EDITOR=vi
 
 alias python="python3"
@@ -86,7 +86,12 @@ export PATH=/usr/local/bin:$PATH
 # for PHP
 #export PATH=/home/takashi/tmp/usr/bin:$PATH
 
+# for Python
+export PATH=$HOME/dev/python/Python/.tox/py35/lib/python3.5/site-packages:$HOME/Applications/python3.5/lib/python3.5/site-packages:$HOME/Applications/python3.5/bin:$HOME/Applications/python2.7.12/bin:$PATH
+
+# for TeX
+export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
+
 ## load user .zshrc configuration file
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
 
-export PATH=$HOME/dev/python/Python/.tox/py35/lib/python3.5/site-packages:$HOME/Applications/python3.5/lib/python3.5/site-packages:$HOME/Applications/python3.5/bin:$HOME/Applications/python2.7.12/bin:$PATH
