@@ -1,4 +1,6 @@
-;;; dired-async.el --- Asynchronous dired actions -*- lexical-binding: t -*-
+
+
+ma;;; dired-async.el --- Asynchronous dired actions -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2012-2016 Free Software Foundation, Inc.
 
