@@ -70,6 +70,7 @@
          (setq tex-command "uplatex") ; typeset command
          (setq dvi2-command "evince") ; preview command
          (setq tex-pdfview-command "xdg-open"))) ; preview command
+
 ;;;
 ;;; config for magit
 ;;;
