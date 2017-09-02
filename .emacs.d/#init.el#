@@ -60,7 +60,7 @@
       (append '(("\\.tex$" . yatex-mode)
         ("\\.ltx$" . yatex-mode)
         ("\\.sty$" . yatex-mode)) auto-mode-alist))
-;; set YaTeX coding system
+;;; set YaTeX coding system
 (setq YaTeX-kanji-code 4) ; UTF-8 の設定
 (add-hook 'yatex-mode-hook
       '(lambda ()
@@ -70,3 +70,6 @@
          (setq tex-command "uplatex") ; typeset command
          (setq dvi2-command "evince") ; preview command
          (setq tex-pdfview-command "xdg-open"))) ; preview command
+
+;;; magit
+(global-set-key (kbd "C-x g") 'magit-status)
