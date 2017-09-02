@@ -11,6 +11,7 @@
 (require 'mozc)
 (set-language-environment "Japanese")
 (setq default-input-method "japanese-mozc")
+(prefer-coding-system 'utf-8)
 
 ;;; packages.el
 (require 'package)
@@ -53,3 +54,19 @@
 (require 'haskell-mode)
 (add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
 
+;;; YaTeX configuration option
+(autoload 'yatex-mode "yatex" "Yet Another LaTeX mode" t)
+(setq auto-mode-alist
+      (append '(("\\.tex$" . yatex-mode)
+        ("\\.ltx$" . yatex-mode)
+        ("\\.sty$" . yatex-mode)) auto-mode-alist))
+;; set YaTeX coding system
+(setq YaTeX-kanji-code 4) ; UTF-8 の設定
+(add-hook 'yatex-mode-hook
+      '(lambda ()
+         (setq YaTeX-use-AMS-LaTeX t) ; align で数式モードになる
+         (setq YaTeX-use-hilit19 nil
+           YateX-use-font-lock t)
+         (setq tex-command "uplatex") ; typeset command
+         (setq dvi2-command "evince") ; preview command
+         (setq tex-pdfview-command "xdg-open"))) ; preview command
