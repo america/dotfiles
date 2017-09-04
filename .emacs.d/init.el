@@ -8,6 +8,39 @@
              "~/.emacs.d/conf")
            load-path))
 
+;; UI settings
+(setq inhibit-startup-message t)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
+;; UTF-8
+;; from http://qiita.com/ironsand/items/a53797bd48170104aa74
+(prefer-coding-system 'utf-8)
+(setq coding-system-for-read 'utf-8)
+(setq coding-system-for-write 'utf-8)
+
+
+;; Disable backup
+(setq backup-inhibited t)
+(setq delete-auto-save-files t)
+
+;; Paren settings
+(show-paren-mode t)
+(electric-pair-mode t)
+(global-font-lock-mode t)
+
+;; Ignore case
+(setq completion-ignore-case t)
+(setq read-file-name-completion-ignore-case t)
+
+;; Solarized
+;(load-theme 'solarized-dark t)
+
+;; Line and column number
+(global-linum-mode t)
+(setq linum-format: "%4d: ")
+(column-number-mode t)
+
 (require 'mozc)
 (set-language-environment "Japanese")
 (setq default-input-method "japanese-mozc")
@@ -18,6 +51,9 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
+
+(load-theme 'solarized-dark t)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -26,6 +62,7 @@
  '(package-selected-packages
    (quote
     (flymake flymake-cursor ghc haskell-mode color-theme-solarized))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
