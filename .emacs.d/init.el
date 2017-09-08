@@ -1,5 +1,7 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; ロードパスの追加
-(setq load-path (append
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+g(setq load-path (append
            '("~/.emacs.d"
              "~/.emacs.d/packages/emacs-jedi"
              "~/.emacs.d/packages/json-mode"
@@ -9,7 +11,9 @@
 	     "~/.emacs.d/elisp")
            load-path))
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; packages.el
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar my-favorite-package-list
   '(
     ;ghc-mod
@@ -116,7 +120,7 @@
 (set-language-environment "Japanese")
 (setq default-input-method "japanese-mozc")
 (prefer-coding-system 'utf-8)
-
+(global-set-key (kbd "C-j") 'toggle-input-method)
 
 ;(load-theme 'solarized-dark t)
 
