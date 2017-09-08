@@ -10,10 +10,28 @@
            load-path))
 
 ;;; packages.el
+(defvar my-favorite-package-list
+  '(
+    ;ghc-mod
+    ghc
+    haskell-mode
+    flymake
+    flymake-cursor
+    color-theme-solarized
+    auto-complete
+    magit
+    elscreen
+    )
+  "packages to be installed")
+
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
+(unless package-archive-contents (package-refresh-contents))
+(dolist (pkg my-favorite-package-list)
+  (unless (package-installed-p pkg)
+    (package-install pkg)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; フレーム関連
