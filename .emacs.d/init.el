@@ -1,7 +1,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; ロードパスの追加
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-g(setq load-path (append
+(setq load-path (append
            '("~/.emacs.d"
              "~/.emacs.d/packages/emacs-jedi"
              "~/.emacs.d/packages/json-mode"
