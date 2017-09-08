@@ -1,13 +1,10 @@
 # Set up the prompt
 autoload -Uz promptinit
-#promptinit
-#prompt adam1
 
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -v
 
 ## Command history configuration
-#
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.zsh_history
@@ -27,7 +24,9 @@ predict-on
 
 export LANG=ja_JP.UTF-8
 
-## Alias configuration
+########################################################
+# Alias configuration
+########################################################
 #
 # expand aliases before completing
 #
@@ -61,38 +60,17 @@ alias python="python3"
 alias pip="pip3.5"
 
 # set terminal title including current directory
-#case "${TERM}" in
-#kterm*|xterm*)
-#    precmd() {
-#        echo -ne "\033]0;${USER}@${HOST%%.*}:${PWD}\007"
-#    }
-#  export LSCOLORS=exfxcxdxbxegedabagacad
-#  export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
-#  zstyle ':completion:*' list-colors \
-#    'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
-#  ;;
-#esac
-
-# core dump configuration
-ulimit -c unlimited
-
-# set PATH for clojure
-export PATH=$PATH:$HOME/bin
-
-# for homebrew
-export PATH=/usr/local/bin:$PATH
-
-# for PHP
-#export PATH=/home/takashi/tmp/usr/bin:$PATH
-
-# for Python
-export PATH=$HOME/dev/python/Python/.tox/py35/lib/python3.5/site-packages:$HOME/Applications/python3.5/lib/python3.5/site-packages:$HOME/Applications/python3.5/bin:$HOME/Applications/python2.7.12/bin:$PATH
-
-# for TeX
-export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
-
-## load user .zshrc configuration file
-[ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
+case "${TERM}" in
+kterm*|xterm*)
+    precmd() {
+        echo -ne "\033]0;${USER}@${HOST%%.*}:${PWD}\007"
+    }
+  export LSCOLORS=exfxcxdxbxegedabagacad
+  export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+  zstyle ':completion:*' list-colors \
+    'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
+  ;;
+esac
 
 ########################################################
 # zplug configuration
@@ -155,4 +133,25 @@ fi
 # Add color to ls command
 export CLICOLOR=1
 
+
+
+# プロンプトをbash風にする
 PS1="%{$fg[cyan]%}[${USER}@${HOST%%.*} %1~]%(!.#.$)${reset_color} "
+
+# core dump configuration
+ulimit -c unlimited
+
+# set PATH for clojure
+export PATH=$PATH:$HOME/bin
+
+# for homebrew
+export PATH=/usr/local/bin:$PATH
+
+# for Python
+export PATH=$HOME/dev/python/Python/.tox/py35/lib/python3.5/site-packages:$HOME/Applications/python3.5/lib/python3.5/site-packages:$HOME/Applications/python3.5/bin:$HOME/Applications/python2.7.12/bin:$PATH
+
+# for TeX
+export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
+
+## load user .zshrc configuration file
+[ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
