@@ -21,6 +21,7 @@
     auto-complete
     magit
     elscreen
+    howm
     )
   "packages to be installed")
 
