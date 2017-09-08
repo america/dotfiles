@@ -1,7 +1,7 @@
 # Set up the prompt
 autoload -Uz promptinit
-promptinit
-prompt adam1
+#promptinit
+#prompt adam1
 
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -v
@@ -61,18 +61,17 @@ alias python="python3"
 alias pip="pip3.5"
 
 # set terminal title including current directory
-#
-case "${TERM}" in
-kterm*|xterm*)
-    precmd() {
-        echo -ne "\033]0;${USER}@${HOST%%.*}:${PWD}\007"
-    }
-  export LSCOLORS=exfxcxdxbxegedabagacad
-  export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
-  zstyle ':completion:*' list-colors \
-    'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
-  ;;
-esac
+#case "${TERM}" in
+#kterm*|xterm*)
+#    precmd() {
+#        echo -ne "\033]0;${USER}@${HOST%%.*}:${PWD}\007"
+#    }
+#  export LSCOLORS=exfxcxdxbxegedabagacad
+#  export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+#  zstyle ':completion:*' list-colors \
+#    'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
+#  ;;
+#esac
 
 # core dump configuration
 ulimit -c unlimited
@@ -95,3 +94,65 @@ export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
 ## load user .zshrc configuration file
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
 
+########################################################
+# zplug configuration
+########################################################
+if [[ ! -d ~/.zplug ]];then
+  git clone https://github.com/zplug/zplug ~/.zplug
+fi
+
+source ~/.zplug/init.zsh
+
+# enhancd config
+export ENHANCD_COMMAND=ed
+export ENHANCD_FILTER=ENHANCD_FILTER=fzy:fzf:peco
+
+# Vanilla shell
+zplug "yous/vanilli.sh"
+
+# Additional completion definitions for Zsh
+zplug "zsh-users/zsh-completions"
+
+# Load the theme.
+zplug "yous/lime"
+
+# Syntax highlighting bundle. zsh-syntax-highlighting must be loaded after
+# excuting compinit command and sourcing other plugins.
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+
+# ZSH port of Fish shell's history search feature
+zplug "zsh-users/zsh-history-substring-search", defer:2
+
+# Tracks your most used directories, based on 'frecency'.
+zplug "rupa/z", use:"*.sh"
+
+# A next-generation cd command with an interactive filter
+zplug "b4b4r07/enhancd", use:init.sh
+
+# This plugin adds many useful aliases and functions.
+zplug "plugins/git",   from:oh-my-zsh
+
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+  printf "Install? [y/N]: "
+    if read -q; then
+      echo; zplug install
+    fi
+fi
+
+# Then, source plugins and add commands to $PATH
+zplug load --verbose
+
+# Lime theme settings
+export LIME_DIR_DISPLAY_COMPONENTS=2
+
+# Better history searching with arrow keys
+if zplug check "zsh-users/zsh-history-substring-search"; then
+  bindkey "$terminfo[kcuu1]" history-substring-search-up
+  bindkey "$terminfo[kcud1]" history-substring-search-down
+fi
+
+# Add color to ls command
+export CLICOLOR=1
+
+PS1="%{$fg[cyan]%}[${USER}@${HOST%%.*} %1~]%(!.#.$)${reset_color} "
