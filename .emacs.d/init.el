@@ -2,8 +2,7 @@
 ;;; ロードパスの追加
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq load-path (append
-           '("~/.emacs.d"
-             "~/.emacs.d/packages/emacs-jedi"
+           '("~/.emacs.d/packages/emacs-jedi"
              "~/.emacs.d/packages/json-mode"
              "~/.emacs.d/auto-install"
              "~/.emacs.d/custom"
