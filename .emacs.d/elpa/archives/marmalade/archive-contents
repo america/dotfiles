@@ -1,4 +1,11 @@
 (1
+ (emacs-visual-notifications .
+			     [(20170908 2035)
+			      ((emacs
+				(24))
+			       (cl-lib
+				(0 5)))
+			      "A utility to create visual notifications in emacs" single])
  (zone-nyan .
 	    [(0 2 2)
 	     ((esxml
@@ -3566,7 +3573,7 @@
 		  (20160725 724)))
 		"Sound effects for Emacs" single])
  (emacs-home .
-	     [(20170712 2135)
+	     [(20170908 2045)
 	      ((emacs
 		(24))
 	       (cl-lib
