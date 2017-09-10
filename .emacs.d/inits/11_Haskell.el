@@ -15,11 +15,11 @@
  )
 (autoload 'ghc-init "ghc" nil t)
 (add-hook 'haskell-mode-hook '(lambda ()
-(ghc-init)
-        (local-set-key "\C-j" (lambda () (interactive)(insert " -> ")))
-        (local-set-key "\M-j" (lambda () (interactive)(insert " => ")))
-        (local-set-key "\C-l" (lambda ()(interactive)(insert " <- ")))
-))
+;(ghc-init)
+;        (local-set-key "\C-j" (lambda () (interactive)(insert " -> ")))
+;        (local-set-key "\M-j" (lambda () (interactive)(insert " => ")))
+;        (local-set-key "\C-l" (lambda ()(interactive)(insert " <- ")))
+					;))
 
 (defadvice inferior-haskell-load-file (after change-focus-after-load)
   "Change focus to GHCi window after C-c C-l command"
