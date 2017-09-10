@@ -50,7 +50,6 @@
 (setq ac-use-fuzzy t)          ;; 曖昧マッチ
 
 
-
 ;; UTF-8
 ;; from http://qiita.com/ironsand/items/a53797bd48170104aa74
 (prefer-coding-system 'utf-8)
@@ -61,6 +60,8 @@
 ;; Disable backup
 (setq backup-inhibited t)
 (setq delete-auto-save-files t)
+(setq make-backup-files nil)    ; *.~ とかのバックアップファイルを作らない
+(setq auto-save-default nil)    ; .#* とかのバックアップファイルを作らない
 
 ;; Paren settings
 (show-paren-mode t) ;; show-paren-mode：対応する括弧を強調して表示する
