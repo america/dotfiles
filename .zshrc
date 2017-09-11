@@ -12,8 +12,8 @@ HISTFILE=~/.zsh_history
 setopt histignorealldups sharehistory
 
 # Use modern completion system
-autoload -Uz compinit
-compinit
+#autoload -Uz compinit
+#compinit
 
 #setopt auto_pushd
 setopt correct
