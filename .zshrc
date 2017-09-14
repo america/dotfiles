@@ -1,5 +1,64 @@
+########################################################
+# zplug configuration
+########################################################
+if [[ ! -d ~/.zplug ]];then
+  git clone https://github.com/zplug/zplug ~/.zplug
+fi
+
+source ~/.zplug/init.zsh
+
+# enhancd config
+export ENHANCD_COMMAND=ed
+export ENHANCD_FILTER=ENHANCD_FILTER=fzy:fzf:peco
+
+# Vanilla shell
+zplug "yous/vanilli.sh"
+
+# Additional completion definitions for Zsh
+zplug "zsh-users/zsh-completions"
+
+# Load the theme.
+zplug "yous/lime"
+
+# Syntax highlighting bundle. zsh-syntax-highlighting must be loaded after
+# excuting compinit command and sourcing other plugins.
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+
+# ZSH port of Fish shell's history search feature
+zplug "zsh-users/zsh-history-substring-search", defer:2
+
+# Tracks your most used directories, based on 'frecency'.
+zplug "rupa/z", use:"*.sh"
+
+# A next-generation cd command with an interactive filter
+zplug "b4b4r07/enhancd", use:init.sh
+
+# This plugin adds many useful aliases and functions.
+zplug "plugins/git",   from:oh-my-zsh
+
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+  printf "Install? [y/N]: "
+    if read -q; then
+      echo; zplug install
+    fi
+fi
+
+# Then, source plugins and add commands to $PATH
+zplug load --verbose
+
+# Lime theme settings
+export LIME_DIR_DISPLAY_COMPONENTS=2
+
+# Better history searching with arrow keys
+if zplug check "zsh-users/zsh-history-substring-search"; then
+  bindkey "$terminfo[kcuu1]" history-substring-search-up
+  bindkey "$terminfo[kcud1]" history-substring-search-down
+fi
+
+
 #補完機能を使用する
-autoload -U compinit promptinit
+autoload -Uz compinit promptinit
 compinit
 zstyle ':completion::complete:*' use-cache true
 zstyle ':completion:*:default' menu select=1
@@ -17,14 +76,20 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([%0-9]#)*=0=01;31
 #コマンドにsudoを付けても補完
 zstyle ':completion:*:sudo:*' command-path /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/X11R6/bin
 
+autoload predict-on
+predict-on
+
 #プロンプト関係
-#PROMPT="[%n@%m %~]%(!.#.$) "
+PROMPT="[%n@%m %~]%(!.#.$) "
+
+# プロンプトをbash風にする
+#PROMPT="%{$fg[cyan]%}[${USER}@${HOST%%.*} %1~]%(!.#.$)${reset_color} "
 
 #ヒストリーサイズ設定
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
-PATH=${PATH}:~/bin
+#PATH=${PATH}:~/bin
 
 #ヒストリの一覧を読みやすい形に変更
 HISTTIMEFORMAT="[%Y/%M/%D %H:%M:%S] "
@@ -121,7 +186,7 @@ setopt HIST_EXPIRE_DUPS_FIRST
 #履歴検索中、重複を飛ばす
 setopt HIST_FIND_NO_DUPS
 #ヒストリリストから関数定義を除く
-setopt HIST_NO_FUNCTIONS
+#setopt HIST_NO_FUNCTIONS
 #前のコマンドと同じならヒストリに入れない
 setopt HIST_IGNORE_DUPS
 #重複するヒストリを持たない
@@ -177,63 +242,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-########################################################
-# zplug configuration
-########################################################
-if [[ ! -d ~/.zplug ]];then
-  git clone https://github.com/zplug/zplug ~/.zplug
-fi
-
-source ~/.zplug/init.zsh
-
-# enhancd config
-export ENHANCD_COMMAND=ed
-export ENHANCD_FILTER=ENHANCD_FILTER=fzy:fzf:peco
-
-# Vanilla shell
-zplug "yous/vanilli.sh"
-
-# Additional completion definitions for Zsh
-zplug "zsh-users/zsh-completions"
-
-# Load the theme.
-zplug "yous/lime"
-
-# Syntax highlighting bundle. zsh-syntax-highlighting must be loaded after
-# excuting compinit command and sourcing other plugins.
-zplug "zsh-users/zsh-syntax-highlighting", defer:2
-
-# ZSH port of Fish shell's history search feature
-zplug "zsh-users/zsh-history-substring-search", defer:2
-
-# Tracks your most used directories, based on 'frecency'.
-zplug "rupa/z", use:"*.sh"
-
-# A next-generation cd command with an interactive filter
-zplug "b4b4r07/enhancd", use:init.sh
-
-# This plugin adds many useful aliases and functions.
-zplug "plugins/git",   from:oh-my-zsh
-
-# Install plugins if there are plugins that have not been installed
-if ! zplug check --verbose; then
-  printf "Install? [y/N]: "
-    if read -q; then
-      echo; zplug install
-    fi
-fi
-
-# Then, source plugins and add commands to $PATH
-zplug load --verbose
-
-# Lime theme settings
-export LIME_DIR_DISPLAY_COMPONENTS=2
-
-# Better history searching with arrow keys
-if zplug check "zsh-users/zsh-history-substring-search"; then
-  bindkey "$terminfo[kcuu1]" history-substring-search-up
-  bindkey "$terminfo[kcud1]" history-substring-search-down
-fi
 
 # Add color to ls command
 export CLICOLOR=1
@@ -258,6 +266,3 @@ export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
 
 ## load user .zshrc configuration file
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
-
-# プロンプトをbash風にする
-PROMPT="%{$fg[cyan]%}[${USER}@${HOST%%.*} %1~]%(!.#.$)${reset_color} "
