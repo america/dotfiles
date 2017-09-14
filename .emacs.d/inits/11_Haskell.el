@@ -14,7 +14,7 @@
  ;; If there is more than one, they won't work right.
  )
 (autoload 'ghc-init "ghc" nil t)
-(add-hook 'haskell-mode-hook '(lambda ()
+;(add-hook 'haskell-mode-hook '(lambda ()
 ;(ghc-init)
 ;        (local-set-key "\C-j" (lambda () (interactive)(insert " -> ")))
 ;        (local-set-key "\M-j" (lambda () (interactive)(insert " => ")))
