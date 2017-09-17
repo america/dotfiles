@@ -3,44 +3,51 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 起動時のフレーム設定
 (if (boundp 'window-system)
-  (cond (system-type 'darwin	  
-    (setq default-frame-alist
-      (append (list
-                   ;'(foreground-color . "black")  ; 文字色
-                   ;'(background-color . "white")  ; 背景色
-                   '(border-color     . "white")  ; ボーダー色
-                   ;'(mouse-color      . "black")  ; マウスカーソルの色
-                   ;'(cursor-color     . "black")  ; カーソルの色
-                   ;'(cursor-type      . box)      ; カーソルの形状
-		   '(top . 60) ; ウィンドウの表示位置（Y座標）
-                   '(left . 0) ; ウィンドウの表示位置（X座標）
-                   '(width . 180) ; ウィンドウの幅（文字数）
-                   '(height . 41) ; ウィンドウの高さ（文字数）
-                   )
-                  default-frame-alist))))
-  (cond (system-type 'gnu/linux
-    (setq default-frame-alist		     
-      (append (list
-                   ;'(foreground-color . "black")  ; 文字色
-                   ;'(background-color . "white")  ; 背景色
-                   '(border-color     . "white")  ; ボーダー色
-                   ;'(mouse-color      . "black")  ; マウスカーソルの色
-                   ;'(cursor-color     . "black")  ; カーソルの色
-                   ;'(cursor-type      . box)      ; カーソルの形状
-		   '(top . 60) ; ウィンドウの表示位置（Y座標）
-                   '(left . 140) ; ウィンドウの表示位置（X座標）
-                   '(width . 190) ; ウィンドウの幅（文字数）
-                   '(height . 41) ; ウィンドウの高さ（文字数）
-                   )
-                  default-frame-alist))))
-
+    (cond
+      ((string= system-type "darwin")	  
+        (setq default-frame-alist
+          (append (list
+                ;'(foreground-color . "black")  ; 文字色
+                ;'(background-color . "white")  ; 背景色
+                '(border-color     . "white")  ; ボーダー色
+                ;'(mouse-color      . "black")  ; マウスカーソルの色
+                ;'(cursor-color     . "black")  ; カーソルの色
+                ;'(cursor-type      . box)      ; カーソルの形状
+		'(top . 60) ; ウィンドウの表示位置（Y座標）
+                '(left . 0) ; ウィンドウの表示位置（X座標）
+                '(width . 180) ; ウィンドウの幅（文字数）
+                '(height . 41) ; ウィンドウの高さ（文字数）
+                )
+		default-frame-alist
+          )
+        )
+      )   
+      ((string= system-type "gnu/linux")
+        (setq default-frame-alist		     
+          (append (list
+                ;'(foreground-color . "black")  ; 文字色
+                ;'(background-color . "white")  ; 背景色
+                '(border-color     . "white")  ; ボーダー色
+                ;'(mouse-color      . "black")  ; マウスカーソルの色
+                ;'(cursor-color     . "black")  ; カーソルの色
+                ;'(cursor-type      . box)      ; カーソルの形状
+                '(top . 60) ; ウィンドウの表示位置（Y座標）
+                '(left . 140) ; ウィンドウの表示位置（X座標）
+                '(width . 190) ; ウィンドウの幅（文字数）
+                '(height . 41) ; ウィンドウの高さ（文字数）
+                )
+		default-frame-alist
+          )
+        )
+      ) 
+    )  
 )
 (setq initial-frame-alist default-frame-alist )
 
 ;; 起動時に分割
-(setq w (selected-window))
-(setq w2 (split-window w nil t))
-(setq w3 (split-window w2 nil))
+;(setq w (selected-window))
+;(setq w2 (split-window w nil t))
+;(setq w3 (split-window w2 nil))
 
 ;; スタートアップメッセージを非表示
 (setq inhibit-startup-message t)
