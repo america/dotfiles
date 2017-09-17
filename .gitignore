@@ -1,4 +1,4 @@
 backups
 *bak
 auto-save-list
-ac-comphist.dat
+.emacs.d/ac-comphist.dat
