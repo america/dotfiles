@@ -1,3 +1,62 @@
+;; スタートアップメッセージを非表示
+(setq inhibit-startup-message t)
+;; Emacsからの質問をy/nで回答する
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; ミニバッファの履歴を保存する
+(savehist-mode t)
+(setq history-length 10000)		;履歴数
+
+;; ツールバー非表示
+(tool-bar-mode 0)
+;; メニューバー非表示
+(menu-bar-mode 0)
+;; スクロールバー非表示
+;; Macの時は読み込まない
+(when (not (eq system-type 'darwin))
+  (scroll-bar-mode 0)
+  )
+
+;; UTF-8
+;; from http://qiita.com/ironsand/items/a53797bd48170104aa74
+(prefer-coding-system 'utf-8)
+(setq coding-system-for-read 'utf-8)
+(setq coding-system-for-write 'utf-8)
+
+;; Disable backup
+(setq backup-inhibited t)
+(setq delete-auto-save-files t)
+(setq make-backup-files nil)    ; *.~ とかのバックアップファイルを作らない
+(setq auto-save-default nil)    ; .#* とかのバックアップファイルを作らない
+
+;; show-paren-mode：対応する括弧を強調して表示する
+(show-paren-mode t)
+;(electric-pair-mode t)
+;(global-font-lock-mode t)
+(setq show-paren-delay 0) ;表示までの秒数。初期値は0.125
+(setq show-paren-style 'expression)    ;括弧内も強調
+
+;; Ignore case
+(setq completion-ignore-case t)
+(setq read-file-name-completion-ignore-case t)
+
+;; Solarized
+(load-theme 'solarized-dark t)
+
+;; Line and column number
+(global-linum-mode t)
+(setq linum-format: "%4d: ")
+(column-number-mode t)
+
+;; Macの時は読み込まない
+(when (not (eq system-type 'darwin))
+  (require 'mozc)
+  (set-language-environment "Japanese")
+  (setq default-input-method "japanese-mozc")
+  (prefer-coding-system 'utf-8)
+  (global-set-key (kbd "C-j") 'toggle-input-method)
+)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; フレーム関連
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -49,17 +108,6 @@
 ;(setq w2 (split-window w nil t))
 ;(setq w3 (split-window w2 nil))
 
-;; スタートアップメッセージを非表示
-(setq inhibit-startup-message t)
-;; ツールバー非表示
-(tool-bar-mode 0)
-;; メニューバー非表示
-(menu-bar-mode 0)
-;; スクロールバー非表示
-;; Macの時は読み込まない
-(when (not (eq system-type 'darwin))
-  (scroll-bar-mode 0)
-  )
 
 ;;
 ;; Auto Complete
@@ -74,45 +122,6 @@
 (setq ac-use-menu-map t)       ;; 補完メニュー表示時にC-n/C-pで補完候補選択
 (setq ac-use-fuzzy t)          ;; 曖昧マッチ
 
-
-;; UTF-8
-;; from http://qiita.com/ironsand/items/a53797bd48170104aa74
-(prefer-coding-system 'utf-8)
-(setq coding-system-for-read 'utf-8)
-(setq coding-system-for-write 'utf-8)
-
-
-;; Disable backup
-(setq backup-inhibited t)
-(setq delete-auto-save-files t)
-(setq make-backup-files nil)    ; *.~ とかのバックアップファイルを作らない
-(setq auto-save-default nil)    ; .#* とかのバックアップファイルを作らない
-
-;; Paren settings
-(show-paren-mode t) ;; show-paren-mode：対応する括弧を強調して表示する
-(electric-pair-mode t)
-(global-font-lock-mode t)
-
-;; Ignore case
-(setq completion-ignore-case t)
-(setq read-file-name-completion-ignore-case t)
-
-;; Solarized
-(load-theme 'solarized-dark t)
-
-;; Line and column number
-(global-linum-mode t)
-(setq linum-format: "%4d: ")
-(column-number-mode t)
-
-;; Macの時は読み込まない
-(when (not (eq system-type 'darwin))
-  (require 'mozc)
-  (set-language-environment "Japanese")
-  (setq default-input-method "japanese-mozc")
-  (prefer-coding-system 'utf-8)
-  (global-set-key (kbd "C-j") 'toggle-input-method)
-)
 
 ;;;
 ;;; set configuration for magit
