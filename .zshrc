@@ -76,8 +76,8 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([%0-9]#)*=0=01;31
 #コマンドにsudoを付けても補完
 zstyle ':completion:*:sudo:*' command-path /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/X11R6/bin
 
-autoload predict-on
-predict-on
+#autoload predict-on
+#predict-on
 
 #プロンプト関係
 PROMPT="[%n@%m %~]%(!.#.$) "
@@ -263,6 +263,33 @@ export PATH=$HOME/dev/python/Python/.tox/py35/lib/python3.5/site-packages:$HOME/
 
 # for TeX
 export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
+
+# for HHKB Lite2
+[ -f ~/.xmodmap ] && xmodmap ~/.xmodmap
+
+# for Rust
+export PATH=$HOME/.cargo/bin:$PATH
+
+# for fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Autostart in tmux.
+#PERCOL=fzf
+PERCOL="percol"
+if [[ ! -n $TMUX ]]; then
+  # get the IDs
+  ID="`tmux list-sessions`"
+  if [[ -z "$ID" ]]; then
+    tmux new-session \; source-file ~/.tmux/config/tmux.startup
+  fi
+  create_new_session="Create New Session"
+  ID="$ID\n${create_new_session}:"
+  ID="`echo $ID | $PERCOL | cut -d: -f1`"
+  if [[ "$ID" = "${create_new_session}" ]]; then
+    tmux new-session \; source-file ~/.tmux/config/tmux.startup
+  fi
+  tmux attach-session -t "$ID"
+fi
 
 ## load user .zshrc configuration file
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
