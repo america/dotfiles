@@ -1,15 +1,11 @@
-pcm.!spdif {
+pcm.!default {
      type pulse
+#     type hw
      card 0
      device 3
+     #device 7
 }
 
-pcm.!default {
-     type plug
-     slave {
-           pcm "spdif"
-     }
-}
 
 # Share a single card with multiple applications
 #pcm.!default {

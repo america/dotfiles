@@ -26,12 +26,21 @@
     elscreen
     howm
     init-loader
+    emmet-mode
+    web-mode
+    ac-php
+    js2-mode
+    flycheck
+    json-mode
     )
   "packages to be installed")
 
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+;(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+(add-to-list 'package-archives '("gnu", "http://elpa.gnu.org/packages/") t)
 (package-initialize)
 (unless package-archive-contents (package-refresh-contents))
 (dolist (pkg my-favorite-package-list)
@@ -47,3 +56,17 @@
 (require 'init-loader)
 (setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/inits")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (json-mode flycheck js2-mode use-package package-utils rainbow-delimiters ac-php init-loader auto-complete howm elscreen flymake flymake-cursor ghc haskell-mode color-theme-solarized))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

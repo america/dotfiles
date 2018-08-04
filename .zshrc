@@ -242,12 +242,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-
 # Add color to ls command
 export CLICOLOR=1
-
-
-
 
 # core dump configuration
 ulimit -c unlimited
@@ -265,7 +261,9 @@ export PATH=$HOME/dev/python/Python/.tox/py35/lib/python3.5/site-packages:$HOME/
 export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
 
 # for HHKB Lite2
-[ -f ~/.xmodmap ] && xmodmap ~/.xmodmap
+#[ -f ~/.xmodmap ] && xmodmap ~/.xmodmap
+
+setxkbmap -option ctrl:nocaps
 
 # for Rust
 export PATH=$HOME/.cargo/bin:$PATH
@@ -273,22 +271,31 @@ export PATH=$HOME/.cargo/bin:$PATH
 # for fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Autostart in tmux.
-#PERCOL=fzf
-PERCOL="percol"
-if [[ ! -n $TMUX ]]; then
-  # get the IDs
-  ID="`tmux list-sessions`"
-  if [[ -z "$ID" ]]; then
-    tmux new-session \; source-file ~/.tmux/config/tmux.startup
-  fi
-  create_new_session="Create New Session"
-  ID="$ID\n${create_new_session}:"
-  ID="`echo $ID | $PERCOL | cut -d: -f1`"
-  if [[ "$ID" = "${create_new_session}" ]]; then
-    tmux new-session \; source-file ~/.tmux/config/tmux.startup
-  fi
-  tmux attach-session -t "$ID"
+# for rbenv
+export PATH=$HOME/.rbenv/bin:$PATH
+export PATH=$HOME/.rbenv/shims:$PATH
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+source ~/.rvm/scripts/rvm
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+if [[ -z ${XDG_RUNTIME_DIR} ]]; then
+    export XDG_RUNTIME_DIR=/tmp/${UID}-runtime-dir
+    if [[ -d ${XDG_RUNTIME_DIR} ]]; then
+        mkdir ${XDG_RUNTIME_DIR}
+        chmod 0700 ${XDG_RUNTIME_DIR}
+    fi
+fi
+
+# for weston
+if [[ `env | grep -i wayland` != "" ]]; then
+    fcitx
 fi
 
 ## load user .zshrc configuration file

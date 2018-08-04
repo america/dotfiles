@@ -63,7 +63,7 @@
 ;; 起動時のフレーム設定
 (if (boundp 'window-system)
     (cond
-      ((string= system-type "darwin")	  
+      ((string= system-type "darwin")
         (setq default-frame-alist
           (append (list
                 ;'(foreground-color . "black")  ; 文字色
@@ -72,17 +72,17 @@
                 ;'(mouse-color      . "black")  ; マウスカーソルの色
                 ;'(cursor-color     . "black")  ; カーソルの色
                 ;'(cursor-type      . box)      ; カーソルの形状
-		'(top . 60) ; ウィンドウの表示位置（Y座標）
+                '(top . 60) ; ウィンドウの表示位置（Y座標）
                 '(left . 0) ; ウィンドウの表示位置（X座標）
                 '(width . 180) ; ウィンドウの幅（文字数）
                 '(height . 41) ; ウィンドウの高さ（文字数）
                 )
-		default-frame-alist
+                default-frame-alist
           )
         )
-      )   
+      )
       ((string= system-type "gnu/linux")
-        (setq default-frame-alist		     
+        (setq default-frame-alist
           (append (list
                 ;'(foreground-color . "black")  ; 文字色
                 ;'(background-color . "white")  ; 背景色
@@ -95,11 +95,11 @@
                 '(width . 190) ; ウィンドウの幅（文字数）
                 '(height . 41) ; ウィンドウの高さ（文字数）
                 )
-		default-frame-alist
+                default-frame-alist
           )
         )
-      ) 
-    )  
+      )
+    )
 )
 (setq initial-frame-alist default-frame-alist )
 
@@ -139,3 +139,12 @@
 ;;;
 (setq howm-menu-lang 'ja)
 (require 'howm-mode)
+
+;;;
+;;; set configuration for GC
+;;;
+;; GCを減らして軽くする
+(setq gc-cons-threshold (* gc-cons-threshold 10))
+
+;; GCが走ったときにメッセージが表示される
+(setq garbage-collection-messages t)
