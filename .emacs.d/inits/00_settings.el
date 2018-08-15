@@ -11,6 +11,9 @@
 (tool-bar-mode 0)
 ;; メニューバー非表示
 (menu-bar-mode 0)
+;;; スクロールバーを右側に表示する
+(set-scroll-bar-mode 'right)
+
 ;; スクロールバー非表示 Macの時は読み込まない
 ;;(when (not (eq system-type 'darwin))
 ;;  (scroll-bar-mode 0)
@@ -56,15 +59,6 @@
 (global-linum-mode t)
 (setq linum-format: "%4d: ")
 (column-number-mode t)
-
-;; Macの時は読み込まない
-(when (not (eq system-type 'darwin))
-  (require 'mozc)
-  (set-language-environment "Japanese")
-  (setq default-input-method "japanese-mozc")
-  (prefer-coding-system 'utf-8)
-  (global-set-key (kbd "C-j") 'toggle-input-method)
-)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; フレーム関連
@@ -112,12 +106,6 @@
 )
 (setq initial-frame-alist default-frame-alist )
 
-;; 起動時に分割
-;(setq w (selected-window))
-;(setq w2 (split-window w nil t))
-;(setq w3 (split-window w2 nil))
-
-
 ;;
 ;; Auto Complete
 ;;
@@ -155,5 +143,5 @@
 ;; GCを減らして軽くする
 (setq gc-cons-threshold (* gc-cons-threshold 10))
 
-;; GCが走ったときにメッセージが表示される
+;; GCが走ったときにメッセージを表示する
 (setq garbage-collection-messages t)
