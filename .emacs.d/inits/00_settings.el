@@ -11,11 +11,16 @@
 (tool-bar-mode 0)
 ;; メニューバー非表示
 (menu-bar-mode 0)
-;; スクロールバー非表示
-;; Macの時は読み込まない
-(when (not (eq system-type 'darwin))
-  (scroll-bar-mode 0)
-  )
+;; スクロールバー非表示 Macの時は読み込まない
+;;(when (not (eq system-type 'darwin))
+;;  (scroll-bar-mode 0)
+;;  )
+;; スクロールを一行ずつにする
+(setq scroll-step 1)
+
+;; 画面右端で折り返さない
+(setq-default truncate-lines t)
+(setq truncate-partial-width-windows t)
 
 ;; UTF-8
 ;; from http://qiita.com/ironsand/items/a53797bd48170104aa74
@@ -23,11 +28,15 @@
 (setq coding-system-for-read 'utf-8)
 (setq coding-system-for-write 'utf-8)
 
-;; Disable backup
-(setq backup-inhibited t)
-(setq delete-auto-save-files t)
-(setq make-backup-files nil)    ; *.~ とかのバックアップファイルを作らない
-(setq auto-save-default nil)    ; .#* とかのバックアップファイルを作らない
+;; バックアップとオートセーブファイルを~/.emacs.d/backups/へ集める
+(add-to-list 'backup-directory-alist
+	     (cons "." "~/.emacs.d/backups/"))
+(setq auto-save-file-name-transforms
+      `((".*" ,(expand-file-name "~/.emacs.d/backups/") t)))
+;; オートセーブファイル作成までの秒間隔
+(setq auto-save-timeout 15)
+;; オートセーブファイル作成までのタイプ間隔
+(setq auto-save-interval 60)
 
 ;; show-paren-mode：対応する括弧を強調して表示する
 (show-paren-mode t)
@@ -74,7 +83,7 @@
                 ;'(cursor-type      . box)      ; カーソルの形状
                 '(top . 60) ; ウィンドウの表示位置（Y座標）
                 '(left . 0) ; ウィンドウの表示位置（X座標）
-                '(width . 180) ; ウィンドウの幅（文字数）
+                ;'(width . 180) ; ウィンドウの幅（文字数）
                 '(height . 41) ; ウィンドウの高さ（文字数）
                 )
                 default-frame-alist
@@ -92,7 +101,7 @@
                 ;'(cursor-type      . box)      ; カーソルの形状
                 '(top . 60) ; ウィンドウの表示位置（Y座標）
                 '(left . 140) ; ウィンドウの表示位置（X座標）
-                '(width . 190) ; ウィンドウの幅（文字数）
+                ;'(width . 190) ; ウィンドウの幅（文字数）
                 '(height . 41) ; ウィンドウの高さ（文字数）
                 )
                 default-frame-alist
