@@ -1,10 +1,18 @@
-pcm.!default {
-     type pulse
+#pcm.!spdif {
+#pcm.!default {
+#     type pulse
 #     type hw
-     card 0
-     device 3
-     #device 7
-}
+#     card 1
+#     device 3
+#     #device 7
+#}
+
+#pcm.!default {
+#       type plug
+#       slave {
+#             pcm "spdif"
+#       }
+#}
 
 
 # Share a single card with multiple applications
@@ -18,3 +26,10 @@ defaults.bluealsa {
        device "00:19:5D:25:05:E5"  # Bluetooth headset MAC address
        profile "a2dp"
 }
+
+#pcm.btheadset {
+#        interface "hci0"
+#	type bluetooth
+#	device "00:19:5D:25:05:E5"
+#	profile "auto"
+#}

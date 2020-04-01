@@ -261,7 +261,7 @@ export PATH=$HOME/dev/python/Python/.tox/py35/lib/python3.5/site-packages:$HOME/
 export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
 
 # for HHKB Lite2
-#[ -f ~/.xmodmap ] && xmodmap ~/.xmodmap
+[ -f ~/.xmodmap ] && xmodmap ~/.xmodmap
 
 setxkbmap -option ctrl:nocaps
 
@@ -276,8 +276,8 @@ export PATH=$HOME/.rbenv/bin:$PATH
 export PATH=$HOME/.rbenv/shims:$PATH
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-source ~/.rvm/scripts/rvm
+#export PATH="$PATH:$HOME/.rvm/bin"
+#source ~/.rvm/scripts/rvm
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"

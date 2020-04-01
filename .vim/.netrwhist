@@ -1,2 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/etc/docker'
+let g:netrw_dirhist_2='/home/takashi/work/gitlab/test01/keys'
+let g:netrw_dirhist_3='/home/takashi/work/docker-gitlab02'
+let g:netrw_dirhist_4='/home/takashi/work'
+let g:netrw_dirhist_5='/home/takashi'
+let g:netrw_dirhist_6='/home/takashi/dotfiles/.tmux'
