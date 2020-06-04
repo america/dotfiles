@@ -29,3 +29,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # for TeX
 export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
+
+# for CMake
+alias cmake=/usr/local/bin/cmake
+
+export PATH="/usr/lib/ccache/bin${PATH:+:}$PATH"
+export CCACHE_DIR="/var/cache/ccache"

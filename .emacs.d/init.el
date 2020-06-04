@@ -83,29 +83,3 @@
 (require 'init-loader)
 (setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/inits")
-;(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
-; '(package-selected-packages
-;   '(use-package-el-get magit undohist yatex yapfify rope-read-mode elpy powerline lsp-python company-lsp lsp-ui lsp-mode flycheck-rust racer rust-mode company el-get rjsx-mode json-mode flycheck js2-mode use-package package-utils rainbow-delimiters ac-php init-loader auto-complete howm elscreen flymake flymake-cursor ghc haskell-mode color-theme-solarized)))
-;(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
-; )
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   '(init-loader auto-complete howm elscreen flymake flymake-cursor ghc haskell-mode color-theme-solarized)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
