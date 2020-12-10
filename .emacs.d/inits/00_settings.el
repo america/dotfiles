@@ -56,6 +56,11 @@
 (setq linum-format: "%4d: ")
 (column-number-mode t)
 
+(use-package mozc
+  :init
+  (setq default-input-method "japanese-mozc")
+  :custom
+  (mozc-candidate-style 'overlay))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; フレーム関連
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
