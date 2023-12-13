@@ -21,9 +21,9 @@ set inccommand=split " インタラクティブに変更
 " ######################## インデント ########################
 set smartindent " オートインデント
 set expandtab " softtabstop や shiftwidth で設定されている値分のスペースが挿入されたときに、挿入されたスペース数が tabstop に達してもタブに変換されない
-set tabstop=4 " スペースn個分で1つのタブとしてカウントするか
-set softtabstop=4 " <tab>を押したとき、n個のスペースを挿入
-set shiftwidth=4 " <Enter>や<<, >>などを押したとき、n個のスペースを挿入
+set tabstop=2 " スペースn個分で1つのタブとしてカウントするか
+set softtabstop=2 " <tab>を押したとき、n個のスペースを挿入
+set shiftwidth=2 " <Enter>や<<, >>などを押したとき、n個のスペースを挿入
 
 " ######################## 補完 ########################
 set wildmode=list:longest " コマンドラインの補完

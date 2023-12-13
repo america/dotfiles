@@ -35,17 +35,6 @@ vnoremap k gk
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
 
-" LightLineにcoc.nvimのステータスを載せる
-"let g:lightline = {
-"  \'active': {
-"    \'right': [
-"      \['coc']
-"    \]
-"  \},
-"  \'component_function': {
-"    \'coc': 'coc#status'
-"  \}
-"\}
 
 "ノーマルモードで
 "スペース2回でCocList
