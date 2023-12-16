@@ -21,18 +21,26 @@ call dein#load_toml('~/.config/nvim/dein.toml', {'lazy': 0})
 
 " Finish Dein initialization (required)
 call dein#end()
-
 call dein#save_state()
 
+" for xclip
+set clipboard+=unnamedplus
 " Loading external configuration file
 runtime! option.vim
 runtime! keymap.vim
 
-" coc-settings.vimを読み込む
+" Loading coc-settings.vim
 if has('nvim')
     execute 'source ~/.config/nvim/autoload/coc-settings.vim'
 else
     execute 'source ~/.vim/autoload/coc-settings.vim'
+endif
+
+" Loading closed-tabs-managing.vim
+if has('nvim')
+    execute 'source ~/.config/nvim/autoload/closed-tabs-managing.vim'
+else
+    execute 'source ~/.vim/autoload/closed-tabs-managing.vim'
 endif
 
 " Attempt to determine the type of a file based on its name and possibly its

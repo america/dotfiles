@@ -35,7 +35,6 @@ vnoremap k gk
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
 
-
 "ノーマルモードで
 "スペース2回でCocList
 nmap <silent> <space><space> :<C-u>CocList<cr>
@@ -49,3 +48,23 @@ nmap <silent> <space>rf <Plug>(coc-references)
 nmap <silent> <space>rn <Plug>(coc-rename)
 "スペースfmtでFormat
 nmap <silent> <space>fmt <Plug>(coc-format)
+
+" Tab related key bindings
+ noremap <Tab>     <Cmd>tabnext<CR><C-G>
+noremap <S-Tab>   <Cmd>tabprevious<CR><C-G>
+noremap <C-Right> <Cmd>tabnext<CR><C-G>
+noremap <C-Left>  <Cmd>tabprevious<CR><C-G>
+noremap <C-Up>    <Cmd>if len(g:most_recently_closed) > 0 \|
+                    \   execute ':tabnew ' .. remove(g:most_recently_closed, 0) \|
+                    \ endif<CR>
+noremap  <C-Down> <Cmd>q<CR><C-G>
+noremap  <expr> <C-lt> ':tabmove -' .. v:count1 .. '<CR>'
+noremap  <expr> <C->>  ':tabmove +' .. v:count1 .. '<CR>'
+nnoremap gr        <Cmd>tabnext<CR><C-G>
+nnoremap gR        <Cmd>tabprevious<CR><C-G>
+
+" Close all unchanged tabs and windows
+cabbr qa tabdo windo if !&modified \| try \| close \| catch \| quit \| endtry \| endif
+
+" Close open tabs and windows without any questions asked
+cabbr qq tabdo windo try \| close \| catch \| quit! \| endtry

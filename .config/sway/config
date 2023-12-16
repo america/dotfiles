@@ -341,4 +341,3 @@ include /etc/sway/config.d/*
 
 exec fcitx5
 #exec --no-startup-id fcitx5
-
