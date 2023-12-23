@@ -42,6 +42,9 @@ bindsym $mod+l exec libreoffice
 # start thunderbird
 bindsym $mod+t exec thunderbird
 
+# start Slack
+bindsym $mod+Shift+s exec slack
+
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -53,7 +56,7 @@ bindsym $mod+t exec thunderbird
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #output * bg ~/work/16_wallpaper/jeremy-bishop-3NI9aJGOl-4-unsplash.jpg fill
 #output * bg ~/work/16_wallpaper/wallhaven-4dvxko_1920x1080.png fill
-output * bg ~/work/16_wallpaper/pexels-lucas-pezeta-19108651.jpg fill
+output * bg ~/work/16_wallpaper/pexels-pixabay-48207.jpg fill
 
 # Example configuration:
 # output  resolution 1920x1080 position 1920,0
