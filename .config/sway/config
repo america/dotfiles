@@ -16,7 +16,7 @@ set $mybind bindsym --to-code
 set $left h
 set $down j
 set $up k
-#set $right l
+set $right l
 # Your preferred terminal emulator
 #set $term foot
 set $term alacritty
@@ -35,9 +35,6 @@ bindsym $mod+Shift+d exec ~/work/04_discord/Discord/Discord
 # start VSCode
 #bindsym $mod+Shift+v exec vscode
 bindsym $mod+Control+v exec ~/work/11_VScode/VSCode-linux-x64/code
-
-# start LibreOffice
-bindsym $mod+l exec libreoffice
 
 # start thunderbird
 bindsym $mod+t exec thunderbird
@@ -61,9 +58,9 @@ output * bg ~/work/16_wallpaper/pexels-pixabay-48207.jpg fill
 # Example configuration:
 # output  resolution 1920x1080 position 1920,0
 #output DP-1 position 0 0 res 1920x1080
-set $display_main DP-2
-set $display_sub01 HDMI-A-1
-set $display_sub02 DP-1
+set $display_main DP-1
+set $display_sub02 HDMI-A-1
+set $display_sub01 DP-2
 #output DP-1 position 0 0 res 3840x2160
 #output HDMI-A-1 position 3840 0 res 1920x1080
 #output DP-2 position 1920 0 res 1920x1080
@@ -134,7 +131,7 @@ output $display_sub01 pos 3840 0
     bindsym $mod+$left focus left
     bindsym $mod+$down focus down
     bindsym $mod+$up focus up
-    #bindsym $mod+$right focus right
+    bindsym $mod+$right focus right
     # Or use $mod+[up|down|left|right]
     bindsym $mod+Left focus left
     bindsym $mod+Down focus down
@@ -145,7 +142,7 @@ output $display_sub01 pos 3840 0
     bindsym $mod+Shift+$left move left
     bindsym $mod+Shift+$down move down
     bindsym $mod+Shift+$up move up
-    #bindsym $mod+Shift+$right move right
+    bindsym $mod+Shift+$right move right
     # Ditto, with arrow keys
     bindsym $mod+Shift+Left move left
     bindsym $mod+Shift+Down move down
