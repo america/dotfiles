@@ -26,8 +26,8 @@ set $menu ~/.bin/mywofi.sh
 
 # start google-chrome
 #bindsym $mod+g exec google-chrome-stable
-#bindsym $mod+g exec /opt/google/chrome/google-chrome
-bindsym $mod+g exec /usr/bin/firefox
+bindsym $mod+g exec /opt/google/chrome/google-chrome
+#bindsym $mod+g exec /usr/bin/firefox
 
 # start discord
 bindsym $mod+Shift+d exec ~/work/04_discord/Discord/Discord
@@ -61,12 +61,12 @@ output * bg ~/work/16_wallpaper/pexels-pixabay-48207.jpg fill
 set $display_main DP-1
 set $display_sub02 HDMI-A-1
 set $display_sub01 DP-2
-#output DP-1 position 0 0 res 3840x2160
-#output HDMI-A-1 position 3840 0 res 1920x1080
+#output $display_main res 1920x1080j
+#output $display_sub02 res 3840x2160
 #output DP-2 position 1920 0 res 1920x1080
-output $display_sub02 pos 0 0
-output $display_main pos 1920 0
-output $display_sub01 pos 3840 0
+output $display_sub02 res 1920x1080  pos 0 0
+output $display_main res 1920x1080 pos 1920 0
+output $display_sub01 res 1920x1080 pos 3840 0
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
 ### Idle configuration
@@ -289,11 +289,13 @@ exec rm -f $DDCSOCK && mkfifo $DDCSOCK && tail -f $DDCSOCK | wob
 $mybind $mod+control+l exec .bin/swaylight.sh
 
 # start screenlocker
-exec swayidle -w \
-  timeout 1000 'swaylock -f -c 000000' \
-  timeout 1200 'swaymsg "output * dpms off"' \
-          resume 'swaymsg "output * dpms on"' \
-  before-sleep 'swaylock -f -c 000000'
+#exec swayidle -w \
+#  timeout 1000 'swaylock -f -c 000000' \
+#  timeout 1200 'swaymsg "output * dpms off"' \
+#          resume 'swaymsg "output * dpms on"' \
+#  before-sleep 'swaylock -f -c 000000'
+
+#bindsym $mod+Shift+l exec swaylock -f -C ~/.config/swaylock/config
 
 # brightness controls (requires non-root access to i2c devices)
 # bindsym $mod+a exec light -A 5 && light -G | cut -d'.' -f1 > $WOBSOCK
@@ -341,3 +343,8 @@ include /etc/sway/config.d/*
 
 exec fcitx5
 #exec --no-startup-id fcitx5
+
+input "2131:285:Topre_Corporation_Realforce_108U" {
+    xkb_options ctrl:nocaps
+}
+
