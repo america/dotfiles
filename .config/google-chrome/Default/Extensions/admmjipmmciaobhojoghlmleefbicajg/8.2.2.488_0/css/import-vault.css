@@ -1,0 +1,1423 @@
+/*
+// //
+// //     NortonLifeLock copyright header start
+// //
+// // Copyright (c) 2022 NortonLifeLock Inc. All rights reserved.
+// //
+// // THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF NORTONLIFELOCK
+// // INC.  USE, DISCLOSURE OR REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR
+// // EXPRESS WRITTEN PERMISSION OF NORTONLIFELOCK INC.
+// //
+// // The Licensed Software and Documentation are deemed to be commercial computer
+// // software as defined in FAR 12.212 and subject to restricted rights as defined
+// // in FAR Section 52.227-19 "Commercial Computer Software - Restricted Rights"
+// // and DFARS 227.7202, “Rights in Commercial Computer Software or Commercial
+// // Computer Software Documentation”, as applicable, and any successor regulations.
+// // Any use, modification, reproduction release, performance, display or disclosure
+// // of the Licensed Software and Documentation by the U.S. Government shall be
+// // solely in accordance with the terms of this Agreement.
+// //
+// // NortonLifeLock copyright header stop
+// //
+// //
+// //
+// //
+*/
+
+/* font faces */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: 'normal';
+}
+
+/* TODO: below Inter-* font faces should be eventually removed and not used anywhere directly */
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url('fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'PT Mono';
+  src: url('fonts/PT-Mono.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.import-header {
+  width: 992px;
+  height: 214px;
+  background-color: #000000;
+  background-image: url('../../images/img-hero-modal-import.png');
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.settings-heading,
+.mobile-settings-heading {
+  width: 271px;
+  height: 20px;
+  /*font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  margin-left: 7px;
+  display: inline-block;
+  top: -6px;
+}
+
+.settings-title,
+.mobile-settings-title {
+  width: 960px;
+  height: 42px;
+  /*font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 47px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.add-edit-circle,
+.settings-circle,
+.mobile-settings-circle {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50px;
+  border: solid 1px #dadada;
+  color: #000000;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  z-index: 10;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+body[dir='rtl'] .mobile-settings-circle {
+  margin-top: 45px;
+}
+
+.add-edit-close,
+.settings-close,
+.mobile-settings-close {
+  margin-right: 22.5px;
+  margin-top: 30px;
+  float: right;
+  background-image: url('../../images/ic-modal-close.svg');
+  background-size: 42px 42px;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+
+html[dir='rtl'] .add-edit-close,
+html[dir='rtl'] .settings-close,
+html[dir='rtl'] .mobile-settings-close {
+  float: left;
+  margin-left: 22.5px;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+}
+.import-download-content {
+  padding-left: 36px;
+  min-height: 600px;
+}
+
+.settings-circle {
+  margin-top: 20px;
+}
+
+.import-password-page {
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 985px;
+}
+
+.import-section-title {
+  width: 469px;
+  height: 27px;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #333333;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
+  margin-bottom: 25px;
+}
+
+.import-password-desc-row {
+  margin-bottom: 20px;
+}
+
+.import-password-img-row {
+  margin-bottom: 20px;
+}
+
+.import-password-upload-step-col {
+  display: inline-block;
+  width: 33%;
+  min-height: 57px;
+  font-size: 14px;
+  text-align: center;
+  color: #333333;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  vertical-align: top;
+}
+
+.import-password-upload-step-img-col {
+  display: inline-block;
+  width: 33%;
+  height: 95px;
+}
+
+.import-password-info-text-col {
+  display: inline-block;
+  width: 33%;
+}
+
+.import-password-info-text {
+  display: block;
+  font-size: 11px;
+  color: #333333;
+  text-align: center;
+}
+
+.import-password-upload-region {
+  width: 920px;
+  height: 260px;
+  background-color: #f8f8f8;
+  border: dashed 1px #cecece;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.import-password-csv-upload-region {
+  width: 470px;
+  padding-bottom: 30px;
+  background-color: #f8f8f8;
+  border: dashed 1px #cecece;
+  margin-left: -16px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.import-password-upload-region-error-border {
+  border: solid 1px #c81a00;
+}
+
+.import-password-upload-region-dropping-file {
+  width: 920px;
+  height: 260px;
+  background-color: #e6f7fe;
+  border: solid 1px #00aeef;
+  box-shadow: 0 0 10px 0 rgba(0, 174, 239, 0.5);
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+html[dir='rtl'] .import-password-upload-region-dropping-file {
+  margin-right: 40px;
+}
+
+.import-password-csv-upload-region-dropping-file {
+  width: 470px;
+  height: 260px;
+  background-color: #e6f7fe;
+  border: solid 1px #00aeef;
+  box-shadow: 0 0 10px 0 rgba(0, 174, 239, 0.5);
+  margin-left: -16px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+html[dir='rtl'] .import-password-csv-upload-region-dropping-file {
+  margin-right: -16px;
+}
+
+.import-password-drop-file-here-text {
+    margin-top: 35px;
+    font-size: 28px;
+    line-height: 1;
+    font-family: "Inter","Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;
+    font-weight: 300;
+    color: #333333;
+}
+
+.import-password-file-drop-or-text {
+  font-size: 14px;
+}
+
+.div-red-horiz-line {
+    width: 70px;
+    height: 1px;
+    background-color: #d8d8d8;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.dim-text {
+    font-size: 14px;
+    text-align: center;
+    color: #8a8a8a;
+}
+
+.import-password-select-file-button {
+  min-width: 151px;
+  height: 40px;
+  background-color: #fee189;
+  font-size: 16px;
+  text-align: center;
+  color: #333333;
+  border: none;
+}
+
+.import-info {
+  width: 700px;
+  /*font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 14px;
+  margin-bottom: 7px;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.import-text {
+  width: 430px;
+  height: auto;
+  /*font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.import-text-competitors {
+  width: 429px;
+  height: auto;
+  /*font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.import-text-bold {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.import-guide-img {
+  width: 265px;
+  height: 95px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+.div-content-align-center {
+  text-align: center;
+}
+
+.add-edit-logo,
+.settings-logo,
+.mobile-settings-logo {
+  width: 30px;
+  height: 30px;
+  background-image: url('../images/logo-modal-idsafe.svg');
+  margin-left: 30px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+html[dir='rtl'] .add-edit-logo,
+html[dir='rtl'] .settings-logo,
+html[dir='rtl'] .mobile-settings-logo {
+  margin-right: 30px;
+}
+
+#modal-container {
+  z-index: 1040;
+  position: absolute;
+  width: 992px;
+  min-height: 698px;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 15%);
+  left: calc(50% - 496px);
+  top: 20px;
+}
+
+.import-drop-down {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 14px;
+  color: #333;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding-left: 13px;
+}
+
+.import-source {
+  width: 700px;
+  height: 20px;
+  /*font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 9px;
+  margin-top: -50px;
+}
+
+.select-import-wrapper {
+  width: 470px;
+  height: 40px;
+  border: solid 1px #d8d8d8;
+  display: flex;
+  align-items: center;
+  margin-left: -15px;
+  position: relative;
+}
+
+.import-download-button {
+  height: 40px;
+  background-color: #ffe283;
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+  cursor: pointer;
+  padding: 10px 40px 0 40px;
+  display: inline-block;
+  margin-top: 20px;
+  border: none;
+  padding-top: 2px;
+}
+
+.div-browser-learn-more {
+  margin-top: 20px;
+  width: 429px;
+  height: 19px;
+  /*font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 14px;
+  text-align: left;
+  color: #0089c6;
+  cursor: pointer;
+  line-height: normal;
+}
+
+.import-data-content {
+  padding-left: 16px;
+  padding-right: 16px;
+  min-height: 600px;
+}
+
+.import-data-content.mcafee-true-key {
+  /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+  padding: 74px 0px 0px;
+}
+
+.import-data-content.mcafee-true-key .primary-header,
+.import-data-content.import-data-content-csw .primary-header {
+  font-size: 20px;
+  color: #4a4a4a;
+  font-weight: 400;
+}
+
+.import-data-content.mcafee-true-key .secondary-header {
+  font-size: 14px;
+  color: #333333;
+}
+
+.vtu-passwords-found {
+  width: 797px;
+  height: 27px;
+  /*font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #333333;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+.select-logins-text {
+  width: 797px;
+  height: 19px;
+  /*font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 14px;
+  text-align: center;
+  color: #8a8a8a;
+  margin-top: 6px;
+  margin-left: 82px;
+}
+
+.import-title-checkbox {
+  margin-left: 20px;
+  width: 13px;
+}
+
+.import-website-title {
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 48px;
+  width: 278px;
+}
+
+.import-login-title {
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 22px;
+  width: 260px;
+}
+
+.import-password-title {
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 22px;
+  width: 217px;
+}
+
+html[dir='rtl'] .import-title-checkbox {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+html[dir='rtl'] .import-website-title {
+  margin-left: 0px;
+  margin-right: 48px;
+}
+
+html[dir='rtl'] .import-login-title {
+  margin-left: 0px;
+  margin-right: 22px;
+}
+
+html[dir='rtl'] .import-password-title {
+  margin-left: 0px;
+  margin-right: 22px;
+}
+
+.subtitle-underline-data-import {
+  width: 960px;
+  height: 1px;
+  background-color: #dadada;
+  margin-top: 23px;
+  margin-bottom: 10px;
+}
+
+.import-list-title {
+  width: 100%;
+  height: 45px;
+}
+
+.import-list-title-content {
+  height: 14px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  padding-top: 5px;
+}
+
+.import-items-container {
+  height: 86%;
+}
+
+.div-import-button-container {
+  margin-top: 10px;
+  height: 8%;
+  float: right;
+}
+
+html[dir='rtl'] .div-import-button-container {
+  float: left;
+}
+
+.div-import-login-user-info-msg {
+  margin-top: 20px;
+  height: 14px;
+  width: 546px;
+  /*font-family: Segoe UI, Helvetica Neue, Lucida Sans Unicode, Arial, Sans-serif;*/
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  float: left;
+}
+
+html[dir='rtl'] .div-import-login-user-info-msg {
+  float: right;
+  margin-right: -300px;
+}
+
+.import-logins-ui-container {
+  width: 100%;
+  height: 550px;
+}
+
+.import-expand-list {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(../../images/ic-mainui-expand.svg) no-repeat right center;
+  width: 12px;
+  height: 7px;
+  margin-left: 21px;
+  margin-top: 17px;
+}
+
+html[dir='rtl'] .import-expand-list {
+  margin-left: 0px;
+  margin-right: 21px;
+}
+
+.import-expand-list:hover {
+  cursor: pointer;
+}
+
+.import-expand-list-rotate-img {
+  transform: rotate(-90deg);
+}
+
+.import-list-view-header-cell {
+  width: 100%;
+  height: 40px;
+}
+
+.import-list-view-header-checkbox {
+  margin-left: 20px;
+  margin-top: 14px;
+}
+
+html[dir='rtl'] .import-list-view-header-checkbox {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.import-list-view-header-checkbox-result {
+  margin-left: 20px;
+  margin-top: 14px;
+  width: 16px;
+}
+
+.import-list-view-header-cell-content {
+  height: 14px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  padding-top: 5px;
+}
+
+.import-list-view-header-title {
+  height: 14px;
+  margin-top: 11px;
+  margin-left: 10px;
+}
+
+html[dir='rtl'] .import-list-view-header-title {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.div-import-password-uploading-text {
+  width: 265px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333333;
+  margin: auto;
+}
+
+.div-select-login-item-row {
+  height: 40px;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: left;
+  color: #333333;
+  padding-top: 9px;
+}
+
+.div-select-login-item-row-competitor {
+  height: 40px;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: left;
+  color: #333333;
+  padding-top: 11px;
+}
+
+.div-select-login-item-row-competitor:hover {
+  background-color: #e6f7fe;
+}
+
+html[dir='rtl'] .div-select-login-item-row {
+  text-align: right;
+}
+
+html[dir='rtl'] .div-select-login-item-row-competitor {
+  text-align: right;
+}
+
+.div-login-item-row-bg-color {
+  background-color: #f8f8f8;
+}
+
+.div-login-item-selected-row-bg-color {
+  background-color: #d8f3fd;
+}
+
+.div-select-login-item-col-1 {
+  display: inline-block;
+  width: 10px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.div-select-login-item-col-1-result {
+  display: inline-block;
+  width: auto;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+.div-select-login-item-col-1-result > img {
+  vertical-align: middle;
+  padding-bottom: 6px !important;
+}
+
+.div-select-login-item-col-2 {
+  display: inline-block;
+  width: 278px;
+  margin-left: 48px;
+}
+
+.div-select-login-item-col-3 {
+  display: inline-block;
+  width: 260px;
+  margin-left: 22px;
+}
+
+.div-select-login-item-col-4 {
+  margin-left: 5px;
+  display: inline-block;
+  width: 217px;
+  margin-left: 22px;
+}
+
+html[dir='rtl'] .div-select-login-item-col-1 {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+html[dir='rtl'] .div-select-login-item-col-1-result {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+html[dir='rtl'] .div-select-login-item-col-2 {
+  margin-left: 0px;
+  margin-right: 48px;
+}
+
+html[dir='rtl'] .div-select-login-item-col-3 {
+  margin-left: 0px;
+  margin-right: 22px;
+}
+
+html[dir='rtl'] .div-select-login-item-col-4 {
+  margin-left: 0px;
+  margin-right: 22px;
+}
+
+.div-pwd-found-title-text {
+  margin-top: 64px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.div-try-again-title-text {
+  margin-top: 74px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #c81a00;
+}
+
+.div-select-logins-dim-text {
+  font-size: 14px;
+  text-align: center;
+  color: #8a8a8a;
+}
+
+.float-left {
+  float: left;
+}
+
+html[dir='rtl'] .float-left {
+  float: right;
+}
+
+.list-section-item-count {
+  float: right;
+  padding-left: 3px;
+}
+
+html[dir='rtl'] .list-section-item-count {
+  float: left;
+  padding-left: 0px;
+  padding-right: 3px;
+}
+
+.import-list-container {
+  overflow-y: scroll;
+  max-height: 420px;
+  margin-top: 5px;
+}
+
+.import-expand-list-hide {
+  display: none;
+}
+
+.import-button {
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  color: #333333;
+  padding: 9px 40px 10px 40px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fee189;
+}
+
+.import-button-disabled {
+  background-color: #a0a0a0;
+}
+
+.import-back-button {
+  font-size: 14px;
+  text-align: center;
+  color: #0089c6;
+  padding: 9px 40px 10px 40px;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: -20px;
+}
+
+html[dir='rtl'] .import-back-button {
+  float: right;
+  margin-left: -20px;
+}
+
+.settings-circle img {
+  object-fit: contain;
+  padding-top: 12px;
+}
+
+.select-import-wrapper::after {
+  content: '';
+  position: absolute;
+  background-image: url(../../images/ic-modal-expand.svg);
+  background-size: 16.7px 10px;
+  width: 16.7px;
+  height: 10px;
+  left: 435px;
+  pointer-events: none;
+}
+
+html[dir='rtl'] .select-import-wrapper::after {
+  left: 20px;
+}
+
+.div-learn-more-file-upload-style {
+  margin-top: 7px;
+  width: 469px;
+  height: 19px;
+  /*font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 14px;
+  text-align: center;
+  color: #0089c6;
+  float: center;
+  cursor: pointer;
+  margin-left: -18px;
+}
+
+html[dir='rtl'] .div-learn-more-file-upload-style {
+  margin-right: -16px;
+}
+
+.import-text-region {
+  width: 469px;
+  height: 119px;
+  margin-left: -16px;
+  background-color: #ffffff;
+}
+
+.import-text-area {
+  resize: none;
+  width: 469px;
+  height: 119px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 16px;
+}
+
+.import-button-comp-disabled {
+  background-color: #a0a0a0;
+}
+
+.div-text-upload-learn-more {
+  margin-top: 31px;
+  width: 212px;
+  height: 19px;
+  margin-left: -16px;
+  /*font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;*/
+  font-size: 14px;
+  color: #0089c6;
+  float: left;
+  cursor: pointer;
+}
+
+.import-button-comp {
+  height: 40px;
+  width: 130px;
+  background-color: #ffe283;
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  padding-top: 2px;
+  float: right;
+}
+
+.relative-position {
+  position: relative;
+}
+
+.skip-import {
+  /*font-family: SegoeUI;*/
+  max-width: 429px;
+  margin: 20px 0px;
+  text-align: center;
+  color: #0089c6;
+  cursor: pointer;
+}
+
+#import-modal-root button svg {
+  display: none;
+}
+
+.import-competitor-page {
+  border-radius: 20px;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.div-password {
+  margin-left: 30px;
+  margin-top: 3px;
+}
+
+.import-list-show-password {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  align-self: center;
+}
+
+.shared-show-password {
+  cursor: pointer;
+}
+
+.div-uploading-cancel-link {
+  width: 265px;
+  height: 19px;
+  font-size: 14px;
+  color: #0089c6;
+  margin: auto;
+}
+
+.div-import-password-error-text {
+  margin-top: 26px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 0.83;
+  color: #c81a00;
+  margin-bottom: 10px;
+}
+
+.img-sign-in-animation-import {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-image: url(../../images/img-sign-in-animation.png);
+  -webkit-animation: spin 0.8s linear infinite;
+  -moz-animation: spin 0.8s linear infinite;
+  animation: spin 0.8s linear infinite;
+  margin: auto;
+  padding-top: 450px;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .img-sign-in-animation {
+    background-image: url(../../images/img-sign-in-animation@2x.png);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 300dpi) {
+  .img-sign-in-animation {
+    background-image: url(../../images/img-sign-in-animation@3x.png);
+  }
+}
+
+.import-processing {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #333333;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.import-success-circle {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50px;
+  border: solid 1px #dadada;
+  color: #000000;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  z-index: 10;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.import-success-circle img {
+  object-fit: contain;
+}
+
+.import-error-circle {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50px;
+  border: solid 1px #dadada;
+  color: #000000;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  z-index: 10;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.import-error-circle img {
+  object-fit: contain;
+  padding-top: 9px;
+}
+
+.import-edit-success-gradient {
+  width: 992px;
+  height: 214px;
+  opacity: 0.8;
+  background-color: #339933;
+  position: absolute;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.import-edit-error-gradient {
+  width: 992px;
+  height: 214px;
+  opacity: 0.8;
+  background-color: #c81a00;
+  position: absolute;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.import-add-edit-gradient {
+  width: 992px;
+  height: 214px;
+  opacity: 0.4;
+  background-color: #000000;
+  position: absolute;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.ic-vault-data-import {
+  width: 63px;
+  height: 63px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 63px 63px;
+  background-image: url(../../images/ic-vault-data.svg);
+  margin: auto;
+  margin-top: -257px;
+}
+
+.splash-class > div {
+  padding: 0 !important;
+}
+.splash-class > div > div > div:first-child {
+  border-radius: 0 !important;
+  background-color: rgba(3, 46, 97, 0.87) !important;
+}
+
+.unlock-splash-close,
+.congratulation-splash-close {
+  margin-right: 22.5px;
+  margin-top: 30px;
+  float: right;
+  background-image: url('../images/ic-modal-close.svg');
+  background-size: 41.5px 41.5px;
+  width: 41.5px;
+  height: 41.5px;
+  cursor: pointer;
+}
+
+.unlock-splash-content,
+.congratulation-splash-content {
+  padding-top: 160px;
+}
+
+.unlock-splash-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 176px;
+  width: 176px;
+}
+
+.unlock-splash-header {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  /* font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif; */
+  font-size: 36px;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.unlock-splash-desc {
+  margin-top: 24px;
+  width: 100%;
+  /* font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif; */
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  line-height: normal;
+}
+
+.unlock-splash-start {
+  width: 149px;
+  height: 44px;
+  background-color: #ffe283;
+  /* font-family: "Helvetica Neue", "HelveticaNeue"; */
+  font-size: 14px;
+  text-align: center;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+  display: block;
+}
+
+.unlock-splash-later-wrapper {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.unlock-splash-later {
+  text-decoration: underline;
+  /* font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif; */
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.unlock-splash-later:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+html[dir='rtl'] .unlock-splash-close,
+html[dir='rtl'] .congratulation-splash-close {
+  margin-left: 22.5px;
+  float: left;
+}
+
+#seamless-unlock-modal-root button svg {
+  display: none;
+}
+
+.congratulation-splash-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 89px;
+  width: 89px;
+  object-fit: contain;
+}
+
+.congratulation-splash-header {
+  width: 100%;
+  height: 45px;
+  margin-top: 30px;
+  /* font-family: SourceSansPro; */
+  font-size: 36px;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.congratulation-splash-desc {
+  margin: 30px auto 0;
+  width: max-content;
+  /* font-family: SourceSansPro; */
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.67;
+}
+
+.congratulation-li-desc {
+  text-align: left;
+  padding-bottom: 10px;
+  list-style: disc;
+}
+
+.congratulation-splash-start {
+  width: 238px;
+  height: 44px;
+  background-color: #ffe283;
+  /* font-family: SourceSansPro; */
+  font-size: 16px;
+  text-align: center;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  display: block;
+}
+
+.splash-desc {
+  min-width: 376px;
+  height: 30px;
+  margin: 10px auto 45px;
+  /* font-family: SourceSansPro; */
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.35px;
+  color: #fff;
+  text-align: center;
+}
+
+#seamless-congrats-modal-root button svg {
+  display: none;
+}
+
+.div-red-horiz-line {
+  width: 70px;
+  height: 1px;
+  background-color: #d8d8d8;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.import-footer .info-text {
+  font-family: 'SegoeUI';
+  margin-bottom: 0;
+  color: #767676;
+  font-size: 13px;
+  line-height: 1.38;
+  font-weight: 600;
+}
+
+html[dir='rtl'] .import-download-content {
+  width: 40%;
+  margin: auto;
+}
+
+html[dir='rtl'] .import-info {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+html[dir='rtl'] .import-source {
+  text-align: right;
+}
+
+html[dir='rtl'] .import-download-content1 {
+  text-align: right;
+  margin-top: 80px;
+}
+
+html[dir='rtl'] .div-browser-learn-more {
+  text-align: right;
+}
+
+html[dir='rtl'] .import-drop-down {
+  background-position: 8px 13px;
+  padding-left: 0;
+  padding-right: 12px;
+  float: right;
+}
+
+html[dir='rtl'] .import-button-comp {
+  margin-right: 323px;
+}
+
+html[dir='rtl'] .div-text-upload-learn-more {
+  float: right;
+  margin-right: -453px;
+}
+
+html[dir='rtl'] .import-password-page {
+  margin-right: 5px;
+}
+
+html[dir='rtl'] .import-password-upload-region {
+  margin-right: 40px;
+}
+
+html[dir='rtl'] .import-footer .left-section {
+  margin-right: 0;
+  margin-left: 15%;
+}
+
+html[dir='rtl'] .import-footer .info-text {
+  text-align: right;
+}
+
+html[dir='rtl'] .import-footer .back-button {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+html[dir='rtl'] .import-footer .left-section:before {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+html[dir='rtl'] .div-password {
+  margin-right: 30px;
+}

@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "Oparty na chmurze menedżer haseł ułatwiający logowanie do ulubionych witryn."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Norton Password Manager"
+   }
+}

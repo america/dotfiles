@@ -1,0 +1,345 @@
+/*
+ NortonLifeLock copyright header start
+
+ Copyright (c) 2020 NortonLifeLock Inc. All rights reserved.
+
+ THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF NORTONLIFELOCK
+ INC.  USE, DISCLOSURE OR REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR
+ EXPRESS WRITTEN PERMISSION OF NORTONLIFELOCK INC.
+
+ The Licensed Software and Documentation are deemed to be commercial computer
+ software as defined in FAR 12.212 and subject to restricted rights as defined
+ in FAR Section 52.227-19 "Commercial Computer Software - Restricted Rights"
+ and DFARS 227.7202, “Rights in Commercial Computer Software or Commercial
+ Computer Software Documentation”, as applicable, and any successor regulations.
+ Any use, modification, reproduction release, performance, display or disclosure
+ of the Licensed Software and Documentation by the U.S. Government shall be
+ solely in accordance with the terms of this Agreement.
+
+ NortonLifeLock copyright header stop
+
+*/
+
+/* font faces */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: 'normal';
+}
+
+/* TODO: below Inter-* font faces should be eventually removed and not used anywhere directly */
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url('fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'PT Mono';
+  src: url('fonts/PT-Mono.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+.button-link {
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    font: inherit;
+    color: #68c2fe;
+}
+
+.privacy-prompt-container {
+    width: 100%;
+    height: 100%;
+    background-color: #242e39;
+    z-index: 11;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.privacy-prompt-message-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.privacy-prompt-icon {
+    object-fit: contain;
+    padding-top: 24px;
+}
+
+.privacy-prompt-icon-modified {
+  width: 33px;
+  margin: 0 9px 0 0;
+}
+
+.product-name-modified {
+  min-width: 197px;
+  margin-top: 27px;
+  font-size: 24px;
+  /* font-family: SourceSansPro; */
+  color: #ffffff;
+}
+
+.privacy-protect-text {
+  height: 35px;
+  /* font-family: SourceSansPro; */
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin: 20px auto;
+}
+
+.privacy-prompt-ui {
+  margin: auto;
+  /* font-family: SourceSansPro; */
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  width: 614px;
+
+}
+
+.decline-text-ui {
+  margin-top: 16px;
+}
+
+.share-data-text {
+  display: flex;
+  width: 598px;
+  height: 40px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.privacy-prompt-icon-cross {
+    width: 50px;
+    height: 50px;
+    padding-top: 0px;
+    position: relative;
+    top: 8px;
+}
+
+.product-name {
+    width: 149px;
+    margin: auto;
+    /* font-family: SourceSansPro; */
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+.privacy-prompt-title {
+    max-width: 408px;
+    margin: 16px auto;
+    /* font-family: Source Sans Pro SemiBold; */
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.privacy-prompt-message {
+    height: 110px;
+    margin: auto;
+    /* font-family: SourceSansPro; */
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.message-without-link {
+    margin-bottom: 18px;
+}
+
+.message-with-link span {
+    display: inline-block;
+}
+
+.message-with-link {
+  width: 550px;
+  margin: auto;
+}
+
+body[dir="rtl"] .message-with-link {
+  width: 400px;
+}
+
+.message-with-link a.link {
+    display: inline-block;
+    color: #68c2fe;
+}
+
+.checkbox-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  margin-right: 8px;
+}
+
+.gps-text {
+  margin-top: 30px;
+}
+
+.privacy-prompt-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.privacy-prompt-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy-prompt-actions button{
+    display: block;
+    border: none;
+    font-size: 13px;
+}
+
+.privacy-prompt-actions .accept, .privacy-prompt-actions .review {
+    padding: 11px 28px 11px 28px;
+    border-radius: 3px;
+    background-color: #fdd572;
+    /* font-family: SourceSansPro; */
+    color: #242e39
+}
+
+.privacy-prompt-actions-ui {
+    margin-top: 30px;
+}
+
+.privacy-prompt-actions .accept-button {
+    width: 151px;
+    height: 40px;
+    padding: 11px 28px 11px 28px;
+    border-radius: 3px;
+    background-color: #fdd572;
+    /* font-family: SourceSansPro; */
+    color: #242e39;
+    font-size: 14px;
+    font-weight: 600;    
+}
+
+.privacy-prompt-actions .decline-button {
+    width: 151px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: solid 1px #fdd572;
+    background: none;
+    color: #fff;
+    /* font-family: SourceSansPro; */
+    font-size: 14px;
+    font-weight: 600;    
+}
+
+.privacy-prompt-actions .decline, .privacy-prompt-actions .remove {
+    height: 18px;
+    margin: 16px 0px 30px 0px;
+    /* font-family: SourceSansPro; */
+    font-size: 14px;
+    text-align: center;
+    color: #68c2fe;
+    background: none;
+}
+
+.privacy-prompt-actions .review {
+    padding: 11px 19px 11px 21px;
+}
+
+.decline-message {
+    width: 660px;
+    height: 20px;
+    flex-grow: 0;
+    /* font-family: SourceSansPro; */
+    font-size: 12px;
+    line-height: 1.67;
+    text-align: center;
+    color: #fff;
+    margin: 10px auto 28px auto;
+}
+
+.banner-div {
+  padding: 10px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+  background-color: #0082db;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.banner-div-text {
+  /* font-family: SourceSansPro; */
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}

@@ -1,0 +1,734 @@
+{
+  "admUrl" : "https://ntp.securebrowser.com/v1/tiles/norton/extension",
+  "staticAdLinks": {
+    "data": [
+     {
+       "name": "ebay",
+       "toolTipName": "Ebay",
+       "domain": "ebay",
+       "type": "static"
+     }
+   ],
+   "urls": {
+     "AU": {
+       "ebay": "https://ebay.us/MK7v8f"
+     },
+     "CA": {
+       "ebay": "https://ebay.us/Omd0vE"
+     },
+     "DE": {
+       "ebay": "https://ebay.us/R9PWij"
+     },
+     "FR": {
+       "ebay": "https://ebay.us/ch1BI9"
+     },
+     "GB": {
+       "ebay": "https://ebay.us/qeUer1"
+     },
+     "US": {
+       "ebay": "https://ebay.us/W6jlBE"
+     },
+     "CH": {
+       "ebay": "https://ebay.us/NtZIBx"
+     },
+     "AT": {
+       "ebay": "https://ebay.us/dUOG7J"
+     },
+     "BE": {
+       "ebay": "https://ebay.us/AMEcC1"
+     },
+     "ROW": {
+       "ebay": "https://ebay.us/P5TMVh"
+     }
+   }
+ },
+  "admFallbackLinks" : [
+    {
+      "name": "Amazon",
+      "toolTipName": "Amazon",
+      "associateUrl": "https://www.amazon.com",
+      "domain": "amazon",
+      "type": "default"
+    },
+    {
+      "name": "Norton",
+      "toolTipName": "Norton",
+      "associateUrl": "https://www.norton.com",
+      "domain": "norton",
+      "type": "default"
+    }
+  ],
+  "affinityAdLinks": {
+    "allRegions": [
+      {
+        "name": "Walmart",
+        "toolTipName": "Walmart",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88276a49e0d9b54340bcfb90634a3d10e1b02644a6b1ad86cf3acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "walmart",
+        "type": "affinity"
+      },
+      {
+        "name": "Lowes",
+        "toolTipName": "Lowes",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d881a21a45f20ded13bb36a6092181860f0ca43c336421c603476ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "lowes",
+        "type": "affinity"
+      },
+      {
+        "name": "QuickBooks",
+        "toolTipName": "QuickBooks",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8852865e97f89910b5ef2c530cc0fe75dcd6ca59d2f106f2a93acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "quickbooks",
+        "type": "affinity"
+      },
+      {
+        "name": "TUI",
+        "toolTipName": "TUI",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88b3b6ed213601944db6389caba140c6b3a526ac356f8cebaf76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "TUI",
+        "type": "affinity"
+      },
+      {
+        "name": "Currys",
+        "toolTipName": "Currys",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88f084a352cdd17bca91f36db77cfa6df73fc54f0f0880762876ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "currys",
+        "type": "affinity"
+      },
+      {
+        "name": "Expedia",
+        "toolTipName": "Expedia",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8851d582b994f202498fe0f1c6fca5e818e36e8f9d48a6b2da19ab4a07a125566e059ffb046ea460ca624088d3c99c3f60",
+        "domain": "expedia",
+        "type": "affinity"
+      },
+      {
+        "name": "AliExpress",
+        "toolTipName": "AliExpress",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88c27bb95ba7e6b3f8919e674a8f6c928a946dc2e01ec9a0b1b27e03eb470e3a92bf756fa99318da4b9ccd295597509459",
+        "domain": "aliExpress",
+        "type": "affinity"
+      },
+      {
+        "name": "Fiverr",
+        "toolTipName": "Fiverr",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88cd4a19f75075c816c5fff023724527282607848240fe19d919ab4a07a125566e059ffb046ea460ca624088d3c99c3f60",
+        "domain": "fiverr",
+        "type": "affinity"
+      },
+      {
+        "name": "Otto",
+        "toolTipName": "Otto",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d886556c81f34c551b5e3259c74c00d39dbf417dbd4b3ef8c5b76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "otto",
+        "type": "affinity"
+      },
+      {
+        "name": "Telekom",
+        "toolTipName": "Telekom",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8804b57785384ae8289c86f7a5c2c2e926c57c692ac3449617946dc2e01ec9a0b1b27e03eb470e3a92bf756fa99318da4b9ccd295597509459",
+        "domain": "telekom",
+        "type": "affinity"
+      },
+      {
+        "name": "CDiscount",
+        "toolTipName": "CDiscount",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8894b2f2cc92abff46256ae255df9c366ba5e85c9d42595fed76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "CDiscount",
+        "type": "affinity"
+      },
+      {
+        "name": "FNAC",
+        "toolTipName": "FNAC",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d887c887129d9261a8ac5fff0237245272835cb77c994fb96ae19ab4a07a125566e059ffb046ea460ca624088d3c99c3f60",
+        "domain": "FNAC",
+        "type": "affinity"
+      },
+      {
+        "name": "Vueling",
+        "toolTipName": "Vueling",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d884bb0fa12347917e8d5978d3011f650731ca56e60859f97a73acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "vueling",
+        "type": "affinity"
+      },
+      {
+        "name": "ZalandoPrive",
+        "toolTipName": "ZalandoPrive",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8804b57785384ae828d83485c6c1b5e09821a23a60693635a8946dc2e01ec9a0b1b27e03eb470e3a92bf756fa99318da4b9ccd295597509459",
+        "domain": "zalando-prive",
+        "type": "affinity"
+      },
+      {
+        "name": "Idealo",
+        "toolTipName": "Idealo",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d889a19c5304b625957671f0d2262468739ffa998a856ca062876ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "idealo",
+        "type": "affinity"
+      },
+      {
+        "name": "LaFeltrinelli",
+        "toolTipName": "LaFeltrinelli",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d884370fc9736c4591f261336aa4dbcf30197572740c190594d76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "laFeltrinelli",
+        "type": "affinity"
+      },
+      {
+        "name": "WorldOfWarships",
+        "toolTipName": "WorldOfWarships",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88b5f699f8cc057105fda4ffb03e2e498b3984d1e2aa099e2f76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "worldofwarships",
+        "type": "affinity"
+      },
+      {
+        "name": "WorldOfTanks",
+        "toolTipName": "WorldOfTanks",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88b5f699f8cc05710526c6b2aa6589fbc5ddb5c04428fd9a8b76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "worldoftanks",
+        "type": "affinity"
+      },
+      {
+        "name": "Dazn",
+        "toolTipName": "Dazn",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88b5f699f8cc05710581007ce2c4951366bd9f17ee369d09fc76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "dazn",
+        "type": "affinity"
+      },
+      {
+        "name": "Udemy",
+        "toolTipName": "Udemy",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d884edda1a4d55ef99aad93f67d698bc2d855541f0353887f6d76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "udemy",
+        "type": "affinity"
+      },
+      {
+        "name": "HeroWars",
+        "toolTipName": "HeroWars",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8804b57785384ae828aea028046f668210e8ba4995db83dd8d946dc2e01ec9a0b1b27e03eb470e3a92bf756fa99318da4b9ccd295597509459",
+        "domain": "hero-wars",
+        "type": "affinity"
+      },
+      {
+        "name": "CoolBlue",
+        "toolTipName": "CoolBlue",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8893f57dd28a6cc2fcedc768425e9bd2e4095d76a4f1565fd776ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "CoolBlue",
+        "type": "affinity"
+      },
+      {
+        "name": "Booking",
+        "toolTipName": "Booking.com",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d889a19c5304b62595780db7bf4d586f008ba3e8d447e3c59463acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "booking",
+        "type": "affinity"
+      },
+      {
+        "name": "ForgeOfEmpires",
+        "toolTipName": "ForgeOfEmpires",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8858a5281daa83f47c8bc20cd20ca0cd375409aaae1e7d3e5b76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "forgeofempires",
+        "type": "affinity"
+      },
+      {
+        "name": "MercadoLivre",
+        "toolTipName": "MercadoLivre",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88847beb151f58c8407a947ef5dc6cfe883778505750736fc476ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "mercadolivre",
+        "type": "affinity"
+      },
+      {
+        "name": "Netshoes",
+        "toolTipName": "Netshoes",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d886e40d41e14e4fb51620ecc4d1ae5828133b0bccd9778542d19ab4a07a125566e059ffb046ea460ca624088d3c99c3f60",
+        "domain": "Netshoes",
+        "type": "affinity"
+      },
+      {
+        "name": "Allegro",
+        "toolTipName": "Allegro",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8893f57dd28a6cc2fc95558ee413163278fdb6d3303e59f0e876ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "Allegro",
+        "type": "affinity"
+      },
+      {
+        "name": "RTVEuroAGD",
+        "toolTipName": "RTVEuroAGD",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d884e8d51713f8cc810e2274f1769b18963f231f8fc8bb7f7d476ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "rtveuroagd",
+        "type": "affinity"
+      },
+      {
+        "name": "CCC",
+        "toolTipName": "CCC",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d882e846045b4549d9dedc768425e9bd2e4c21b2dc1cd453d7376ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "CCC",
+        "type": "affinity"
+      },
+      {
+        "name": "Flipkart",
+        "toolTipName": "Flipkart",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88951b103acbf5f1a7ef2c530cc0fe75dcee32f77628e1480a3acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "Flipkart",
+        "type": "affinity"
+      },
+      {
+        "name": "Trivago",
+        "toolTipName": "Trivago",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88c7c1459ea808c01d80db7bf4d586f008688e52dab4bbf41a3acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "Trivago",
+        "type": "affinity"
+      },
+      {
+        "name": "Amazon",
+        "toolTipName": "Amazon",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88f7e4ce043dd4e313b41c4c05b86c2a316dfd482904d9d17b3acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "Amazon",
+        "type": "affinity"
+      },
+      {
+        "name": "Myntra",
+        "toolTipName": "Myntra",
+        "associateUrl": "https://ww55.siteplug.com/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88294687d1771cf04b7c20567570c10fbacf1d0451eb0837b13acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "Myntra",
+        "type": "affinity"
+      },
+      {
+        "name": "Tripadvisor",
+        "toolTipName": "Tripadvisor",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88c7c1459ea808c01d7c20567570c10fbaedcb505a8c1c74343acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "Tripadvisor",
+        "type": "affinity"
+      },
+      {
+        "name": "Hulu",
+        "toolTipName": "Hulu",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d881a21a45f20ded13b62ae0b9a130c65cf335cc592d207335b76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "hulu",
+        "type": "affinity"
+      },
+      {
+        "name": "Tesco",
+        "toolTipName": "Tesco",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88a1e933c5618e01479b176b668c2cbe481e0b0105901ac8d73acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "tesco",
+        "type": "affinity"
+      },
+      {
+        "name": "Hotels",
+        "toolTipName": "Hotels",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d882e846045b4549d9d4498725eff964e5a507bc57c7f86d87819ab4a07a125566e059ffb046ea460ca624088d3c99c3f60",
+        "domain": "hotels",
+        "type": "affinity"
+      },
+      {
+        "name": "Very",
+        "toolTipName": "Very",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d882c69d02b3f644b32cebbb4d50f4100d6ca7274b99237b4fd76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "very",
+        "type": "affinity"
+      },
+      {
+        "name": "CanadianTire",
+        "toolTipName": "CanadianTire",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88f7c302479bed6ddc11f0d6e7cfbf09f9f9fb7eae930aa83b76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "canadiantire",
+        "type": "affinity"
+      },
+      {
+        "name": "Godaddy",
+        "toolTipName": "Godaddy",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d884edda1a4d55ef99a4c56408cdb4281a76deeddada3ccd91476ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "godaddy",
+        "type": "affinity"
+      },
+      {
+        "name": "Bonprix",
+        "toolTipName": "Bonprix",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88933abe7250a311611e598f7260ed2210e039a47617b0514c76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "bonprix",
+        "type": "affinity"
+      },
+      {
+        "name": "Holidaycheck",
+        "toolTipName": "Holidaycheck",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d885a46cbf15e6d28bb691334d13616c605da593f4a5b63366c76ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "holidaycheck",
+        "type": "affinity"
+      },
+      {
+        "name": "RedBySFR",
+        "toolTipName": "RedBySFR",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88644246defba3fd5d6852664d6728ad7f06b5f6ecff17043976ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "red-by-sfr",
+        "type": "affinity"
+      },
+      {
+        "name": "Lastminute.com",
+        "toolTipName": "Lastminute.com",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88644246defba3fd5d6852664d6728ad7f06b5f6ecff17043976ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "lastminute.com",
+        "type": "affinity"
+      },
+      {
+        "name": "Druni",
+        "toolTipName": "Druni",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88f35cabd66055b3c311f0d6e7cfbf09f9e8f77244145c327776ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "druni",
+        "type": "affinity"
+      },
+      {
+        "name": "Elcorteingles",
+        "toolTipName": "Elcorteingles",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88f084a352cdd17bca734c36911ee537f07c0e9e7ad9c05a7576ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "elcorteingles",
+        "type": "affinity"
+      },
+      {
+        "name": "TicketOne",
+        "toolTipName": "TicketOne",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d884370fc9736c4591fbc95e4edf9dbd356c89645fb9786335176ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "ticketone",
+        "type": "affinity"
+      },
+      {
+        "name": "Meetic",
+        "toolTipName": "Meetic",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88933abe7250a3116190be3a30eaa60de6d59e6f6b4cdc205676ca6e70a64c858580356a4ac02f4175a6e89f868fe8e93c",
+        "domain": "meetic",
+        "type": "affinity"
+      },
+      {
+        "name": "Ziggo",
+        "toolTipName": "Ziggo",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d8893f57dd28a6cc2fcb41c4c05b86c2a3144da02d54b4ebfc73acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "ziggo",
+        "type": "affinity"
+      },
+      {
+        "name": "Ajio",
+        "toolTipName": "Ajio",
+        "associateUrl": "https://ww55.affinity.net/sssdomweb?enk=b85d7e4e02b15a334a9b5c7ff9532757ea23e90f2b474d88f7e4ce043dd4e31311d4432bda7dd2c3cf03a05f431a65cb3acec33b49c3549d297065f2975465e8f2c8d29d83cedfdb",
+        "domain": "ajio",
+        "type": "affinity"
+      }
+    ]
+  },
+  "rulesPriority" : ["adm", "admFallback", "staticAd", "affinity", "mostRecentlyUsed", "userAdded", "staticFiller"],
+  "adRules": {
+      "regionSpecificRules": {
+        "US": {
+          "admLinks": [
+            {
+              "count": 2,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["Walmart", "QuickBooks", "Lowes", "Expedia", "Hulu"]
+        },
+        "GB": {
+          "admLinks": [
+            {
+              "count": 2,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["TUI", "Currys", "Tesco", "Hotels", "Very"]
+        },
+        "CA": {
+          "admLinks": [
+            {
+              "count": 2,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["Walmart", "Expedia", "CanadianTire", "AliExpress", "Booking"]
+        },
+        "AU": {
+          "admLinks": [
+            {
+              "count": 2,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "Fiverr", "Tripadvisor", "Booking", "Godaddy"]
+        },
+        "DE": {
+          "admLinks": [
+            {
+              "count": 2,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["Otto", "Telekom", "Bonprix", "Booking", "Holidaycheck"]
+        },
+        "FR": {
+          "admLinks": [
+            {
+              "count": 2,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["CDiscount", "FNAC", "WorldOfTanks", "Booking", "RedBySFR"]
+        },
+        "ES": {
+          "admLinks": [
+            {
+              "count": 2,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["Vueling", "ZalandoPrive", "Lastminute.com", "Druni", "Elcorteingles"]
+        },
+        "IT": {
+          "admLinks": [
+            {
+              "count": 2,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["Idealo", "LaFeltrinelli", "TicketOne", "Meetic", "AliExpress"]
+        },
+        "JP": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["WorldOfWarships", "WorldOfTanks", "Dazn", "Udemy", "Tripadvisor"]
+        },
+        "NL": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["HeroWars", "CoolBlue", "Booking", "ForgeOfEmpires", "Ziggo"]
+        },
+        "BR": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["MercadoLivre", "Netshoes", "AliExpress", "Expedia", "Hotels"]
+        },
+        "PL": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["Allegro", "WorldOfTanks", "RTVEuroAGD", "CCC", "Booking"]
+        },
+        "IN": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["Amazon", "Flipkart", "Trivago", "Myntra", "Booking", "Ajio"]
+        },
+        "MX": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "WorldOfWarships", "Expedia", "Tripadvisor", "Udemy"]
+        },
+        "BE": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "Fiverr", "Tripadvisor", "Booking", "Godaddy"]
+        },
+        "SE": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "Fiverr", "Tripadvisor", "Booking", "Godaddy"]
+        },
+        "CH": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "Fiverr", "Tripadvisor", "Booking", "Godaddy"]
+        },
+        "DK": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "Fiverr", "Tripadvisor", "Booking", "Godaddy"]
+        },
+        "AT": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "Fiverr", "Tripadvisor", "Booking", "Godaddy"]
+        },
+        "NO": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "Fiverr", "Tripadvisor", "Booking", "Godaddy"]
+        },
+        "PT": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "Fiverr", "Tripadvisor", "Booking", "Godaddy"]
+        },
+        "ROW": {
+          "admLinks": [
+            {
+              "count": 0,
+              "browsers": ["Chrome", "Edge-Chromium"]
+            },
+            {
+              "count": 0,
+              "browsers": ["Firefox"]
+            },
+            {
+              "no-country-code": {
+                "count": 2
+              }
+            }
+          ],
+          "staticAdLinks" : ["ebay"],
+          "affinityLinks" : ["AliExpress", "Fiverr", "Tripadvisor", "Booking", "Godaddy"]
+        }
+      }
+   },
+    "version": 1
+}

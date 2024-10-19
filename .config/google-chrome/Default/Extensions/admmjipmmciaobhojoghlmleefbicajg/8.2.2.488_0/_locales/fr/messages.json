@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "Un gestionnaire de mots de passe basé sur le cloud qui facilite la connexion à vos sites favoris."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Norton Password Manager"
+   }
+}

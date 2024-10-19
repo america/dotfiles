@@ -1,0 +1,168 @@
+/*
+ NortonLifeLock copyright header start
+
+ Copyright (c) 2021 NortonLifeLock Inc. All rights reserved.
+
+ THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF NORTONLIFELOCK
+ INC.  USE, DISCLOSURE OR REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR
+ EXPRESS WRITTEN PERMISSION OF NORTONLIFELOCK INC.
+
+ The Licensed Software and Documentation are deemed to be commercial computer
+ software as defined in FAR 12.212 and subject to restricted rights as defined
+ in FAR Section 52.227-19 "Commercial Computer Software - Restricted Rights"
+ and DFARS 227.7202, “Rights in Commercial Computer Software or Commercial
+ Computer Software Documentation”, as applicable, and any successor regulations.
+ Any use, modification, reproduction release, performance, display or disclosure
+ of the Licensed Software and Documentation by the U.S. Government shall be
+ solely in accordance with the terms of this Agreement.
+
+ NortonLifeLock copyright header stop
+
+*/
+
+/* font faces */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: 'normal';
+  }
+  
+  @font-face {
+    font-family: 'Inter-Medium';
+    src: url('fonts/Inter-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: 'normal';
+  }
+  
+  @font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: 'normal';
+  }
+  
+  @font-face {
+    font-family: 'Inter-Bold';
+    src: url('fonts/Inter-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: 'normal';
+  }
+  
+  @font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url('fonts/Inter-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: 'normal';
+  }
+  
+  @font-face {
+    font-family: 'PT Mono';
+    src: url('fonts/PT-Mono.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@media (min-width: 720px) {
+    .icon-info {
+        position: relative;
+        right: 32px;
+    }
+
+    .row-1 p {
+        position: relative;
+        right: 36px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .icon-info {
+        position: relative;
+        right: 32px;
+    }
+
+    .row-1 p {
+        position: relative;
+        right: 36px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .icon-info {
+        position: relative;
+        right: 47px;
+    }
+
+    .row-1 p {
+        position: relative;
+        right: 51px;
+    }
+}
+
+.ext-pinning-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ext-pinning-container p {
+    margin: 0;
+}
+
+.row-1,
+.row-2 {
+    display: flex;
+    align-items: center;
+}
+
+.row-1 {
+    height: 27px;
+    color: #242e3a;
+    font-size: 13px;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-family: "Inter";
+}
+
+.row-1 strong {
+    font-family: "Inter-Bold";
+}
+
+.row-2 {
+    height: 50px;
+    background-color: #007eb5;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: flex-end;
+    padding-right: 19px;
+    font-family: "Inter-Semibold";
+}
+
+.icon-btn {
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.icon-puzzle,
+.icon-pin,
+.icon-npw {
+    margin: 0 10px;
+}
+
+body[dir="rtl"] .row-1 {
+    padding-left: 10px;
+}
+
+body[dir="rtl"] .row-1 p {
+    right: -51px
+}
+
+body[dir="rtl"] .icon-info {
+    right: -47px;
+}
+
+body[dir="rtl"] .row-2 {
+    padding-left: 19px;
+}

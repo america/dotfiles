@@ -1,0 +1,23 @@
+{
+   "author": "国税庁",
+   "background": {
+      "service_worker": "ntabackground.js"
+   },
+   "content_scripts": [ {
+      "js": [ "ntacontent.js" ],
+      "matches": [ "https://login.e-tax.nta.go.jp/*", "https://login.e-tax.nta.hq.admix.go.jp/*", "https://mypage.e-tax.nta.go.jp/*", "https://mypage.e-tax.nta.hq.admix.go.jp/*", "https://uketsuke.e-tax.nta.go.jp/*", "https://uketsuke.e-tax.nta.hq.admix.go.jp/*", "https://clientweb.e-tax.nta.go.jp/*", "https://clientweb.e-tax.nta.hq.admix.go.jp/*", "https://cps.e-tax.nta.go.jp/*", "https://kaishi.e-tax.nta.go.jp/*", "https://kaishi.e-tax.nta.hq.admix.go.jp/*", "https://www.koubai-e-nyusatsu.nta.go.jp/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "ICカードリーダライタが接続されたパソコンからマイナンバーカードを利用したe-Taxへのログインや、電子証明書の発行機関が提供するICカードを利用した申告・申請等データへの署名、申請データ作成時のCSVファイル等を読込む機能等を提供するアプリケーションです。",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgQiRv9+LPQPqbiT5A0ITxZg+RRaPhp/PZ+HSFJSn6jeC0+7TIWNeIQYtBEcgD+361YNHskth5/hunXlPdjt0O2tK9Z2wfYmnHII9U4767oC4qQ+YMrlQwzNFzgs8xsu87om8QnQHxovksRW0ZPvaQVnF+2j1NJ/f4VHFylzKfou/RZn4zxeA/g3vwzoHPDjDVv8B4dojR/WPGv5ucB1s9/ocnSrEqu6iLuc/hDf0KCBjA1gTub8ONcjPFzYeUpUH8Tc3khcsJpyR+fzc8oQKDEPvYECAmcxxfvRKcFJ3yN2jgMVrHht+N18QEhfmbAxVSEHluY4BhCRiva7oSzhV+wIDAQAB",
+   "manifest_version": 3,
+   "name": "e-Tax AP",
+   "permissions": [ "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.3.0"
+}

@@ -1,0 +1,77 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "Icon-16.png",
+         "24": "Icon-24.png",
+         "32": "Icon-32.png"
+      }
+   },
+   "author": "NortonLifeLock Inc",
+   "background": {
+      "service_worker": "serviceWorker.js"
+   },
+   "chrome_url_overrides": {
+      "newtab": "homePageRedirect.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "content/libs/uri.min.js", "content/scripts/SymBfwCS.js", "content/scripts/BfwNotificationCenterProxy.js", "content/scripts/NSSSDarkModeCS.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "content/scripts/SymBfwCS.js", "content/scripts/NSSS_CS.js", "content/scripts/portalInstallFlowCS.js", "content/scripts/NSSSDarkModeCS.js", "content/scripts/webCommunication.js" ],
+      "matches": [ "https://*.norton.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "js": [ "ContextInit.js", "content/scripts/SymBfwCS.js", "content/scripts/NSSS_CS.js", "content/scripts/NSSSDarkModeCS.js", "content/scripts/keepAssistHelper.js" ],
+      "matches": [ "https://nortonsafe.search.ask.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "content/ui/annotationStyles.css" ],
+      "include_globs": [ "https://*.google.*/*", "https://nortonsafe.search.ask.com/*", "https://*.adsensecustomsearchads.com/*", "https://*.syndicatedsearch.goog/*" ],
+      "js": [ "content/libs/react-latest.min.js", "content/libs/react-dom-latest.min.js", "content/scripts/SymBfwCS.js", "content/scripts/annotationCS.js" ],
+      "matches": [ "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "content/ui/annotationStyles.css" ],
+      "js": [ "content/libs/react-latest.min.js", "content/libs/react-dom-latest.min.js", "content/scripts/SymBfwCS.js", "content/scripts/annotationCS.js" ],
+      "matches": [ "https://*.syndicatedsearch.goog/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "content/ui/annotationStyles.css" ],
+      "include_globs": [ "https://*.yahoo.*/*" ],
+      "js": [ "content/libs/react-latest.min.js", "content/libs/react-dom-latest.min.js", "content/scripts/SymBfwCS.js", "content/scripts/annotationCS.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_hpDesc__",
+   "host_permissions": [ "https://*.norton.com/*" ],
+   "icons": {
+      "128": "Icon-128.png",
+      "16": "Icon-16.png",
+      "32": "Icon-32.png",
+      "48": "Icon-48.png",
+      "64": "Icon-64.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvbsLNtu3KJQyLb1vl1Q+AQ+8nEOqABm1q7qHpWMpJJssrspQeeEC+dPWjUdk51lAapJnMGKfPFA03ySmCDYFUT0PNXMW/HRfc/8DyWf/+R+guamAlyUULsqe5PNVTq/o3Vjlj+yIJEvXlRzqmzI36fsnrY31ymrPgAuPxICgg9q8gP2FtxCgDkmX15KMgplzyCkzoMAGKVK3g+GCujWA8ovJrYdBhkJayNXswBiyUYvXaLk3oYMJq2xWB7viSTLD/t47sK+4uZPyOMuyPezDBlcDb20CI/f9h/7UeHweAVKaa3nOalRX9N8mA2aK6u1Ll0Y41tYkS9mZFFbKyF86PwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_hpName__",
+   "optional_permissions": [ "bookmarks", "favicon", "topSites" ],
+   "options_page": "homePage.html?launchedOn=settingsClick",
+   "permissions": [ "tabs", "storage", "scripting", "alarms", "unlimitedStorage", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.23.0.14",
+   "version_name": "3.23.0.14",
+   "web_accessible_resources": [ {
+      "extension_ids": [  ],
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "content/scripts/*.js", "content/libs/*.js", "content/ui/content-page.css", "content/ui/homePage.css", "content/ui/*.html" ]
+   } ]
+}

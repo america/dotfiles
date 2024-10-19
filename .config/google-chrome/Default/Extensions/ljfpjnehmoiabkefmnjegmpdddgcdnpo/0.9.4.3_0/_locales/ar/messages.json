@@ -1,0 +1,170 @@
+{
+   "conf_clearall": {
+      "message": "مسح الكل"
+   },
+   "conf_none": {
+      "message": "لاشيء"
+   },
+   "conf_notsaved": {
+      "message": "لم يُحفظ"
+   },
+   "conf_save": {
+      "message": "حفظ"
+   },
+   "conf_saved": {
+      "message": "تم حفظه"
+   },
+   "conf_setdefault": {
+      "message": "ضعه الافتراضي"
+   },
+   "ext_description": {
+      "message": "يمكن لهذه الإضافة تبديل وكيل المستخدم لمستعرض الإنترنت ، كما تمكنك من العثور على جميع عناوين HTTP."
+   },
+   "ext_name": {
+      "message": "Ultimate User Agent Switcher, URL sniffer"
+   },
+   "msg_active": {
+      "message": "فعّال"
+   },
+   "msg_activenow": {
+      "message": "تفعيل الآن !!"
+   },
+   "msg_add": {
+      "message": "أضف جديد"
+   },
+   "msg_agentstring": {
+      "message": "جملة تعريف وكيل المستخدم"
+   },
+   "msg_apply": {
+      "message": "تطبيق"
+   },
+   "msg_areyousure": {
+      "message": "هل أنت متأكد ؟"
+   },
+   "msg_autocloseonclick": {
+      "message": "الإغلاق الآلي عند الضغط في أي مكان في الصفحة"
+   },
+   "msg_autorefresh": {
+      "message": "تحديث آلي للتبويب الحالي"
+   },
+   "msg_autoselectinput": {
+      "message": "الاختيار الآلي عند الضغط على مربع الإدخال"
+   },
+   "msg_changedua": {
+      "message": "وكيل المستخدم الذي تم تغييره"
+   },
+   "msg_clearlog": {
+      "message": "مسح"
+   },
+   "msg_close": {
+      "message": "إغلاق"
+   },
+   "msg_defaultchrome": {
+      "message": "الافتراضي (حالياً Chrome)"
+   },
+   "msg_defaultstring": {
+      "message": "القيمة الفارغة هي جملة تعريف وكيل المستخدم الافتراضية لـ Chrome"
+   },
+   "msg_delete": {
+      "message": "حذف"
+   },
+   "msg_edit": {
+      "message": "تحرير"
+   },
+   "msg_enablepattern": {
+      "message": "تمكين النمط"
+   },
+   "msg_enablesniffer": {
+      "message": "تفعيل كاشف عناوين الـ URL"
+   },
+   "msg_enableurlpattern": {
+      "message": "تمكين نمط عنوان URL"
+   },
+   "msg_export": {
+      "message": "تصدير"
+   },
+   "msg_filter": {
+      "message": "المرشحات المطلوب تطبيقها"
+   },
+   "msg_filterstoapply": {
+      "message": "مرشحات للتطبيق (إذا لم تختر مرشحاً فسينطبق هذا على كل المرشحات)"
+   },
+   "msg_filtertoview": {
+      "message": "المرشحات المطلوب عرضها"
+   },
+   "msg_header": {
+      "message": "الترويسة"
+   },
+   "msg_higherpriority": {
+      "message": "العدد الأصغر له أولوية أعلى"
+   },
+   "msg_import": {
+      "message": "استيراد"
+   },
+   "msg_link": {
+      "message": "رابط"
+   },
+   "msg_loaddefault": {
+      "message": "تحميل الافتراضي"
+   },
+   "msg_loadeddefault": {
+      "message": "تم تحميل القيم الافتراضية."
+   },
+   "msg_movedown": {
+      "message": "تحريك للأسفل"
+   },
+   "msg_moveup": {
+      "message": "تحريك للأعلى"
+   },
+   "msg_myuseragent": {
+      "message": "وكيل المستخدم الخاص بي"
+   },
+   "msg_name": {
+      "message": "الاسم"
+   },
+   "msg_occurerror": {
+      "message": "هنالك خطأ."
+   },
+   "msg_option": {
+      "message": "خيارات"
+   },
+   "msg_orgheader": {
+      "message": "الترويسة الأصليّة"
+   },
+   "msg_pattern": {
+      "message": "نمط"
+   },
+   "msg_ratedesc": {
+      "message": "إذا أعجبتك هذه الإضافة ، قم بتقييمها بـ 5 نجوم وأخبر أصدقاءك"
+   },
+   "msg_ratethisitem": {
+      "message": "قيّم هذه الإضافة"
+   },
+   "msg_refresh": {
+      "message": "تحديث"
+   },
+   "msg_regexp": {
+      "message": "يمكن استخدام التعبير العادي.  ألصق \"/r\" قبل التعبير العادي."
+   },
+   "msg_selectone": {
+      "message": "فضلاً اختر واحداً"
+   },
+   "msg_time": {
+      "message": "الوقت"
+   },
+   "msg_useragentlist": {
+      "message": "قائمتي لوكلاء المستخدم"
+   },
+   "msg_userpattern": {
+      "message": "نمط المستخدم"
+   },
+   "msg_view": {
+      "message": "عرض"
+   },
+   "msg_viewlog": {
+      "message": "عرض سجل كاشف عناوين الـ URL"
+   },
+   "msg_viewlog2": {
+      "message": "عرض السجل"
+   }
+}

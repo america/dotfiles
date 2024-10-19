@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            max-width: 640px;
+            min-width: 480px;
+            background-color: #f5f8fa;
+            font-size: 14px;
+            line-height: 2.0;
+            letter-spacing: 0.05em;
+            color: #333;
+            padding: 0 5px;
+        }
+        h1,h2,h3,h4,h5,h6{
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        kbd {
+            padding: 0em 0.6em;
+            font-family: Arial,Helvetica,sans-serif;
+            background-color: #a0deb3;
+            color: #333;
+            box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #a5ccb1 inset;
+            border-radius: 3px;
+            display: inline-block;
+            margin: 0px 0.1em;
+            white-space: nowrap;
+            font-weight: bolder;
+        }
+
+        #license-status, #trial-days {
+            font-weight: bold;
+        }
+        .button{
+            border-width: 0;
+            border-radius: 2px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+            text-align: center;
+            padding: 5px 10px;
+            margin: 5px;
+            display: block;
+            cursor: pointer;
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover{
+            background-color: #0061ca;
+        }
+        .btn-primary:active{
+            background-color: #003977;
+        }
+        .player-control-icon {
+            width: 40px;
+            height: 40px;
+            filter: brightness(0) invert(1) drop-shadow(1px 1px 2px #000000);
+            margin: 0 10px 10px 0;
+            float: left;
+        }
+
+        .alert{
+            padding: .75rem 1.25rem;
+            margin-bottom: 5px;
+            border: 1px solid transparent;
+            border-radius: .25rem;
+        }
+
+        .alert-warning{
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+    </style>
+  </head>
+  <body>
+      <h3>Hulu 同時字幕で英語学習</h3>
+
+      <h4>ライセンス</h4>
+
+      <div>
+          ライセンス認証方法は<a href="https://sites.google.com/view/niko-hulu-license" target="_blank">こちらのページ</a>をご覧ください。
+          ライセンスの問題の解決方法は<a href="https://sites.google.com/view/niko-hulu-license" target="_blank">こちらのページ</a>をご覧ください。
+      </div>
+
+      <h4>同時字幕</h4>
+      <div>
+          英語字幕と日本語字幕の表示が対応している動画、設定アイコンをクリックして日本語と英語がグレーアウトしていない動画を開きます。
+          同時字幕の有効化をOnにしてください。
+          同時字幕の有効化をOnにしていても、設定アイコンをクリックして日本語と英語のどちらかがグレーアウトしていると同時字幕ができませんのでご注意ください。
+          同じ映像でもタイトルに（字）又は（吹）が含まれている動画がありますので、その場合は（字）の動画を選択してください。
+      </div>
+
+      <h4>ひとつのセリフをリピート再生</h4>
+      <div>
+          <img class="player-control-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QAdADEADhLtXtyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gcODSAQRUwcnwAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAASvSURBVHja7ZpbiFZVFIC/NTNmkmN2UVMss7KCSrQhK7tgRGImPRSW9BIkZT4E2kMvqRiWUNFDEBSlD2owQhZFgWVJCimVSqgPJTI6WSjZTSU1Tf+vhznKMMx//sucf+bMZcF5Wvvsvde3115n7bUP9HOJchuqdwLbIuJMtYOpFwFTgFuAsZ00OQIcArZGxJ5ckVJfU5vVhgrfG6EuUDerZy1fDqur1RmFQiHyAsByIag3q6vUU3ZdWtTn1QvzACAVgjpcfafC1S5XDqiz8wCgUwjqLPU3ay/N6sU9DeDcROrVOnVZjVa9mOxTb+yqXQ1dfH9O8iUJ4LEK3y0AZ4ATyfuN7foqR8YDW9SHI2JLT3lApbJbXapOUxvbbyF1kHqNOkd9Xz1aZp9H1FvzDKCgfqTeUeF4jer8JPCVkoPqlXkEsF+9r4vjDlXfSECmyTeV5ii1BrBWHZbh+DPVYyXGXJwXAK3qBTWYw9QSEP5Vx1fSZ12NeI0DVhUKhfpMDy4RW4EHgf+KNBkMvJKnGNBcKBQaajCXeSljnlWv62kPOJ8nRMSaGgSnd4GtKTbNy1se0Jw1BHVyypfhkDooDx7QPmPM1BMi4gfgiyLqK4CpeQJwHkLGMWFlim563gDUIiasB04V0ZWVHlcyke+S4JOFTAO+ymAbHFe3A3d1or6hXxQ11fdSgm/Jk2WDOreXM7gkRTdXtdQWGNvLAQxN0Y0FzFMQzJ10DIIHgN97mQ2TU3Q7OvGAMcDoYgB2RcSOXhYEnyyi+hv4LCLs0H5aewC9egskUf7eIuqWjsb3xRgwCRhZRLczj5lg1vJoim5LnwagDgWeLaI+DXzarQCSu8Bh3cjgOeCyIrqNEfFHtwBQR6lvJ3vu9W5a/QnA0hIFE2oKQL1AXQj8lLhiHfC0+niNjR8CrAOKFV33Ap9UmwiVO4nbgdXA9R0PaMAK9ZekgJm18YOBD4CJKc0WlfP566oHDOnE+Pa5+efqAzUIeh8CD6U025QAoqYAImITsCKlSSOwXn0xi+KHOhH4toTxx4FnKln9rgbBhcCuFH098DLwfXIZGlUYfrn6KrAduKlE8/kRsbfSMaoGEBH/AI/Q9lNTqcPK18A29Sl1ZAmjB6l3q28B+4AXgFIV3uURsSaL02ClEFrU+4HNwIgSzZtoK2KeVXcn3nMS2AMMTw4oo5LcfngF01hZKBQWZXUcrgbCj+o9tJWox5XxSn2Sw0/qamgAlquL6+vrrbaTTDLB5J++JmBDN2WBR4EnImJRXV2dXekos1Q4Iv4EZgALgGM1NP5LoCki1mbRWaaHoYgwIt4EJiTp6OkMu98JzI6I6RHRklWnNTkNRsThiJgHXA0sS9LlauQE8DEwE5gcEeuynmtDLTdqRBwClgBLkmRmBnAbcG0Cp2NJez/wM7CbttvfDRHxVy3nWM4vr00Zjrcxec6dGzqL7O1lfKV/fHQiB5OFqNoDZvXyqtHmtGSt398LDFyMlBHIXhrwgP7sAWVUhobkwI7WiGjtiTxgCnBpThazdWAL9IAHHM2JHSd7BEBErB74CgwAGADQp4LgRHV0H7d5TBqAq5JnYAv0py3wa38G8D+6rGPSt80uGwAAAABJRU5ErkJggg==">
+          現在表示されているセリフの開始地点に移動して再度再生します。 同時字幕を有効化してから動画下のコントロールバーにあるアイコンをクリック。 又は、キーボードの <kbd> N </kbd> 又は <kbd> A </kbd> キーを押してください。 「セリフの終了直前に一時停止」機能で停止させてから押すたびに、ひとセリフを何度も繰り返し再生できます。
+      </div>
+
+      <h4>前のセリフや次のセリフに移動して再生</h4>
+      <div>
+          <kbd> N </kbd> 又は <kbd> A </kbd> キーを素早く2回押すと前の英語字幕の開始地点に移動して再生します。
+          <kbd> H </kbd> 又は <kbd> D </kbd> キーを押すと次の英語字幕の開始地点に移動して再生します。
+      </div>
+
+      <h4>再生と停止</h4>
+      <div>
+          <kbd> V </kbd> 又は <kbd> W </kbd> キーを押します。hulu独自のショートカットキーの再生と停止は<kbd> Space </kbd> キーです。
+      </div>
+
+      <h4>英語字幕の非表示と表示</h4>
+          キーボードの <kbd> J </kbd> 又は <kbd> S </kbd> キーを押してください。
+      </div>
+
+      <h4>再生速度の変更</h4>
+      <div>
+          テンキーの <kbd> 4 </kbd> と <kbd> 6 </kbd>
+          キーを押して再生速度の変更が出来ます。0.2倍速から2.0倍速までです。
+      </div>
+
+      <h4>巻き戻し</h4>
+      <div>
+          <img class="player-control-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gcOAR06/QVkkwAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAASzSURBVHja7ZtbiFZVFMf/a26al6whc7xNBIbjS0nkrYsGhiIkQWA+hE0P2YMM9RD1ItVDT0JWDyUqPUUXIcLoYgVhYIJF0SQpWVmWw0xOM2nopOOMM78evj0gw/h9+5zv7H0+Tv6fZvgW+/I/a++19l7/LV3F/xs29gewSdJbZjaaZQeAJM2XtETSrZIWSVogabKkekkjznRQ0l+Sfpf0i6RvJH0v6ZyZhWcCOAS8BtRl0FYdsAJ4EfgRGCEdzgNfAE8BrY7MoARQDQnAtcATbtJZYxj4BFiXxUcqRwDAjiSduIk/B5wmDg4DDwAWigAvEgADHga6yQefA22hCADYfSUSgLnAPvLHeeDpqpfFFQiYkATgPqCX2sLHQHMIAgDeABoAAR1uQ6pFHAMWJJl3g6fdJhez/5bUcXn+kAKDkrok/eP+75M0TdJ0Sc2SWqtof6GkA8AaMzuSNBE6JGl5iAgr6VtJeyXtl3RY0uBEyY2L87MkLZO0VtKDklpS9NkraZWZ/ZTVEkiDc8CrwMK0CQzQCKwH9gOjCfv/DWjJg4BLwOvAnCzTaWC1i/9JcBBoiknAceDugNlqo0u4kmzC22MR8D4wI8YJznlDv+e4RoB7QxPwMlAf8xgLtAFdCcLj5InayepQMdXt9vHO8WbHJK2W9KdneHwy9BLYHeSUVtkTlrp0uBLOANeH3gTzIuExz/FtjREGo5PgTqUfeIytB5gUIxHKg4SbPZfChhCb4HhslrQzJglmdkLSDg/TR2KlwtE9AZgDDFYY07/A9NAekIsnmFmPpA8rmE2RtCoWAXkshz0eNitjEhCbhM8kXahgs2KiC5GfXbEiFJY4InYFXgYDQKekO8uYLQLqzWykkOUu4BWPDXp2zCUQGyc8bJqLTMApD5tJRSag38OmqcgEeKOoBFznYXOpyATM9LC5WGQCWj1szhaZgNsr/D4wdpVWOAKABpd1lsNxMxsqqgcsH0tyyuDrIkeBhzxsDhb1DDAV6PMo3bUU1QPaJd3g4f6nqmW6qQa//jRPrdKWqibuNHtdSZUYEQjY5jH5gVQyGnfvfv84/d+XLuTUwuTvAoY8CNiZpvG2MmqwbUHVm37jmw384TH5oURe68SP24GLZRodBTbnvO6/8ryi35W08Y4EEtb22J4AzHDSGR+cBm5Ms+F1JhAhbI119Q3cBHyXoEDzeNqOFgMXEnS0F5gZcOJyoqm+BGP6tKoPA2xJWA7rBR7NWjECzAfeSagWOwnMqrZjc6qvpOgENlabNDl3f8nF8CQYAJZmxX4T8FHKAmm3u6e/x4cM5+Ytzov2pZTlDgHrfeZmCUiYopLac00VXA5IOiLpqKQzKlWieiTNkzQsaa6k21R6UpNWLjskqd3M9oTYhJqAt6ldnAXWhQ5BdcDz7lhZS/gVWBwrCRGwNseXIuPxblkFWEAiml2EyMsbuoENmb4dSukNy9zztphr/YXLpS61cCSVC3XvBXxR0g08GzLbzIqMecAz7qRWLRn9wJsuBW7MeqwW2itUKlOtlHSHSk9nb3Fx/5rx5io9yTnpcoUfJB2Q1Glmw6HGaDl5SL1KBcxGlWQ6wyqVqgbNDF1FPPwHS+adQ2FbWM0AAAAASUVORK5CYII=">
+          <kbd> B </kbd> キー、又はテンキーの <kbd> 1 </kbd>を押して巻き戻します、初期値は3秒です。聞き取れなかった英語を再度素早く聞き直すのに便利です。
+      </div>
+
+      <h4>セリフの終了直前に一時停止</h4>
+      <div>
+          <img class="player-control-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gcNFTMWzUClHgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAE+SURBVHja7ZcxTsMwFIb/oi6sDEitKiZYWZDAgwcO0FuUI/gCLEw+BWfgAkgevHRhZYmqig5MDBVi68LA0oQSm6T190mZnp4Tf34vtiUAAIBiGaQe0AXzKul8W9zbOMiZvytHpVcAAhCAAAQgoOhzgAtmlnjMB0mnNfG7zPk7MZQ0SSxg2BCfZM6nBdqs1kLSe8sxvxri88z5TYwljbYJePE2tnqBC2ZdF/c2PuXM/8X33f4UwDaIAAQgAAEI4CCUDm/jRZf5VAACEIAABCAAAQhAAAIQkOYu4IK52vM5vnkbV20uQ9M9F/AsaUULIOCPLeBtvKcCSq6Ahh3iRtJxD+ZReRurfxcg6VrSSU8Ws6IFOqiAj57M47MTAd7GR3YBBCDgoH6Cly6Y0YHPeVwn4Oz7oQVKaoGlAAAAoEQ2AhA6JiMwQXkAAAAASUVORK5CYII=">
+          動画左下のコントロールバーにあるアイコンをクリックしてください。
+      </div>
+
+      <h4>字幕の英単語とフレーズをお気に入りに追加</h4>
+      <div>
+          英語字幕の英単語を右クリックしてその英単語とフレーズをお気に入りに追加します。
+      </div>
+
+      <h4>字幕一覧</h4>
+      <div>
+          字幕一覧ボタンをクリックするとその動画の英語字幕のすべてのフレーズが一覧で表示されます。再生ボタンをマウスオーバーすると日本語字幕が表示されます。
+      </div>
+
+      <h4>字幕の英単語をクリック時の辞書</h4>
+      <div>
+          英語字幕をクリックするとデフォルトで「英辞郎 on the web」が開きます。その他の辞書、英英辞典などを使用する場合は設定から変更してください。
+      </div>
+
+      <h4>英語字幕の動画一覧</h4>
+      <div>
+          <a href="https://www.hulu.jp/browse/editorial/13163" target="_blank" class="button">
+              海外ドラマを英語字幕で楽しむ
+          </a>
+          <a href="https://www.hulu.jp/browse/editorial/13205" target="_blank" class="button">
+              洋画を英語字幕で楽しむ
+          </a>
+      </div>
+
+      <script src="../../dist/popup.js"></script>
+  </body>
+</html>

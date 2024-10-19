@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "מנהל סיסמאות מבוסס ענן שמקל על הכניסה לאתרים המועדפים עליך."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Norton Password Manager"
+   }
+}

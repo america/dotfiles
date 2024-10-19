@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "お気に入りのサイトに簡単にログインできるクラウドベースのパスワード マネージャー。"
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "ノートン パスワード マネージャー"
+   }
+}

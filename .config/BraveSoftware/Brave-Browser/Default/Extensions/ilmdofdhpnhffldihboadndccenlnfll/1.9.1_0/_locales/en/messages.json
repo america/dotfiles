@@ -1,0 +1,23 @@
+{
+   "ext_description": {
+      "message": "Extract and save ChatGPT conversations to markdown, text, JSON, CSV and images."
+   },
+   "ext_fulltitle": {
+      "message": "ChatGPT Exporter - Extract chat convos easily"
+   },
+   "ext_name": {
+      "message": "ChatGPT Exporter"
+   },
+   "ext_subname": {
+      "message": "Extract ChatGPT convos easily"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "language": {
+      "message": "English"
+   },
+   "thanks": {
+      "message": "Build with ❤️. Thanks for using."
+   }
+}

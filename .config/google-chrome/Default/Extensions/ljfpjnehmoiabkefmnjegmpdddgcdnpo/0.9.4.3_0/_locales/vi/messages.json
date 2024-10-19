@@ -1,0 +1,185 @@
+{
+   "conf_clearall": {
+      "message": "Xóa tất cả"
+   },
+   "conf_none": {
+      "message": "Không"
+   },
+   "conf_notsaved": {
+      "message": "Không thể lưu được."
+   },
+   "conf_save": {
+      "message": "Lưu"
+   },
+   "conf_saved": {
+      "message": "Đã lưu"
+   },
+   "conf_setdefault": {
+      "message": "Về mặc định"
+   },
+   "ext_description": {
+      "message": "This extension can switch the user agent of a browser. and it allows you to find all HTTP URLs."
+   },
+   "ext_name": {
+      "message": "Ultimate User Agent Switcher, URL sniffer"
+   },
+   "locale": {
+      "message": "vi"
+   },
+   "msg_active": {
+      "message": "Kích hoạt"
+   },
+   "msg_activenow": {
+      "message": "Kích hoạt ngay bây giờ"
+   },
+   "msg_add": {
+      "message": "Thêm mới"
+   },
+   "msg_agentstring": {
+      "message": "Chuỗi đại diện"
+   },
+   "msg_apply": {
+      "message": "Áp dụng"
+   },
+   "msg_applycurrenttab": {
+      "message": "Chỉ áp dụng cho các tab hiện tại"
+   },
+   "msg_areyousure": {
+      "message": "Bạn có chắc chắn?"
+   },
+   "msg_autocloseonclick": {
+      "message": "Tự động tắt khi nhấn chuột vào vị trí bất khì trên trang"
+   },
+   "msg_autorefresh": {
+      "message": "Tự động tải lại"
+   },
+   "msg_autoselectinput": {
+      "message": "Tự động chọn khi nhấn chuột vào hộp."
+   },
+   "msg_changedua": {
+      "message": "Thay đổi tên đại diện trình duyệt"
+   },
+   "msg_clearlog": {
+      "message": "Xóa"
+   },
+   "msg_close": {
+      "message": "Đóng"
+   },
+   "msg_defaultchrome": {
+      "message": "Mặc định(hiện tại Chrome)"
+   },
+   "msg_defaultstring": {
+      "message": "Để trống có nghĩa chọn Chrome"
+   },
+   "msg_delete": {
+      "message": "Xóa"
+   },
+   "msg_edit": {
+      "message": "Sửa"
+   },
+   "msg_enablepattern": {
+      "message": "Kích hoạt mẫu"
+   },
+   "msg_enablesniffer": {
+      "message": "Kích hoạt URL sniffer"
+   },
+   "msg_enableurlpattern": {
+      "message": "Kích hoạt URL pattern"
+   },
+   "msg_export": {
+      "message": "Xuất"
+   },
+   "msg_filter": {
+      "message": "Lọc được áp dụng"
+   },
+   "msg_filterstoapply": {
+      "message": "Bộ lọc được áp dụng(Nếu không chọn tương đương chọn hêt)"
+   },
+   "msg_filtertoview": {
+      "message": "Xem bộ lọc"
+   },
+   "msg_header": {
+      "message": "Tiêu đề"
+   },
+   "msg_hidefromlist": {
+      "message": "Ẩn từ người dùng danh sách đại lý"
+   },
+   "msg_higherpriority": {
+      "message": "Số nhỏ hơn ưu tiên cao hơn."
+   },
+   "msg_import": {
+      "message": "Nhập"
+   },
+   "msg_link": {
+      "message": "Liên kết"
+   },
+   "msg_loaddefault": {
+      "message": "Về mặc định"
+   },
+   "msg_loadeddefault": {
+      "message": "Đã tải giá trị mặc định."
+   },
+   "msg_movedown": {
+      "message": "Xuống"
+   },
+   "msg_moveup": {
+      "message": "Lên trên"
+   },
+   "msg_myuseragent": {
+      "message": "Đại diện của tôi"
+   },
+   "msg_name": {
+      "message": "Tên"
+   },
+   "msg_occurerror": {
+      "message": "Có lỗi xảy ra."
+   },
+   "msg_option": {
+      "message": "Tùy chỉnh"
+   },
+   "msg_orgheader": {
+      "message": "Tiêu đề chính"
+   },
+   "msg_pattern": {
+      "message": "Mẫu"
+   },
+   "msg_ratedesc": {
+      "message": "Bạn có thể giúp chúng tôi bằng cách đánh giá 5 sao cho ứng dụng và giới thiệu cho bạn bè."
+   },
+   "msg_ratethisitem": {
+      "message": "Đánh giá ứng dụng này"
+   },
+   "msg_refresh": {
+      "message": "Làm tươi"
+   },
+   "msg_refreshalltabs": {
+      "message": "Làm mới tất cả các tab"
+   },
+   "msg_regexp": {
+      "message": "You can use regular expression. paste \"r/\" before regular expression."
+   },
+   "msg_select": {
+      "message": "Select"
+   },
+   "msg_selectone": {
+      "message": "Vui lòng chọn một."
+   },
+   "msg_time": {
+      "message": "Thời gian"
+   },
+   "msg_useragentlist": {
+      "message": "Danh sách đại diện"
+   },
+   "msg_userpattern": {
+      "message": "Patten của bạn"
+   },
+   "msg_view": {
+      "message": "Xem"
+   },
+   "msg_viewlog": {
+      "message": "Xem lịch sử URL sniffer"
+   },
+   "msg_viewlog2": {
+      "message": "Xem log"
+   }
+}

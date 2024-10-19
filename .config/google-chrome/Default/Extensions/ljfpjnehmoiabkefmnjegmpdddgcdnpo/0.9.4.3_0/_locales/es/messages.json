@@ -1,0 +1,179 @@
+{
+   "conf_clearall": {
+      "message": "Limpiar todo"
+   },
+   "conf_none": {
+      "message": "Nada"
+   },
+   "conf_notsaved": {
+      "message": "No ha sido guardado"
+   },
+   "conf_save": {
+      "message": "Guardar"
+   },
+   "conf_saved": {
+      "message": "Ha sido guardado"
+   },
+   "conf_setdefault": {
+      "message": "Configuración predeterminada"
+   },
+   "ext_description": {
+      "message": "This extension can switch the user agent of a browser. and it allows you to find all HTTP URLs."
+   },
+   "ext_name": {
+      "message": "Ultimate User Agent Switcher, URL sniffer"
+   },
+   "locale": {
+      "message": "Ingles"
+   },
+   "msg_active": {
+      "message": "Activar"
+   },
+   "msg_activenow": {
+      "message": "¡¡Activar Ahora!!"
+   },
+   "msg_add": {
+      "message": "Añadir nuevo"
+   },
+   "msg_agentstring": {
+      "message": "Cadena de Agente Usuario"
+   },
+   "msg_apply": {
+      "message": "Solicitar"
+   },
+   "msg_applycurrenttab": {
+      "message": "Aplicar sólo en la pestaña activa"
+   },
+   "msg_areyousure": {
+      "message": "¿Estás seguro?"
+   },
+   "msg_autocloseonclick": {
+      "message": "Auto cierre al hacer click sobre cualquier lugar de la página"
+   },
+   "msg_autorefresh": {
+      "message": "Auto refresco de la pestaña actual"
+   },
+   "msg_autoselectinput": {
+      "message": "Auto selección al hacer click en el cuadro de entrada"
+   },
+   "msg_changedua": {
+      "message": "Agente Usuario cambiado"
+   },
+   "msg_clearlog": {
+      "message": "Limpiar"
+   },
+   "msg_close": {
+      "message": "Cerrar"
+   },
+   "msg_defaultchrome": {
+      "message": "Predeterminado (Actual: Chrome)"
+   },
+   "msg_defaultstring": {
+      "message": "Un valor vacío es una cadena por defecto de Agente Usuario de Chrome."
+   },
+   "msg_delete": {
+      "message": "Borrar"
+   },
+   "msg_edit": {
+      "message": "Editar"
+   },
+   "msg_enablepattern": {
+      "message": "Habilitar patrón"
+   },
+   "msg_enablesniffer": {
+      "message": "Habilitar el rastreador de URL"
+   },
+   "msg_enableurlpattern": {
+      "message": "Habilitar el patrón URL"
+   },
+   "msg_export": {
+      "message": "Exportar"
+   },
+   "msg_filter": {
+      "message": "Filtros a aplicar"
+   },
+   "msg_filterstoapply": {
+      "message": "Filtros a aplicar (Si no seleccionas ningún filtro, selecciona todos los filtros)"
+   },
+   "msg_filtertoview": {
+      "message": "Filtros a ver"
+   },
+   "msg_header": {
+      "message": "Cabecera"
+   },
+   "msg_higherpriority": {
+      "message": "Un número más pequeño tiene una mayor prioridad."
+   },
+   "msg_import": {
+      "message": "Importar"
+   },
+   "msg_link": {
+      "message": "Enlace"
+   },
+   "msg_loaddefault": {
+      "message": "Carga predeterminada"
+   },
+   "msg_loadeddefault": {
+      "message": "Se han cargado los valores por defecto."
+   },
+   "msg_movedown": {
+      "message": "Mover Abajo"
+   },
+   "msg_moveup": {
+      "message": "Mover Arriba"
+   },
+   "msg_myuseragent": {
+      "message": "Mi Agente Usuario"
+   },
+   "msg_name": {
+      "message": "Nombre"
+   },
+   "msg_occurerror": {
+      "message": "Hay un error."
+   },
+   "msg_option": {
+      "message": "Opciones"
+   },
+   "msg_orgheader": {
+      "message": "Cabecera Original"
+   },
+   "msg_pattern": {
+      "message": "Patrón"
+   },
+   "msg_ratedesc": {
+      "message": "Si te gustó, apreciaríamos que nos calificaras con 5 estrellas y se lo cuentes a tus amigos."
+   },
+   "msg_ratethisitem": {
+      "message": "Califica esta extensión"
+   },
+   "msg_refresh": {
+      "message": "Refrescar"
+   },
+   "msg_refreshalltabs": {
+      "message": "Actualizar todas las pestañas"
+   },
+   "msg_regexp": {
+      "message": "Puedes utilizar expresiones comunes. Pega \"r/\" antes de una expresión común."
+   },
+   "msg_selectone": {
+      "message": "Por favor, selecciona uno."
+   },
+   "msg_time": {
+      "message": "Tiempo"
+   },
+   "msg_useragentlist": {
+      "message": "Mi lista de Agente Usuario"
+   },
+   "msg_userpattern": {
+      "message": "Patrón de usuario"
+   },
+   "msg_view": {
+      "message": "Vista"
+   },
+   "msg_viewlog": {
+      "message": "Ver el log del rastreador de URL"
+   },
+   "msg_viewlog2": {
+      "message": "Ver registro"
+   }
+}

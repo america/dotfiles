@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>A71304FF-25FA-4809-A1ED-EA9BE58C927C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extension-UI-Assets" transform="translate(-129.000000, -759.000000)" fill="">
+            <g id="Sign-In-Specific" transform="translate(31.000000, 646.000000)">
+                <path d="M145.988497,196.452026 C126.372288,196.452026 110.470379,180.550013 110.470379,160.934013 C110.470379,141.318327 126.372288,125.416314 145.988497,125.416314 C165.604497,125.416314 181.506614,141.318327 181.506614,160.934013 C181.506614,180.550013 165.604497,196.452026 145.988497,196.452026 M98,160.988497 C98,187.49119 119.485281,208.976993 145.988497,208.976993 C172.491712,208.976993 193.976889,187.49119 193.976889,160.988497 C193.976889,134.485281 172.491712,113 145.988497,113 C119.485281,113 98,134.485281 98,160.988497 Z" id="img_sign-in_animation" transform="translate(145.988444, 160.988497) scale(-1, 1) rotate(-90.000000) translate(-145.988444, -160.988497) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

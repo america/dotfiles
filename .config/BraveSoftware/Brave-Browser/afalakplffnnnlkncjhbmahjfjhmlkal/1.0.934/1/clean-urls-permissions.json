@@ -1,0 +1,9 @@
+{
+    "js_api": [
+        "*://*.youtube.com/*",
+        "*://*.instagram.com/*",
+        "*://open.spotify.com/*",
+        "*://www.tumblr.com/*",
+        "https://boocmp.github.io/clipboard/*"
+    ]
+}

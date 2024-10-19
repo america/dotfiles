@@ -1,0 +1,107 @@
+{
+   "BYODUpgradeLink": {
+      "message": "Mise à jour Mobility Print"
+   },
+   "BYODUpgradeMessage": {
+      "message": "Vous devez mettre à jour votre version du Mobility Print pour continuer à imprimer."
+   },
+   "ManagedUpgradeLink": {
+      "message": "View Migration Guide"
+   },
+   "ManagedUpgradeMessage": {
+      "message": "This version of Mobility Print will soon stop working. Ask your IT team to use this migration guide to upgrade you to the latest Mobility Print."
+   },
+   "accessDeniedByGroupRestriction": {
+      "message": "Accès à l'imprimante refusé par la restriction de groupe"
+   },
+   "clickToChoose": {
+      "message": "Cliquez sur \u003Cstrong>Changer\u003C/strong> pour choisir une imprimante."
+   },
+   "connectionFailedError": {
+      "message": "Nous avons détecté un problème de connexion réseau. Veuillez vérifier que vous êtes connecté au réseau et réessayer."
+   },
+   "continueWithGoogle": {
+      "message": "Connectez-vous avec Google"
+   },
+   "emailUnregisteredInPaperCut": {
+      "message": "Votre email n'est pas enregistré dans PaperCut. Veuillez contacter votre administrateur système."
+   },
+   "gSuiteNotSupportedError": {
+      "message": "La connexion Google n'est pas disponible pour le moment. Pour imprimer, utilisez votre nom d'utilisateur et votre mot de passe."
+   },
+   "grantAccessError": {
+      "message": "Pour imprimer, authentifiez-vous avec votre nom d'utilisateur et mot de passe d'impression ou votre compte Google."
+   },
+   "gsuiteDirectoryAccessNotConfigured": {
+      "message": "Echec de connexion. Vérifiez que votre G Suite est configuré pour permettre aux applications tierces d'accéder aux données de l'annuaire y compris au domaine et aux données publique."
+   },
+   "importantConnected": {
+      "message": "\u003Cstrong>Important :\u003C/strong> Vérifier que vous êtes connecté au réseau de votre organisation."
+   },
+   "indexTitle": {
+      "message": "Authentification Mobility Print"
+   },
+   "invalidCredentials": {
+      "message": "Nom d'utilisateur ou mot de passe invalide"
+   },
+   "loading": {
+      "message": "Chargement..."
+   },
+   "loginTitle": {
+      "message": "Authentification Mobility Print"
+   },
+   "makeSure": {
+      "message": "Vérifier que vous avez sélectionné une imprimante gérée par Mobility Print identifiée par l’icône PaperCut."
+   },
+   "migratedAndDeletedApp": {
+      "message": "Nous avons migré vos paramètres et supprimé l'ancienne application pour vous."
+   },
+   "openToPrint": {
+      "message": "Ouvrir la page pour imprimer."
+   },
+   "optionsTitle": {
+      "message": "Options Mobility Print"
+   },
+   "or": {
+      "message": "ou"
+   },
+   "password": {
+      "message": "Mot de passe"
+   },
+   "passwordRequired": {
+      "message": "Authentification requise pour imprimer"
+   },
+   "print": {
+      "message": "Connectez-vous et imprimez"
+   },
+   "readyToPrint": {
+      "message": "Vous êtes prêt à imprimer !"
+   },
+   "readyToPrintImported": {
+      "message": "Terminé ! Mobility Print a été mis à jour et vous êtes prêt à imprimer !"
+   },
+   "rememberMe": {
+      "message": "Se souvenir de moi"
+   },
+   "rightClick": {
+      "message": "Si l'impression est disponible, cliquez avec le bouton droit de la souris; Puis sélectionnez \u003Cstrong>Impression\u003C/strong>"
+   },
+   "selectFromList": {
+      "message": "Sélectionnez une imprimante de la liste."
+   },
+   "serverURI": {
+      "message": "URL du serveur Mobility Print"
+   },
+   "unknownGoogleAccountError": {
+      "message": "Compte d'utilisateur inconnu. Pour imprimer, utilisez votre nom d'utilisateur et votre mot de passe d'impression ou sélectionnez un autre compte Google."
+   },
+   "username": {
+      "message": "Nom d'utilisateur"
+   },
+   "welcomeToPrint": {
+      "message": "Bienvenue sur\u003Cbr/> PaperCut Mobility Print"
+   },
+   "whenPrompted": {
+      "message": "Lorsque vous y êtes invité, entrez votre nom d'utilisateur et votre mot de passe PaperCut."
+   }
+}

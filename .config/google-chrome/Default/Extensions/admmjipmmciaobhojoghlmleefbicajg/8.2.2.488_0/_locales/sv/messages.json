@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "En molnbaserad lösenordshanterare som gör det enkelt att logga in på dina favoritwebbplatser."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Norton Password Manager"
+   }
+}

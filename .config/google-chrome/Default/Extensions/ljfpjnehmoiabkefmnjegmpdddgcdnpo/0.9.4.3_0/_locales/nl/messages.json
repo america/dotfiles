@@ -1,0 +1,173 @@
+{
+   "conf_clearall": {
+      "message": "Maak alles schoon"
+   },
+   "conf_none": {
+      "message": "Geen"
+   },
+   "conf_notsaved": {
+      "message": "Is niet opgeslagen"
+   },
+   "conf_save": {
+      "message": "Bewaar"
+   },
+   "conf_saved": {
+      "message": "Is opgeslagen"
+   },
+   "conf_setdefault": {
+      "message": "Standaard instellen"
+   },
+   "ext_description": {
+      "message": "Deze extensie kan de user agent van een browser veranderen. Ook kan je hiermee alle HTTP URLs vinden."
+   },
+   "ext_name": {
+      "message": "Ultimate User Agent Switcher, URL sniffer"
+   },
+   "locale": {
+      "message": "nl"
+   },
+   "msg_active": {
+      "message": "Actief"
+   },
+   "msg_activenow": {
+      "message": "Activeer nu!!"
+   },
+   "msg_add": {
+      "message": "Nieuwe toevoegen"
+   },
+   "msg_agentstring": {
+      "message": "User Agent string"
+   },
+   "msg_apply": {
+      "message": "Toepassen"
+   },
+   "msg_areyousure": {
+      "message": "Weet u het zeker?"
+   },
+   "msg_autocloseonclick": {
+      "message": "Automatisch sluiten als u ergens anders klikt op de pagina"
+   },
+   "msg_autorefresh": {
+      "message": "Automatisch verversen huidige tab"
+   },
+   "msg_autoselectinput": {
+      "message": "Automatisch selecteren wanneer je klikt op input box"
+   },
+   "msg_changedua": {
+      "message": "Verranderde User Agent"
+   },
+   "msg_clearlog": {
+      "message": "Schoon"
+   },
+   "msg_close": {
+      "message": "Sluit"
+   },
+   "msg_defaultchrome": {
+      "message": "Standaard (Nu Chrome)"
+   },
+   "msg_defaultstring": {
+      "message": "Geen waarde is de standaard Chrome User Agent text"
+   },
+   "msg_delete": {
+      "message": "Verwijder"
+   },
+   "msg_edit": {
+      "message": "Bewerk"
+   },
+   "msg_enablepattern": {
+      "message": "Zet patroon aan"
+   },
+   "msg_enablesniffer": {
+      "message": "Zet URL sniffer aan"
+   },
+   "msg_enableurlpattern": {
+      "message": "Inschakelen URL patroon"
+   },
+   "msg_export": {
+      "message": "Exporteer"
+   },
+   "msg_filter": {
+      "message": "Filters om toe te passen"
+   },
+   "msg_filterstoapply": {
+      "message": "Filters om te activeren (als je geen enkele filter selecteerd, dan worden alle filters actief)"
+   },
+   "msg_filtertoview": {
+      "message": "Filters om te zien"
+   },
+   "msg_header": {
+      "message": "Header"
+   },
+   "msg_higherpriority": {
+      "message": "Een kleiner nummer heeft een hogere prioritijd."
+   },
+   "msg_import": {
+      "message": "Importeer"
+   },
+   "msg_link": {
+      "message": "Link"
+   },
+   "msg_loaddefault": {
+      "message": "Standaard laden"
+   },
+   "msg_loadeddefault": {
+      "message": "Standaard waarden zijn geladen"
+   },
+   "msg_movedown": {
+      "message": "Verplaats naar beneden"
+   },
+   "msg_moveup": {
+      "message": "Verplaats omhoog"
+   },
+   "msg_myuseragent": {
+      "message": "Mijn User Agent"
+   },
+   "msg_name": {
+      "message": "Naam"
+   },
+   "msg_occurerror": {
+      "message": "Er is een fout opgetreden."
+   },
+   "msg_option": {
+      "message": "Opties"
+   },
+   "msg_orgheader": {
+      "message": "Origrinele header"
+   },
+   "msg_pattern": {
+      "message": "Patroon"
+   },
+   "msg_ratedesc": {
+      "message": "Als je dit leuk vind, zou ik het leuk vinden als je het 5 sterren geeft en je vrienden er over verteld."
+   },
+   "msg_ratethisitem": {
+      "message": "Geef deze extensie sterren"
+   },
+   "msg_refresh": {
+      "message": "Vernieuw"
+   },
+   "msg_regexp": {
+      "message": "Je kunt regulire expressies gebruiken. Plak \" r/\" voor reguliere expressie"
+   },
+   "msg_selectone": {
+      "message": "Selecteer er een alstublieft."
+   },
+   "msg_time": {
+      "message": "Tijd"
+   },
+   "msg_useragentlist": {
+      "message": "Mijn User Agent lijst"
+   },
+   "msg_userpattern": {
+      "message": "Gebruikers patroon"
+   },
+   "msg_view": {
+      "message": "Bekijk"
+   },
+   "msg_viewlog": {
+      "message": "Bekijk URL sniffer logboek"
+   },
+   "msg_viewlog2": {
+      "message": "Bekijk logboek"
+   }
+}

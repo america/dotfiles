@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="265" height="95" viewBox="0 0 265 95">
+    <defs>
+        <path id="a" d="M0 0h186v72H0z"/>
+        <path id="c" d="M16 40H0V0h32v40z"/>
+        <path id="e" d="M16 40H0V0h32v40z"/>
+        <path id="g" d="M16 40H0V0h32v40z"/>
+        <path id="i" d="M16 40H0V0h32v40z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="265" height="94.768" fill="#36ADE1" rx="5"/>
+        <g transform="translate(40 12)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#36ADE1" xlink:href="#a"/>
+            <g font-family="SegoeUI-Semibold, Segoe UI" font-size="11" font-weight="500" mask="url(#b)">
+                <text transform="translate(92 51)">
+                    <tspan x="0" y="12" fill="#FFF">.json</tspan>
+                </text>
+            </g>
+            <g mask="url(#b)" opacity=".498">
+                <g transform="translate(140 12)">
+                    <mask id="d" fill="#fff">
+                        <use xlink:href="#c"/>
+                    </mask>
+                    <path fill="#FFF" d="M18 14V3l11 11H18zM8 24h16v-4H8v4zm0 8h16v-4H8v4zM20 0H4C1.8 0 .02 1.8.02 4L0 36c0 2.2 1.78 4 3.98 4H28c2.202 0 4-1.8 4-4V12L20 0z" mask="url(#d)"/>
+                </g>
+            </g>
+            <g mask="url(#b)">
+                <g transform="translate(88 12)">
+                    <mask id="f" fill="#fff">
+                        <use xlink:href="#e"/>
+                    </mask>
+                    <path fill="#FFF" d="M18 14V3l11 11H18zM8 24h16v-4H8v4zm0 8h16v-4H8v4zM20 0H4C1.8 0 .02 1.8.02 4L0 36c0 2.2 1.78 4 3.98 4H28c2.202 0 4-1.8 4-4V12L20 0z" mask="url(#f)"/>
+                </g>
+            </g>
+            <g mask="url(#b)" opacity=".505">
+                <g transform="translate(36 12)">
+                    <mask id="h" fill="#fff">
+                        <use xlink:href="#g"/>
+                    </mask>
+                    <path fill="#FFF" d="M18 14V3l11 11H18zM8 24h16v-4H8v4zm0 8h16v-4H8v4zM20 0H4C1.8 0 .02 1.8.02 4L0 36c0 2.2 1.78 4 3.98 4H28c2.202 0 4-1.8 4-4V12L20 0z" mask="url(#h)"/>
+                </g>
+            </g>
+            <g mask="url(#b)" opacity=".505">
+                <g transform="translate(-16 12)">
+                    <mask id="j" fill="#fff">
+                        <use xlink:href="#i"/>
+                    </mask>
+                    <path fill="#FFF" d="M18 14V3l11 11H18zM8 24h16v-4H8v4zm0 8h16v-4H8v4zM20 0H4C1.8 0 .02 1.8.02 4L0 36c0 2.2 1.78 4 3.98 4H28c2.202 0 4-1.8 4-4V12L20 0z" mask="url(#j)"/>
+                </g>
+            </g>
+            <path fill="#979797" stroke="#FFF" d="M120 28v24.72l5.784-5.306 3.813 8.666 4.215-2.002-4.08-8.478 7.818-.464z" mask="url(#b)"/>
+        </g>
+    </g>
+</svg>

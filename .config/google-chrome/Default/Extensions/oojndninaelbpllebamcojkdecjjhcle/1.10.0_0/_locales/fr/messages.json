@@ -1,0 +1,464 @@
+{
+   "about_FAQ": {
+      "message": "Lire la FAQ."
+   },
+   "about_extensionBy": {
+      "message": "est une extension développée par"
+   },
+   "about_github": {
+      "message": "Consulter le GitHub de l'extension."
+   },
+   "about_pinIcon": {
+      "message": "Icône d'épingle par"
+   },
+   "about_pinLicense": {
+      "message": "sous licence CC BY 3.0"
+   },
+   "about_suggestionsIssues": {
+      "message": "Un problème ou une suggestion ?"
+   },
+   "authenticating": {
+      "message": "Connexion à Notion"
+   },
+   "autosave_disable": {
+      "message": "Désactiver sauvegarde auto"
+   },
+   "autosave_enable": {
+      "message": "Sauvegarde auto"
+   },
+   "autosave_enabled": {
+      "message": "La sauvegarde auto est activée pour ce chat!"
+   },
+   "autosave_enabled_desc": {
+      "message": "Vous pourriez avoir à l'activer à nouveau si vous changez les propriétés de votre BDD Notion"
+   },
+   "autosave_enabled_error": {
+      "message": "Erreur: cliquez sur l'icône"
+   },
+   "autosave_enabled_saving": {
+      "message": "Sauvegarde..."
+   },
+   "autosave_enabled_success": {
+      "message": "Sauvegarde réussie!"
+   },
+   "autosave_errmsg_internal_server_error": {
+      "message": "Il y a eu une erreur du côté de Notion"
+   },
+   "autosave_errmsg_object_not_found": {
+      "message": "Impossible de trouver la BDD Notion, soit parcequ'elle a été supprimée ou parce que l'extension n'a pas le droit d'y accéder"
+   },
+   "autosave_errmsg_service_unavailable": {
+      "message": "Notion est actuellement indisponible"
+   },
+   "autosave_errmsg_unauthorized": {
+      "message": "L'accès à votre espace Notion a été refusé"
+   },
+   "autosave_errmsg_unexpected": {
+      "message": "Une erreur inattendue est survenue"
+   },
+   "autosave_error": {
+      "message": "Il y a eu une erreur lors de la sauvegarde du dernier message"
+   },
+   "autosave_error_code": {
+      "message": "Code d'erreur :"
+   },
+   "autosave_error_desc": {
+      "message": "Essayez de désactiver et de réactiver la sauvegarde auto, "
+   },
+   "autosave_error_desc_faq": {
+      "message": "lisez la FAQ"
+   },
+   "autosave_error_desc_or": {
+      "message": " ou "
+   },
+   "autosave_error_desc_report": {
+      "message": "signalez le problème"
+   },
+   "autosave_error_msg": {
+      "message": "Message d'erreur :"
+   },
+   "autosave_try": {
+      "message": "Essayer sauvegarde auto"
+   },
+   "autosave_wrongpage": {
+      "message": "Démarrez une conversation avec ChatGPT et actualisez la page"
+   },
+   "conflict_append": {
+      "message": "Continuer"
+   },
+   "conflict_appendInfo": {
+      "message": "(Enregistre au bout de la page existente)"
+   },
+   "conflict_override": {
+      "message": "Remplacer"
+   },
+   "conflict_rename": {
+      "message": "OU renommer cette conversation dans le menu de gauche"
+   },
+   "conflict_renameFromPin": {
+      "message": "OU choisir un autre nom de page au moment d'enregistrer"
+   },
+   "conflict_text": {
+      "message": "Une page dans votre BDD a le même nom que cette conversation"
+   },
+   "dbsettings_explainer": {
+      "message": "À l'enregistrement d'une discussion, vous pourrez choisir un de ces mots clés pour la page nouvellement créée"
+   },
+   "dbsettings_loading": {
+      "message": "Chargement de la base de données"
+   },
+   "dbsettings_noOptions": {
+      "message": "Il n'y a pas de mots-clés associés, vous pouvez néanmoins effectuer vos enregistrements sans mots-clés"
+   },
+   "dbsettings_noTags": {
+      "message": "Cette BDD n'a pas de mots clés (propriétés sélection)"
+   },
+   "dbsettings_tags": {
+      "message": "Mots clés"
+   },
+   "dbsettings_tagsProperty": {
+      "message": "Propriété des mots clés"
+   },
+   "eco_desc": {
+      "message": "Le mode eco-friendly permet de planter des arbres via l'extension, tout en respectant vos données et en ne changeant rien à votre expérience du web."
+   },
+   "eco_disable": {
+      "message": "Désactiver le mode eco-friendly"
+   },
+   "eco_enable": {
+      "message": "Activer le mode eco-friendly"
+   },
+   "eco_faq": {
+      "message": "Lire la FAQ"
+   },
+   "eco_notification_button_close": {
+      "message": "Fermer"
+   },
+   "eco_notification_button_close_forever": {
+      "message": "Ne plus afficher"
+   },
+   "eco_notification_button_learn_more": {
+      "message": "En savoir plus"
+   },
+   "eco_notification_congrats": {
+      "message": "Félicitations, vous compensez maintenant des émissions de carbone gratuitement"
+   },
+   "eco_notification_message": {
+      "message": "Vous avez activé notre mode écologique, ce qui signifie que vous allez maintenant planter des arbres et compenser les émissions de carbone gratuitement en naviguant sur le web.\u003Cbr/>\u003Cbr/> Chaque fois que vous visitez l'un de nos 50 000 partenaires marchands, \u003Cb>vous verrez un nouvel onglet s'ouvrir brièvement\u003C/b>. Cet onglet facilite le calcul de la compensation carbone requise."
+   },
+   "eco_notification_subtitle": {
+      "message": "Pourquoi un nouvel onglet s'est-il ouvert brièvement ?"
+   },
+   "eco_notification_title": {
+      "message": "🌱 Mode eco-friendly | ChatGPT to Notion"
+   },
+   "errConnect": {
+      "message": "Conntectez-vous à notion en cliquant sur l'icône de l'extension."
+   },
+   "extensionDescription": {
+      "message": "Sauvegardez vos discussions avec ChatGPT directement dans Notion!"
+   },
+   "extensionName": {
+      "message": "ChatGPT vers Notion"
+   },
+   "history": {
+      "message": "Sauvegarde complète"
+   },
+   "history_desc": {
+      "message": "ChatGPT vers Notion va enregistrer l'entièreté de votre historique de conversations. Cela prendra un certain temps."
+   },
+   "history_desc_trial": {
+      "message": "Passez à la version premium pour pourvoir enregistrer toutes vos conversations d'un coup."
+   },
+   "history_dontClose": {
+      "message": "Veuillez ne pas fermer votre navigateur pendant la sauvegarde."
+   },
+   "history_fail": {
+      "message": "conversations n'ont pas pu être enregistrées."
+   },
+   "history_fetching": {
+      "message": "Récupération des conversations"
+   },
+   "history_progress": {
+      "message": "conversations enregistrées."
+   },
+   "history_reload": {
+      "message": "Actualisez la page"
+   },
+   "history_save": {
+      "message": "Commencer"
+   },
+   "history_success": {
+      "message": "conversations ont été enregistrées!"
+   },
+   "history_viewErrors": {
+      "message": "Voir les erreurs"
+   },
+   "index_discussionSaved": {
+      "message": "Enregistré !"
+   },
+   "index_errRegister": {
+      "message": "Enregistez une base de données dans les réglages pour commencer"
+   },
+   "index_premiumFeatures": {
+      "message": "Voir fonctionnalités premium"
+   },
+   "index_saveFullChat": {
+      "message": "Enregistrer la page"
+   },
+   "index_saveTo": {
+      "message": "Enregistrer sous"
+   },
+   "index_tryPremium": {
+      "message": "Essayer Premium"
+   },
+   "nav_about": {
+      "message": "A propos"
+   },
+   "nav_home": {
+      "message": "Notion"
+   },
+   "nav_settings": {
+      "message": "Réglages"
+   },
+   "notion_answer": {
+      "message": "Réponse"
+   },
+   "notion_dalleExplainer": {
+      "message": "Les images de DALL-E ne peuvent être enregistrées directement sans les héberger hors des serveurs d'OpenAI au préalable, ce qui ne sera pas fait par respect pour vos données. Vous pouvez télécharger les images depuis votre conversation avec ChatGPT puis les ajouter ici à postériori."
+   },
+   "notion_dalleWork": {
+      "message": "Voir le travail effectué par DALL-E 3"
+   },
+   "notion_expandToSee": {
+      "message": "Voir le code utilisé par ChatGPT"
+   },
+   "notion_gptWork": {
+      "message": "Code d'interpréteur python, affichez-le avant d'enregistrer pour l'afficher ici"
+   },
+   "notion_prompt": {
+      "message": "Question"
+   },
+   "notion_tableofcontents": {
+      "message": "Sommaire"
+   },
+   "premium_cta": {
+      "message": "Abonnez-vous !"
+   },
+   "premium_desc": {
+      "message": "Débloquez de nouvelles fonctionnalités, enlevez les pubs et soutenez le développement de l'extension pour 2€/mois !"
+   },
+   "premium_invalid": {
+      "message": "Vérifiez la clé reçue par mail et essayez à nouveau"
+   },
+   "premium_isPremium": {
+      "message": "Vous avez un abonnement premium"
+   },
+   "premium_isPremium_autosave": {
+      "message": "Sauvegarde auto"
+   },
+   "premium_isPremium_future": {
+      "message": "Prochaines fonctionnalités premium"
+   },
+   "premium_isPremium_gratitude": {
+      "message": "Mon éternelle gratitude"
+   },
+   "premium_isPremium_historySave": {
+      "message": "Sauvegarde complète"
+   },
+   "premium_isPremium_meaning": {
+      "message": "Le premium comprend :"
+   },
+   "premium_isPremium_noAds": {
+      "message": "Pas de publicité"
+   },
+   "premium_isPremium_support": {
+      "message": "Service client prioritaire"
+   },
+   "premium_key_activate": {
+      "message": "Activer"
+   },
+   "premium_key_activate_desc": {
+      "message": "Vous avez déjà une clé ? Entrez-la ici"
+   },
+   "premium_key_activate_error": {
+      "message": "Clé invalide"
+   },
+   "premium_key_activate_success": {
+      "message": "Activation réussie!"
+   },
+   "premium_key_placeholder": {
+      "message": "Votre clé de licence"
+   },
+   "premium_success": {
+      "message": "Merci beaucoup pour votre achat et votre soutien! Profitez des fonctionnalités premium à votre guise!"
+   },
+   "premium_trial_cta": {
+      "message": "Essai gratuit (7 jour)"
+   },
+   "premium_trial_endDate": {
+      "message": "Votre essai se termine le "
+   },
+   "premium_trial_error": {
+      "message": "Il y a eu une erreur"
+   },
+   "premium_trial_noInfo": {
+      "message": "Pas d'info de paiement requise"
+   },
+   "premium_trial_or": {
+      "message": "OU"
+   },
+   "premium_trial_over": {
+      "message": "Votre essai est terminé"
+   },
+   "premium_trial_success": {
+      "message": "Essai activé!"
+   },
+   "refresh": {
+      "message": "Actualisez la page"
+   },
+   "save_answer": {
+      "message": "Réponse"
+   },
+   "save_error": {
+      "message": "Il y a eu une erreur"
+   },
+   "save_generateHeadings": {
+      "message": "Titres et sommaire"
+   },
+   "save_noTag": {
+      "message": "Aucun"
+   },
+   "save_pageDropdown_custom": {
+      "message": "Personnalisé"
+   },
+   "save_pageDropdown_prompt": {
+      "message": "Prompt"
+   },
+   "save_pageDropdown_title": {
+      "message": "Titre"
+   },
+   "save_pageTitle": {
+      "message": "Page"
+   },
+   "save_prompt": {
+      "message": "Question"
+   },
+   "save_save": {
+      "message": "Enregistrer"
+   },
+   "save_saveTo": {
+      "message": "Enregistrer sous"
+   },
+   "save_saved": {
+      "message": "Enregistré !"
+   },
+   "save_unauthorized": {
+      "message": "Sauvegarde non autorisée par Notion"
+   },
+   "settings_errUnauthorized": {
+      "message": "Accès refusé par Notion, essayez de relancer l'extension (depuis chrome://extensions/) ou réinstallez-la (cf. la FAQ)"
+   },
+   "settings_exampleDB": {
+      "message": "Voir un exemple de base de donnée compatible avec l'extension"
+   },
+   "settings_linkedDatabases": {
+      "message": "Bases de données"
+   },
+   "settings_noDBFound": {
+      "message": "Aucune base de données trouvée, cela peut être dû au fait que Notion n'a pas encore synchronisé vos BDD avec l'intégration."
+   },
+   "settings_noLinkedDb": {
+      "message": "Pas de BDD reliée"
+   },
+   "settings_noUrlProperty": {
+      "message": "Ajoutez une propriété URL à cette BDD dans Notion pour l'utiliser"
+   },
+   "settings_remove": {
+      "message": "Suppr"
+   },
+   "settings_searchPlaceholder": {
+      "message": "Rechercher une BDD"
+   },
+   "settings_slowSearch": {
+      "message": "La recherche de pages/bases de données peut prendre un certain temps..."
+   },
+   "sponsored": {
+      "message": "Sponsor (?)"
+   },
+   "status_error": {
+      "message": "Il y a eu une erreur"
+   },
+   "status_fetching": {
+      "message": "Récupération de la conversation..."
+   },
+   "status_saved": {
+      "message": "Sauvegarde réussie!"
+   },
+   "status_saving": {
+      "message": "Sauvegarde..."
+   },
+   "update_changelog_features": {
+      "message": "Fonctionnalités"
+   },
+   "update_changelog_features_1": {
+      "message": "Mode eco-friendly"
+   },
+   "update_changelog_features_2": {
+      "message": "Ouvrir une page fraichement enregistrée dans Notion"
+   },
+   "update_changelog_features_3": {
+      "message": "Prise en chage de la notation KaTeX"
+   },
+   "update_changelog_fixes": {
+      "message": "Corrections de bugs"
+   },
+   "update_changelog_fixes_1": {
+      "message": "Mauvaise prise en charge des prompts avec des sauts de lignes"
+   },
+   "update_changelog_fixes_2": {
+      "message": "Sauvegarde impossible des nouvelles conversations dans certains cas"
+   },
+   "update_changelog_link": {
+      "message": "Lisez le changelog de chaque mise à jour ici"
+   },
+   "update_eco_1": {
+      "message": "A la création de ChatGPT to Notion, je ne m'attends pas à ce qu'elle devienne un tel succès! Je suis extrêmement reconnaissant d'avoir eu l'opportunité d'apporter un service utile à des dizaines de milliers de personnes. Cela-dit, alors que je progressais dans mes études, je n'ai pas eu autant de temps qu'espéré pour maintenir l'extension et créer des alternatives pour les autres LLM."
+   },
+   "update_eco_2": {
+      "message": "Pour me garder motivé et subvenir à certains de mes besoins durant mes études, j'ai alors implémenté un mode premium dont je souhaite de débarasser depuis des mois. Car j'ai conscience qu'avoir une plateforme d'envergure est une chance, je veux être aussi positif que possible. C'est pourquoi je m'associe à l'équipe d'allcolobri pour donner à ChatGPT to Notion la possibilité d'être également un plus pour l'environnement."
+   },
+   "update_eco_3": {
+      "message": "Le mode eco-friendly est une fonctionnalité entièrement optionnelle que j'ai conçue. Lors de la visite d'un site partenaire, une portion des revenus générés par votre visite servira à planter des arbres et à rémunérer le développement l'extention. Si ce partenariat s'avère fructueux, "
+   },
+   "update_eco_4": {
+      "message": "j'utiliserai ces revenus pour rendre les fonctionnalités de l'extension gratuites pour tous."
+   },
+   "update_eco_5": {
+      "message": "Merci pour votre intérêt dans ChatGPT to Notion,"
+   },
+   "update_eco_enable": {
+      "message": "Activer le mode eco-friendly"
+   },
+   "update_eco_enabled": {
+      "message": "Le mode eco-friendly est activé, félicitations ! 🌳"
+   },
+   "update_eco_heading": {
+      "message": "Intégrer l'écologie"
+   },
+   "update_heading": {
+      "message": "ChatGPT to Notion a reçu une mise à jour! 🎉"
+   },
+   "update_major": {
+      "message": "Il y a des changements majeurs, merci de lire cette page."
+   },
+   "wrongpage_chatgpt": {
+      "message": "ChatGPT"
+   },
+   "wrongpage_goTo": {
+      "message": "Allez sur le site de"
+   },
+   "wrongpage_toUse": {
+      "message": "pour utiliser cette extension"
+   }
+}

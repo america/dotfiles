@@ -1,0 +1,756 @@
+/*
+ NortonLifeLock copyright header start
+
+ Copyright (c) 2022 NortonLifeLock Inc. All rights reserved.
+
+ THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF NORTONLIFELOCK
+ INC.  USE, DISCLOSURE OR REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR
+ EXPRESS WRITTEN PERMISSION OF NORTONLIFELOCK INC.
+
+ The Licensed Software and Documentation are deemed to be commercial computer
+ software as defined in FAR 12.212 and subject to restricted rights as defined
+ in FAR Section 52.227-19 "Commercial Computer Software - Restricted Rights"
+ and DFARS 227.7202, “Rights in Commercial Computer Software or Commercial
+ Computer Software Documentation”, as applicable, and any successor regulations.
+ Any use, modification, reproduction release, performance, display or disclosure
+ of the Licensed Software and Documentation by the U.S. Government shall be
+ solely in accordance with the terms of this Agreement.
+
+ NortonLifeLock copyright header stop
+
+*/
+
+/* font faces */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: 'normal';
+}
+
+/* TODO: below Inter-* font faces should be eventually removed and not used anywhere directly */
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url('fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'PT Mono';
+  src: url('fonts/PT-Mono.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.create-vault-body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: calc(100vh - 80px);
+}
+
+.portal-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: auto;
+}
+
+.portal-modal-open {
+  display: flex;
+}
+
+.password-reminder-container {
+  width: 453px;
+  border-radius: 3px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  background-color: #242e39;
+  color: #fff;
+  font-family: 'Inter';
+  display: flex;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.password-reminder-container i {
+  flex: 0 0 86px;
+  position: relative;
+}
+
+.password-reminder-container img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 37px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.password-reminder-container main {
+  padding: 32px 20px 20px 0px;
+}
+
+body[dir='rtl'] .password-reminder-container main {
+  padding: 32px 0px 20px 20px;
+}
+
+header,
+section {
+  margin-right: 12px;
+}
+
+body[dir='rtl'] header,
+body[dir='rtl'] section {
+  margin-right: 0px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 31px;
+}
+
+.btn-group button {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -0.08px;
+  font-family: 'Inter-Bold';
+}
+
+.message p {
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: 2px;
+  letter-spacing: -0.06px;
+}
+
+.btn-with-link {
+  background: none;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-help {
+  font-size: 14px;
+  color: #0088c7;
+  display: block;
+  margin: 13px auto;
+}
+
+.btn-cancel {
+  color: #68c2fe;
+}
+
+.btn-continue {
+  width: 120px;
+  padding: 11px 28px;
+  border-radius: 3px;
+  background-color: #fdd572;
+  margin-left: 22px;
+  color: #242e39;
+}
+
+body[dir='rtl'] .btn-continue {
+  margin-left: 0px;
+  margin-right: 22px;
+}
+
+#container {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.content-header {
+  height: 41px;
+  line-height: normal;
+  margin: 0 auto;
+  font-family: 'Inter';
+  font-size: 36px;
+  text-align: center;
+  color: #333333;
+}
+
+.content-text {
+  width: 660px;
+  font-family: 'Inter';
+  font-size: 14.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin: auto;
+  color: #333333;
+  margin-top: 43px;
+}
+
+.block {
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-left: -274px;
+  margin-top: 60px;
+}
+
+.table-block {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-left: 270px;
+  margin-top: 2px;
+}
+
+html[dir='rtl'] .table-block {
+  margin-right: 270px;
+}
+
+.pwd-input-block {
+  height: 80px;
+}
+
+.block1 {
+  margin-top: -42px;
+}
+
+.pwd-input-block1 {
+  height: 100px;
+}
+
+.block2 {
+  margin-top: 11px;
+}
+
+.block3 {
+  margin-top: 3px;
+}
+
+.vault-validate-right-img {
+  background-image: url(../images/ic-check.svg);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 16px;
+  height: 16px;
+  padding-left: 20px;
+  bottom: 2px;
+  position: relative;
+}
+
+.vault-validate-wrong-img {
+  background-image: url(../images/ic-error.svg);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 16px;
+  height: 16px;
+  padding-left: 20px;
+  bottom: 3px;
+  position: relative;
+}
+table {
+  margin: auto;
+}
+.passwordStrengthItem {
+  width: 273.9px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #262626;
+  text-align: left;
+  color: black;
+  padding-bottom: 6px;
+}
+
+.strength-div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: -47px;
+}
+
+html[dir='rtl'] .strength-div {
+  margin-right: -560px;
+}
+
+.strength {
+  flex-flow: column;
+  display: flex;
+  margin-top: 38px;
+  height: 19px;
+  width: 409px;
+  margin-left: -557px;
+}
+
+.strength-text {
+  /* font-weight: bold; */
+  font-family: 'Inter-Bold';
+  font-size: 14px;
+  color: #333333;
+}
+
+html[dir='rtl'] .strength-text {
+  margin-right: 11px;
+}
+
+html[dir='rtl'] .strength {
+  margin-left: 40px;
+}
+
+.strength-type {
+  height: 19px;
+  font-family: 'Inter';
+  font-size: 14px;
+  color: #262626;
+}
+
+.unacceptable-message-div {
+  width: 430px;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  padding-top: 20px;
+  margin-left: -537px;
+}
+
+html[dir='rtl'] .unacceptable-message-div {
+  text-align: right;
+  margin: 0 auto;
+}
+
+.red-bold-message {
+  font-family: 'Inter-Bold';
+  /* font-weight: bold; */
+  color: #c81a00;
+}
+
+.blue-message {
+  color: #0089c6;
+  cursor: pointer;
+}
+
+.slider-range-wrapper {
+  overflow: hidden;
+  padding-top: 10px;
+  position: relative;
+  width: 430px;
+  margin-left: -538px;
+}
+
+html[dir='rtl'] .slider-range-wrapper {
+  margin-left: unset;
+}
+
+.slider-input {
+  width: 430px;
+  height: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.slider-weak {
+  width: 30px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.previousVaultPasswordStrengthList {
+  margin: auto;
+  padding-left: 900px;
+  padding-bottom: 100px;
+  table-layout: fixed;
+  width: 443px;
+}
+.passwordStrengthList {
+  margin: auto;
+  padding-left: 900px;
+  padding-top: 31px;
+  table-layout: fixed;
+  width: 443px;
+}
+
+.cancel1 {
+  font-size: 14px;
+  text-align: right;
+  color: #0089c6;
+  font-family: 'Inter';
+  cursor: pointer;
+  margin: auto;
+  margin-right: 740px;
+  margin-top: -18px;
+  display: block;
+}
+
+.cancel {
+  font-size: 14px;
+  text-align: right;
+  color: #0089c6;
+  font-family: 'Inter';
+  cursor: pointer;
+  margin: 0 auto;
+  left: 300px;
+  top: 50px;
+  display: block;
+  position: relative;
+  background-color: white;
+  border: none;
+}
+
+.save {
+  width: 114px;
+  height: 44px;
+  font-family: 'Inter';
+  font-size: 14px;
+  text-align: center;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+  background-color: #ffe283;
+  margin: auto;
+  left: 400px;
+  top: 80px;
+  display: block;
+  position: relative;
+}
+.save:disabled {
+  background-color: #f2f2f2;
+  cursor: auto;
+}
+
+.create-vault {
+  width: 300px;
+  height: 44px;
+  font-family: 'Inter';
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: #ffe283;
+  margin: auto;
+  left: 400px;
+  top: 80px;
+  display: block;
+  position: relative;
+}
+
+.create-vault:disabled {
+  height: 44px;
+  background-color: #f2f2f2;
+  cursor: auto;
+  color: #333333;
+}
+
+.passwordInputCreateVault {
+  width: 434px;
+  height: 42px;
+  background-color: #f8f8f8;
+  border: solid 1px #a0a0a0;
+  font-family: 'Inter';
+  font-size: 16px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 35px;
+  margin-top: -8px;
+  margin-left: 10px;
+}
+
+.passwordInputCreateVault:focus {
+  background-color: rgba(0, 174, 239, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0, 174, 239, 0.5);
+}
+.passwordInputCreateVault:disabled {
+  width: 434px;
+  height: 42px;
+  background-color: #cecece;
+  color: #a0a0a0;
+  font-family: 'Inter';
+  font-size: 16px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 35px;
+  margin-top: -8px;
+  margin-left: 10px;
+}
+
+.text-area-error {
+  min-width: 409;
+  font-size: 12px;
+  text-align: left;
+  padding-bottom: 4px;
+  padding-top: 93px;
+  margin-bottom: -15px;
+  margin-top: 2;
+  font-weight: 600;
+  line-height: 0.83;
+  color: #c81a00;
+  margin-left: -432px;
+  margin-right: 29px;
+  font-family: 'Inter-SemiBold';
+}
+
+.text-area {
+  width: 434px;
+  height: 42px;
+  background-color: #f8f8f8;
+  border: solid 1px #a0a0a0;
+  position: relative;
+  font-family: 'Inter';
+  font-size: 16px;
+  letter-spacing: normal;
+  font-stretch: normal;
+  color: #333333;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 42px;
+  margin-left: 9px;
+  display: block;
+  text-align: left;
+  resize: none;
+}
+
+.text-area:disabled {
+  background-color: #cecece;
+  color: #a0a0a0;
+}
+html[dir='rtl'] .text-area {
+  text-align: right;
+}
+
+.changepwd-complete-image {
+  width: 100px;
+  height: 100px;
+  background-image: url(../images/ic-logo-complete.svg);
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.change-password-complete {
+  width: 650px;
+  font-family: 'Inter';
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin: auto;
+  margin-top: 40px;
+}
+
+html[dir='rtl'] .passwordInputCreateVault {
+  padding-left: 35px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+html[dir='rtl'] .block {
+  margin-right: -274px;
+}
+
+html[dir='rtl'] .passwordStrengthItem {
+  text-align: right;
+  padding-right: 3px;
+}
+
+.img-sign-in-animation-create {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-image: url(../images/img-sign-in-animation.png);
+  -webkit-animation: spin 0.8s linear infinite;
+  -moz-animation: spin 0.8s linear infinite;
+  animation: spin 0.8s linear infinite;
+  margin: auto;
+  padding-top: 202px;
+}
+
+.eyeCreateVault {
+  width: 24px;
+  height: 25px;
+  padding-top: 16px;
+  /* margin-left: -50px; */
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 10px;
+}
+
+html[dir='rtl'] .eyeCreateVault {
+  left: 20px;
+  right: auto;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .img-sign-in-animation-create {
+    background-image: url(../images/img-sign-in-animation@2x.png);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 300dpi) {
+  .img-sign-in-animation-create {
+    background-image: url(../images/img-sign-in-animation@3x.png);
+  }
+}
+.ic-vault-data-create {
+  width: 63px;
+  height: 63px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 63px 63px;
+  background-image: url(../images/ic-vault-data.svg);
+  margin: auto;
+  margin-top: -233px;
+  padding-top: 261px;
+}
+.change-pwd-progress {
+  width: 650px;
+  font-family: 'Inter';
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.create-pwd-progress {
+  width: 650px;
+  font-family: 'Inter';
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin: auto;
+  margin-top: -74px;
+}
+
+.text-area-column {
+  display: flex;
+  /*flex-flow: column;*/
+}
+
+.incorrectPassCreateVault {
+  width: 409;
+  font-size: 12px;
+  text-align: left;
+  padding-bottom: 4px;
+  padding-top: 8px;
+  margin-bottom: -15px;
+  margin-top: 2;
+  font-weight: 600;
+  line-height: 0.83;
+  color: #c81a00;
+  margin-left: 10px;
+  font-family: 'Inter-SemiBold';
+}

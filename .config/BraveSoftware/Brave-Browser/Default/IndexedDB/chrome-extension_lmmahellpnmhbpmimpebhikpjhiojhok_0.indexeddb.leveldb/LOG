@@ -1,0 +1,52 @@
+2024/10/18-08:44:14.140 11d0c Creating DB /home/takashi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_lmmahellpnmhbpmimpebhikpjhiojhok_0.indexeddb.leveldb since it was missing.
+2024/10/18-08:44:14.148 11d0c Reusing MANIFEST /home/takashi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_lmmahellpnmhbpmimpebhikpjhiojhok_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/18-08:44:19.475 11d0b Level-0 table #5: started
+2024/10/18-08:44:19.492 11d0b Level-0 table #5: 1456903 bytes OK
+2024/10/18-08:44:19.498 11d0b Delete type=0 #3
+2024/10/18-08:44:19.761 11d0a Level-0 table #7: started
+2024/10/18-08:44:19.781 11d0a Level-0 table #7: 1441359 bytes OK
+2024/10/18-08:44:19.787 11d0a Delete type=0 #4
+2024/10/18-08:44:19.788 11d0a Compacting 1@1 + 1@2 files
+2024/10/18-08:44:19.822 11d0a Generated table #8@1: 64790 keys, 2207060 bytes
+2024/10/18-08:44:19.834 11d0a Generated table #9@1: 19166 keys, 526666 bytes
+2024/10/18-08:44:19.834 11d0a Compacted 1@1 + 1@2 files => 2733726 bytes
+2024/10/18-08:44:19.839 11d0a compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/10/18-08:44:19.840 11d0a Delete type=2 #5
+2024/10/18-08:44:19.840 11d0a Delete type=2 #7
+2024/10/18-08:44:20.039 11d0a Level-0 table #11: started
+2024/10/18-08:44:20.063 11d0a Level-0 table #11: 1790895 bytes OK
+2024/10/18-08:44:20.069 11d0a Delete type=0 #6
+2024/10/18-08:44:25.030 11d0b Compacting 1@1 + 2@2 files
+2024/10/18-08:44:25.074 11d0b Generated table #12@1: 36456 keys, 2171202 bytes
+2024/10/18-08:44:25.091 11d0b Generated table #13@1: 28423 keys, 782789 bytes
+2024/10/18-08:44:25.091 11d0b Compacted 1@1 + 2@2 files => 2953991 bytes
+2024/10/18-08:44:25.095 11d0b compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/10/18-08:44:25.096 11d0b Delete type=2 #8
+2024/10/18-08:44:25.096 11d0b Delete type=2 #9
+2024/10/18-08:44:25.096 11d0b Delete type=2 #11
+2024/10/18-08:44:25.268 11d0a Level-0 table #15: started
+2024/10/18-08:44:25.285 11d0a Level-0 table #15: 1311323 bytes OK
+2024/10/18-08:44:25.290 11d0a Delete type=0 #10
+2024/10/18-08:44:25.292 11d0a Compacting 1@1 + 2@2 files
+2024/10/18-08:44:25.324 11d0a Generated table #16@1: 40493 keys, 2176213 bytes
+2024/10/18-08:44:25.348 11d0a Generated table #17@1: 42973 keys, 1614273 bytes
+2024/10/18-08:44:25.348 11d0a Compacted 1@1 + 2@2 files => 3790486 bytes
+2024/10/18-08:44:25.353 11d0a compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/10/18-08:44:25.353 11d0a Delete type=2 #12
+2024/10/18-08:44:25.354 11d0a Delete type=2 #13
+2024/10/18-08:44:25.354 11d0a Delete type=2 #15
+2024/10/18-08:44:25.534 11d0a Level-0 table #19: started
+2024/10/18-08:44:25.553 11d0a Level-0 table #19: 1467229 bytes OK
+2024/10/18-08:44:25.559 11d0a Delete type=0 #14
+2024/10/18-08:44:25.560 11d0a Compacting 1@1 + 2@2 files
+2024/10/18-08:44:25.596 11d0a Generated table #20@1: 60450 keys, 2201056 bytes
+2024/10/18-08:44:25.623 11d0a Generated table #21@1: 23190 keys, 2154322 bytes
+2024/10/18-08:44:25.644 11d0a Generated table #22@1: 40611 keys, 822741 bytes
+2024/10/18-08:44:25.644 11d0a Compacted 1@1 + 2@2 files => 5178119 bytes
+2024/10/18-08:44:25.649 11d0a compacted to: files[ 0 0 3 0 0 0 0 ]
+2024/10/18-08:44:25.649 11d0a Delete type=2 #16
+2024/10/18-08:44:25.649 11d0a Delete type=2 #17
+2024/10/18-08:44:25.649 11d0a Delete type=2 #19
+2024/10/18-08:44:25.792 11d0a Level-0 table #24: started
+2024/10/18-08:44:25.815 11d0a Level-0 table #24: 1721465 bytes OK
+2024/10/18-08:44:25.822 11d0a Delete type=0 #18

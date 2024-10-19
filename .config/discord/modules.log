@@ -1,0 +1,576 @@
+2024-10-18T13:48:08.287Z [Modules] Modules initializing
+2024-10-18T13:48:08.287Z [Modules] Distribution: remote
+2024-10-18T13:48:08.288Z [Modules] Host updates: enabled
+2024-10-18T13:48:08.288Z [Modules] Module updates: enabled
+2024-10-18T13:48:08.288Z [Modules] Module install path: /home/takashi/.config/discord/0.0.71/modules
+2024-10-18T13:48:08.288Z [Modules] Module installed file path: /home/takashi/.config/discord/0.0.71/modules/installed.json
+2024-10-18T13:48:08.288Z [Modules] Module download path: /home/takashi/.config/discord/0.0.71/modules/pending
+2024-10-18T13:48:08.484Z [Modules] Bootstrapping...
+2024-10-18T13:48:08.484Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-10-18T13:48:08.486Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-10-18T13:48:08.487Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-10-18T13:48:08.488Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-10-18T13:48:08.488Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-10-18T13:48:08.490Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-10-18T13:48:08.490Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-10-18T13:48:08.491Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-10-18T13:48:08.491Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-10-18T13:48:08.491Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-10-18T13:48:08.492Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-10-18T13:48:08.492Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-10-18T13:48:08.492Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-10-18T13:48:08.493Z [Modules] Checking for host updates.
+2024-10-18T13:48:08.789Z [Modules] Host is up to date.
+2024-10-18T13:48:08.790Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-18T13:48:08.837Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-10-18T13:48:08.837Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-10-18T13:48:08.837Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-10-18T13:48:08.837Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-10-18T13:48:08.837Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-10-18T13:48:08.837Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-10-18T13:48:08.837Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-10-18T13:48:08.837Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip
+2024-10-18T13:48:09.166Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 1%
+2024-10-18T13:48:09.171Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 4%
+2024-10-18T13:48:09.174Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 6%
+2024-10-18T13:48:09.176Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 9%
+2024-10-18T13:48:09.177Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 11%
+2024-10-18T13:48:09.179Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 12%
+2024-10-18T13:48:09.180Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 15%
+2024-10-18T13:48:09.180Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 16%
+2024-10-18T13:48:09.181Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 19%
+2024-10-18T13:48:09.182Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 22%
+2024-10-18T13:48:09.183Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 25%
+2024-10-18T13:48:09.184Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 26%
+2024-10-18T13:48:09.184Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 28%
+2024-10-18T13:48:09.185Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 31%
+2024-10-18T13:48:09.186Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 32%
+2024-10-18T13:48:09.186Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 34%
+2024-10-18T13:48:09.187Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 36%
+2024-10-18T13:48:09.187Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 39%
+2024-10-18T13:48:09.188Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 40%
+2024-10-18T13:48:09.188Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 42%
+2024-10-18T13:48:09.189Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 44%
+2024-10-18T13:48:09.191Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 46%
+2024-10-18T13:48:09.206Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 48%
+2024-10-18T13:48:09.206Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 58%
+2024-10-18T13:48:09.207Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 71%
+2024-10-18T13:48:09.208Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 75%
+2024-10-18T13:48:09.210Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 78%
+2024-10-18T13:48:09.210Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 82%
+2024-10-18T13:48:09.211Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 85%
+2024-10-18T13:48:09.212Z [Modules] Streaming discord_desktop_core@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip: 100%
+2024-10-18T13:48:09.213Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-10-18T13:48:09.213Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip
+2024-10-18T13:48:09.462Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 3%
+2024-10-18T13:48:09.463Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 6%
+2024-10-18T13:48:09.463Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 9%
+2024-10-18T13:48:09.464Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 10%
+2024-10-18T13:48:09.470Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 13%
+2024-10-18T13:48:09.470Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 15%
+2024-10-18T13:48:09.471Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 18%
+2024-10-18T13:48:09.471Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 19%
+2024-10-18T13:48:09.472Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 24%
+2024-10-18T13:48:09.472Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 27%
+2024-10-18T13:48:09.473Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 34%
+2024-10-18T13:48:09.474Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 40%
+2024-10-18T13:48:09.474Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 46%
+2024-10-18T13:48:09.475Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 48%
+2024-10-18T13:48:09.475Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 51%
+2024-10-18T13:48:09.476Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 52%
+2024-10-18T13:48:09.477Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 55%
+2024-10-18T13:48:09.477Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 56%
+2024-10-18T13:48:09.477Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 58%
+2024-10-18T13:48:09.478Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 61%
+2024-10-18T13:48:09.479Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 62%
+2024-10-18T13:48:09.480Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 65%
+2024-10-18T13:48:09.480Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 68%
+2024-10-18T13:48:09.482Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 70%
+2024-10-18T13:48:09.488Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 73%
+2024-10-18T13:48:09.489Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 77%
+2024-10-18T13:48:09.489Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 90%
+2024-10-18T13:48:09.490Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 96%
+2024-10-18T13:48:09.490Z [Modules] Streaming discord_erlpack@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip: 100%
+2024-10-18T13:48:09.491Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-10-18T13:48:09.491Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip
+2024-10-18T13:48:09.774Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 1%
+2024-10-18T13:48:09.781Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 2%
+2024-10-18T13:48:09.787Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 3%
+2024-10-18T13:48:09.793Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 4%
+2024-10-18T13:48:09.796Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 5%
+2024-10-18T13:48:09.799Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 6%
+2024-10-18T13:48:09.802Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 7%
+2024-10-18T13:48:09.805Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 8%
+2024-10-18T13:48:09.811Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 9%
+2024-10-18T13:48:09.812Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 10%
+2024-10-18T13:48:09.813Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 11%
+2024-10-18T13:48:09.819Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 12%
+2024-10-18T13:48:09.820Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 13%
+2024-10-18T13:48:09.821Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 14%
+2024-10-18T13:48:09.829Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 15%
+2024-10-18T13:48:09.829Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 16%
+2024-10-18T13:48:09.832Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 17%
+2024-10-18T13:48:09.833Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 18%
+2024-10-18T13:48:09.839Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 19%
+2024-10-18T13:48:09.839Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 20%
+2024-10-18T13:48:09.840Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 21%
+2024-10-18T13:48:09.840Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 23%
+2024-10-18T13:48:09.847Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 24%
+2024-10-18T13:48:09.848Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 25%
+2024-10-18T13:48:09.850Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 26%
+2024-10-18T13:48:09.850Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 27%
+2024-10-18T13:48:09.851Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 28%
+2024-10-18T13:48:09.854Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 29%
+2024-10-18T13:48:09.854Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 30%
+2024-10-18T13:48:09.855Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 31%
+2024-10-18T13:48:09.860Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 32%
+2024-10-18T13:48:09.861Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 33%
+2024-10-18T13:48:09.862Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 34%
+2024-10-18T13:48:09.862Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 36%
+2024-10-18T13:48:09.863Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 37%
+2024-10-18T13:48:09.864Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 38%
+2024-10-18T13:48:09.866Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 39%
+2024-10-18T13:48:09.874Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 40%
+2024-10-18T13:48:09.875Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 41%
+2024-10-18T13:48:09.875Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 42%
+2024-10-18T13:48:09.876Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 43%
+2024-10-18T13:48:09.889Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 44%
+2024-10-18T13:48:09.890Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 45%
+2024-10-18T13:48:09.892Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 46%
+2024-10-18T13:48:09.894Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 47%
+2024-10-18T13:48:09.902Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 48%
+2024-10-18T13:48:09.903Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 49%
+2024-10-18T13:48:09.904Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 50%
+2024-10-18T13:48:09.907Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 51%
+2024-10-18T13:48:09.908Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 52%
+2024-10-18T13:48:09.911Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 53%
+2024-10-18T13:48:09.912Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 54%
+2024-10-18T13:48:09.919Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 55%
+2024-10-18T13:48:09.919Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 56%
+2024-10-18T13:48:09.920Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 57%
+2024-10-18T13:48:09.920Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 59%
+2024-10-18T13:48:09.930Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 60%
+2024-10-18T13:48:09.931Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 61%
+2024-10-18T13:48:09.932Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 62%
+2024-10-18T13:48:09.932Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 63%
+2024-10-18T13:48:09.943Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 64%
+2024-10-18T13:48:09.944Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 65%
+2024-10-18T13:48:09.945Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 67%
+2024-10-18T13:48:09.949Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 68%
+2024-10-18T13:48:09.952Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 69%
+2024-10-18T13:48:09.961Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 70%
+2024-10-18T13:48:09.967Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 71%
+2024-10-18T13:48:09.968Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 72%
+2024-10-18T13:48:09.968Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 73%
+2024-10-18T13:48:09.969Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 74%
+2024-10-18T13:48:09.971Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 75%
+2024-10-18T13:48:09.975Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 76%
+2024-10-18T13:48:09.976Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 77%
+2024-10-18T13:48:09.983Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 78%
+2024-10-18T13:48:09.990Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 79%
+2024-10-18T13:48:09.991Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 80%
+2024-10-18T13:48:09.991Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 81%
+2024-10-18T13:48:09.992Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 82%
+2024-10-18T13:48:09.993Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 83%
+2024-10-18T13:48:09.995Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 84%
+2024-10-18T13:48:10.000Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 85%
+2024-10-18T13:48:10.002Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 86%
+2024-10-18T13:48:10.004Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 87%
+2024-10-18T13:48:10.005Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 88%
+2024-10-18T13:48:10.007Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 89%
+2024-10-18T13:48:10.016Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 90%
+2024-10-18T13:48:10.018Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 91%
+2024-10-18T13:48:10.020Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 92%
+2024-10-18T13:48:10.027Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 93%
+2024-10-18T13:48:10.028Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 94%
+2024-10-18T13:48:10.029Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 95%
+2024-10-18T13:48:10.038Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 96%
+2024-10-18T13:48:10.041Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 97%
+2024-10-18T13:48:10.042Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 98%
+2024-10-18T13:48:10.043Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 99%
+2024-10-18T13:48:10.044Z [Modules] Streaming discord_spellcheck@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip: 100%
+2024-10-18T13:48:10.045Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-10-18T13:48:10.045Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip
+2024-10-18T13:48:10.311Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 1%
+2024-10-18T13:48:10.312Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 3%
+2024-10-18T13:48:10.313Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 4%
+2024-10-18T13:48:10.313Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 5%
+2024-10-18T13:48:10.314Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 6%
+2024-10-18T13:48:10.314Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 7%
+2024-10-18T13:48:10.315Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 8%
+2024-10-18T13:48:10.316Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 9%
+2024-10-18T13:48:10.320Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 10%
+2024-10-18T13:48:10.321Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 11%
+2024-10-18T13:48:10.321Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 12%
+2024-10-18T13:48:10.323Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 13%
+2024-10-18T13:48:10.324Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 14%
+2024-10-18T13:48:10.324Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 15%
+2024-10-18T13:48:10.325Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 17%
+2024-10-18T13:48:10.325Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 19%
+2024-10-18T13:48:10.326Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 20%
+2024-10-18T13:48:10.330Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 21%
+2024-10-18T13:48:10.331Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 23%
+2024-10-18T13:48:10.331Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 24%
+2024-10-18T13:48:10.332Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 25%
+2024-10-18T13:48:10.339Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 26%
+2024-10-18T13:48:10.339Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 27%
+2024-10-18T13:48:10.340Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 29%
+2024-10-18T13:48:10.340Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 32%
+2024-10-18T13:48:10.341Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 35%
+2024-10-18T13:48:10.341Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 36%
+2024-10-18T13:48:10.347Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 37%
+2024-10-18T13:48:10.348Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 38%
+2024-10-18T13:48:10.348Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 39%
+2024-10-18T13:48:10.349Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 40%
+2024-10-18T13:48:10.351Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 41%
+2024-10-18T13:48:10.351Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 42%
+2024-10-18T13:48:10.351Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 43%
+2024-10-18T13:48:10.355Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 44%
+2024-10-18T13:48:10.355Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 46%
+2024-10-18T13:48:10.356Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 47%
+2024-10-18T13:48:10.356Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 48%
+2024-10-18T13:48:10.356Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 49%
+2024-10-18T13:48:10.364Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 51%
+2024-10-18T13:48:10.365Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 52%
+2024-10-18T13:48:10.365Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 55%
+2024-10-18T13:48:10.365Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 58%
+2024-10-18T13:48:10.366Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 61%
+2024-10-18T13:48:10.366Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 64%
+2024-10-18T13:48:10.366Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 65%
+2024-10-18T13:48:10.367Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 66%
+2024-10-18T13:48:10.374Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 68%
+2024-10-18T13:48:10.375Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 70%
+2024-10-18T13:48:10.375Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 71%
+2024-10-18T13:48:10.376Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 73%
+2024-10-18T13:48:10.381Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 74%
+2024-10-18T13:48:10.382Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 75%
+2024-10-18T13:48:10.383Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 77%
+2024-10-18T13:48:10.385Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 78%
+2024-10-18T13:48:10.385Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 79%
+2024-10-18T13:48:10.386Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 80%
+2024-10-18T13:48:10.386Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 81%
+2024-10-18T13:48:10.387Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 82%
+2024-10-18T13:48:10.388Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 83%
+2024-10-18T13:48:10.394Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 84%
+2024-10-18T13:48:10.395Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 85%
+2024-10-18T13:48:10.395Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 87%
+2024-10-18T13:48:10.399Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 88%
+2024-10-18T13:48:10.399Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 90%
+2024-10-18T13:48:10.400Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 93%
+2024-10-18T13:48:10.406Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 94%
+2024-10-18T13:48:10.407Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 95%
+2024-10-18T13:48:10.407Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 96%
+2024-10-18T13:48:10.407Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 98%
+2024-10-18T13:48:10.413Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 99%
+2024-10-18T13:48:10.421Z [Modules] Streaming discord_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip: 100%
+2024-10-18T13:48:10.422Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-10-18T13:48:10.422Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip
+2024-10-18T13:48:10.806Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 1%
+2024-10-18T13:48:10.818Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 2%
+2024-10-18T13:48:10.828Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 3%
+2024-10-18T13:48:10.838Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 4%
+2024-10-18T13:48:10.847Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 5%
+2024-10-18T13:48:10.854Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 6%
+2024-10-18T13:48:10.858Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 7%
+2024-10-18T13:48:10.868Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 8%
+2024-10-18T13:48:10.878Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 9%
+2024-10-18T13:48:10.885Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 10%
+2024-10-18T13:48:10.887Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 11%
+2024-10-18T13:48:10.900Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 12%
+2024-10-18T13:48:10.914Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 13%
+2024-10-18T13:48:10.916Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 14%
+2024-10-18T13:48:10.928Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 15%
+2024-10-18T13:48:10.930Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 16%
+2024-10-18T13:48:10.933Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 17%
+2024-10-18T13:48:10.938Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 18%
+2024-10-18T13:48:10.948Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 19%
+2024-10-18T13:48:10.949Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 20%
+2024-10-18T13:48:10.957Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 21%
+2024-10-18T13:48:10.968Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 22%
+2024-10-18T13:48:10.969Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 23%
+2024-10-18T13:48:10.975Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 24%
+2024-10-18T13:48:10.978Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 25%
+2024-10-18T13:48:10.981Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 26%
+2024-10-18T13:48:10.988Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 27%
+2024-10-18T13:48:11.007Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 28%
+2024-10-18T13:48:11.008Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 29%
+2024-10-18T13:48:11.009Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 30%
+2024-10-18T13:48:11.012Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 31%
+2024-10-18T13:48:11.017Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 32%
+2024-10-18T13:48:11.027Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 33%
+2024-10-18T13:48:11.031Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 34%
+2024-10-18T13:48:11.039Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 35%
+2024-10-18T13:48:11.048Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 36%
+2024-10-18T13:48:11.050Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 37%
+2024-10-18T13:48:11.053Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 38%
+2024-10-18T13:48:11.070Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 39%
+2024-10-18T13:48:11.071Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 40%
+2024-10-18T13:48:11.080Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 41%
+2024-10-18T13:48:11.082Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 42%
+2024-10-18T13:48:11.093Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 43%
+2024-10-18T13:48:11.094Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 44%
+2024-10-18T13:48:11.100Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 45%
+2024-10-18T13:48:11.112Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 46%
+2024-10-18T13:48:11.125Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 47%
+2024-10-18T13:48:11.127Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 48%
+2024-10-18T13:48:11.131Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 49%
+2024-10-18T13:48:11.137Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 50%
+2024-10-18T13:48:11.157Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 51%
+2024-10-18T13:48:11.158Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 52%
+2024-10-18T13:48:11.158Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 53%
+2024-10-18T13:48:11.159Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 54%
+2024-10-18T13:48:11.168Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 55%
+2024-10-18T13:48:11.171Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 56%
+2024-10-18T13:48:11.176Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 57%
+2024-10-18T13:48:11.184Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 58%
+2024-10-18T13:48:11.197Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 59%
+2024-10-18T13:48:11.201Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 60%
+2024-10-18T13:48:11.204Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 61%
+2024-10-18T13:48:11.207Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 62%
+2024-10-18T13:48:11.223Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 63%
+2024-10-18T13:48:11.229Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 64%
+2024-10-18T13:48:11.231Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 65%
+2024-10-18T13:48:11.240Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 66%
+2024-10-18T13:48:11.241Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 67%
+2024-10-18T13:48:11.247Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 68%
+2024-10-18T13:48:11.248Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 69%
+2024-10-18T13:48:11.255Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 70%
+2024-10-18T13:48:11.263Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 71%
+2024-10-18T13:48:11.267Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 72%
+2024-10-18T13:48:11.270Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 73%
+2024-10-18T13:48:11.282Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 74%
+2024-10-18T13:48:11.283Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 75%
+2024-10-18T13:48:11.291Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 76%
+2024-10-18T13:48:11.293Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 77%
+2024-10-18T13:48:11.296Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 78%
+2024-10-18T13:48:11.307Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 79%
+2024-10-18T13:48:11.315Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 80%
+2024-10-18T13:48:11.316Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 81%
+2024-10-18T13:48:11.329Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 82%
+2024-10-18T13:48:11.330Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 83%
+2024-10-18T13:48:11.331Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 84%
+2024-10-18T13:48:11.340Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 85%
+2024-10-18T13:48:11.349Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 86%
+2024-10-18T13:48:11.355Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 87%
+2024-10-18T13:48:11.366Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 88%
+2024-10-18T13:48:11.366Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 89%
+2024-10-18T13:48:11.371Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 90%
+2024-10-18T13:48:11.381Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 91%
+2024-10-18T13:48:11.382Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 92%
+2024-10-18T13:48:11.389Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 93%
+2024-10-18T13:48:11.395Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 94%
+2024-10-18T13:48:11.403Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 95%
+2024-10-18T13:48:11.407Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 96%
+2024-10-18T13:48:11.411Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 97%
+2024-10-18T13:48:11.423Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 98%
+2024-10-18T13:48:11.425Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 99%
+2024-10-18T13:48:11.434Z [Modules] Streaming discord_voice@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip: 100%
+2024-10-18T13:48:11.435Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-10-18T13:48:11.435Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip
+2024-10-18T13:48:11.688Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 9%
+2024-10-18T13:48:11.689Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 19%
+2024-10-18T13:48:11.689Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 31%
+2024-10-18T13:48:11.689Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 40%
+2024-10-18T13:48:11.690Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 41%
+2024-10-18T13:48:11.691Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 46%
+2024-10-18T13:48:11.691Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 55%
+2024-10-18T13:48:11.691Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 61%
+2024-10-18T13:48:11.692Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 68%
+2024-10-18T13:48:11.692Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 69%
+2024-10-18T13:48:11.692Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 73%
+2024-10-18T13:48:11.693Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 84%
+2024-10-18T13:48:11.693Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 87%
+2024-10-18T13:48:11.693Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 91%
+2024-10-18T13:48:11.694Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 95%
+2024-10-18T13:48:11.694Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 97%
+2024-10-18T13:48:11.695Z [Modules] Streaming discord_zstd@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip: 100%
+2024-10-18T13:48:11.695Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-10-18T13:48:11.696Z [Modules] Installing updates...
+2024-10-18T13:48:11.696Z [Modules] Installing discord_desktop_core@1 from /home/takashi/.config/discord/0.0.71/modules/pending/discord_desktop_core-1.zip
+2024-10-18T13:48:11.755Z [Modules] Installing discord_erlpack@1 from /home/takashi/.config/discord/0.0.71/modules/pending/discord_erlpack-1.zip
+2024-10-18T13:48:11.791Z [Modules] Installing discord_spellcheck@1 from /home/takashi/.config/discord/0.0.71/modules/pending/discord_spellcheck-1.zip
+2024-10-18T13:48:12.236Z [Modules] Installing discord_utils@1 from /home/takashi/.config/discord/0.0.71/modules/pending/discord_utils-1.zip
+2024-10-18T13:48:12.329Z [Modules] Installing discord_voice@1 from /home/takashi/.config/discord/0.0.71/modules/pending/discord_voice-1.zip
+2024-10-18T13:48:12.662Z [Modules] Installing discord_zstd@1 from /home/takashi/.config/discord/0.0.71/modules/pending/discord_zstd-1.zip
+2024-10-18T13:48:12.669Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-10-18T13:48:12.669Z [Modules] Checking for host updates.
+2024-10-18T13:48:12.908Z [Modules] Host is up to date.
+2024-10-18T13:48:12.908Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-18T13:48:12.911Z [Modules] No module updates available.
+2024-10-18T13:48:13.802Z [Modules] Starting to install discord_krisp...
+2024-10-18T13:48:13.803Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-10-18T13:48:13.803Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip
+2024-10-18T13:48:13.808Z [Modules] Starting to install discord_game_utils...
+2024-10-18T13:48:14.120Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 1%
+2024-10-18T13:48:14.121Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 2%
+2024-10-18T13:48:14.133Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 3%
+2024-10-18T13:48:14.138Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 4%
+2024-10-18T13:48:14.139Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 5%
+2024-10-18T13:48:14.143Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 6%
+2024-10-18T13:48:14.148Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 7%
+2024-10-18T13:48:14.155Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 8%
+2024-10-18T13:48:14.162Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 9%
+2024-10-18T13:48:14.165Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 10%
+2024-10-18T13:48:14.175Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 11%
+2024-10-18T13:48:14.179Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 12%
+2024-10-18T13:48:14.184Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 13%
+2024-10-18T13:48:14.193Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 14%
+2024-10-18T13:48:14.195Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 15%
+2024-10-18T13:48:14.202Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 16%
+2024-10-18T13:48:14.212Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 17%
+2024-10-18T13:48:14.215Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 18%
+2024-10-18T13:48:14.220Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 19%
+2024-10-18T13:48:14.233Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 20%
+2024-10-18T13:48:14.236Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 21%
+2024-10-18T13:48:14.240Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 22%
+2024-10-18T13:48:14.249Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 23%
+2024-10-18T13:48:14.253Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 24%
+2024-10-18T13:48:14.257Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 25%
+2024-10-18T13:48:14.265Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 26%
+2024-10-18T13:48:14.273Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 27%
+2024-10-18T13:48:14.286Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 28%
+2024-10-18T13:48:14.287Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 29%
+2024-10-18T13:48:14.292Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 30%
+2024-10-18T13:48:14.297Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 31%
+2024-10-18T13:48:14.298Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 32%
+2024-10-18T13:48:14.303Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 33%
+2024-10-18T13:48:14.304Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 34%
+2024-10-18T13:48:14.317Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 35%
+2024-10-18T13:48:14.321Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 36%
+2024-10-18T13:48:14.324Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 37%
+2024-10-18T13:48:14.333Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 38%
+2024-10-18T13:48:14.334Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 39%
+2024-10-18T13:48:14.341Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 40%
+2024-10-18T13:48:14.343Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 41%
+2024-10-18T13:48:14.352Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 42%
+2024-10-18T13:48:14.361Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 43%
+2024-10-18T13:48:14.361Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 44%
+2024-10-18T13:48:14.362Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 45%
+2024-10-18T13:48:14.363Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 46%
+2024-10-18T13:48:14.365Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 47%
+2024-10-18T13:48:14.368Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 48%
+2024-10-18T13:48:14.378Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 49%
+2024-10-18T13:48:14.380Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 50%
+2024-10-18T13:48:14.385Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 51%
+2024-10-18T13:48:14.389Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 52%
+2024-10-18T13:48:14.398Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 53%
+2024-10-18T13:48:14.406Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 54%
+2024-10-18T13:48:14.410Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 55%
+2024-10-18T13:48:14.417Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 56%
+2024-10-18T13:48:14.426Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 57%
+2024-10-18T13:48:14.432Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 58%
+2024-10-18T13:48:14.438Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 59%
+2024-10-18T13:48:14.439Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 60%
+2024-10-18T13:48:14.448Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 61%
+2024-10-18T13:48:14.456Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 62%
+2024-10-18T13:48:14.458Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 63%
+2024-10-18T13:48:14.462Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 64%
+2024-10-18T13:48:14.466Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 65%
+2024-10-18T13:48:14.469Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 66%
+2024-10-18T13:48:14.476Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 67%
+2024-10-18T13:48:14.490Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 68%
+2024-10-18T13:48:14.504Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 69%
+2024-10-18T13:48:14.507Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 70%
+2024-10-18T13:48:14.514Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 71%
+2024-10-18T13:48:14.518Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 72%
+2024-10-18T13:48:14.528Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 73%
+2024-10-18T13:48:14.530Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 74%
+2024-10-18T13:48:14.534Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 75%
+2024-10-18T13:48:14.547Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 76%
+2024-10-18T13:48:14.551Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 77%
+2024-10-18T13:48:14.574Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 78%
+2024-10-18T13:48:14.575Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 79%
+2024-10-18T13:48:14.578Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 80%
+2024-10-18T13:48:14.579Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 81%
+2024-10-18T13:48:14.591Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 82%
+2024-10-18T13:48:14.593Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 83%
+2024-10-18T13:48:14.594Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 84%
+2024-10-18T13:48:14.597Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 85%
+2024-10-18T13:48:14.607Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 86%
+2024-10-18T13:48:14.614Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 87%
+2024-10-18T13:48:14.618Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 88%
+2024-10-18T13:48:14.626Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 89%
+2024-10-18T13:48:14.631Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 90%
+2024-10-18T13:48:14.632Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 91%
+2024-10-18T13:48:14.635Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 92%
+2024-10-18T13:48:14.639Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 93%
+2024-10-18T13:48:14.646Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 94%
+2024-10-18T13:48:14.652Z [Modules] Checking for host updates.
+2024-10-18T13:48:14.657Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 95%
+2024-10-18T13:48:14.661Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 96%
+2024-10-18T13:48:14.666Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 97%
+2024-10-18T13:48:14.676Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 98%
+2024-10-18T13:48:14.677Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 99%
+2024-10-18T13:48:14.681Z [Modules] Streaming discord_krisp@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip: 100%
+2024-10-18T13:48:14.682Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-10-18T13:48:14.682Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip
+2024-10-18T13:48:14.682Z [Modules] Installing discord_krisp@1 from /home/takashi/.config/discord/0.0.71/modules/pending/discord_krisp-1.zip
+2024-10-18T13:48:14.751Z [Modules] Starting to install discord_rpc...
+2024-10-18T13:48:14.866Z [Modules] Host is up to date.
+2024-10-18T13:48:14.867Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-10-18T13:48:14.869Z [Modules] No module updates available.
+2024-10-18T13:48:14.960Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-10-18T13:48:14.982Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 1%
+2024-10-18T13:48:14.983Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 2%
+2024-10-18T13:48:14.983Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 5%
+2024-10-18T13:48:14.983Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 6%
+2024-10-18T13:48:14.983Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 7%
+2024-10-18T13:48:14.984Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 8%
+2024-10-18T13:48:14.984Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 9%
+2024-10-18T13:48:14.985Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 10%
+2024-10-18T13:48:14.985Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 11%
+2024-10-18T13:48:14.990Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 14%
+2024-10-18T13:48:14.994Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 16%
+2024-10-18T13:48:14.994Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 18%
+2024-10-18T13:48:14.994Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 21%
+2024-10-18T13:48:14.995Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 24%
+2024-10-18T13:48:14.996Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 25%
+2024-10-18T13:48:14.996Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 27%
+2024-10-18T13:48:14.997Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 29%
+2024-10-18T13:48:14.997Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 30%
+2024-10-18T13:48:14.997Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 31%
+2024-10-18T13:48:14.998Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 33%
+2024-10-18T13:48:14.998Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 34%
+2024-10-18T13:48:14.998Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 35%
+2024-10-18T13:48:14.999Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 36%
+2024-10-18T13:48:14.999Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 37%
+2024-10-18T13:48:14.999Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 38%
+2024-10-18T13:48:15.000Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 39%
+2024-10-18T13:48:15.003Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 40%
+2024-10-18T13:48:15.004Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 42%
+2024-10-18T13:48:15.004Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 44%
+2024-10-18T13:48:15.005Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 46%
+2024-10-18T13:48:15.005Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 47%
+2024-10-18T13:48:15.005Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 48%
+2024-10-18T13:48:15.012Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 50%
+2024-10-18T13:48:15.013Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 55%
+2024-10-18T13:48:15.013Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 57%
+2024-10-18T13:48:15.013Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 60%
+2024-10-18T13:48:15.014Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 61%
+2024-10-18T13:48:15.019Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 63%
+2024-10-18T13:48:15.020Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 66%
+2024-10-18T13:48:15.020Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 70%
+2024-10-18T13:48:15.020Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 73%
+2024-10-18T13:48:15.020Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 75%
+2024-10-18T13:48:15.021Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 78%
+2024-10-18T13:48:15.021Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 79%
+2024-10-18T13:48:15.021Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 80%
+2024-10-18T13:48:15.021Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 81%
+2024-10-18T13:48:15.021Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 82%
+2024-10-18T13:48:15.022Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 83%
+2024-10-18T13:48:15.022Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 84%
+2024-10-18T13:48:15.022Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 85%
+2024-10-18T13:48:15.023Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 87%
+2024-10-18T13:48:15.024Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 89%
+2024-10-18T13:48:15.024Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 90%
+2024-10-18T13:48:15.030Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 93%
+2024-10-18T13:48:15.030Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 97%
+2024-10-18T13:48:15.031Z [Modules] Streaming discord_game_utils@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip: 100%
+2024-10-18T13:48:15.032Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-10-18T13:48:15.032Z [Modules] Streaming discord_rpc@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_rpc-1.zip
+2024-10-18T13:48:15.032Z [Modules] Installing discord_game_utils@1 from /home/takashi/.config/discord/0.0.71/modules/pending/discord_game_utils-1.zip
+2024-10-18T13:48:15.078Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-10-18T13:48:15.443Z [Modules] Streaming discord_rpc@1 to /home/takashi/.config/discord/0.0.71/modules/pending/discord_rpc-1.zip: 100%
+2024-10-18T13:48:15.444Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-10-18T13:48:15.444Z [Modules] Installing discord_rpc@1 from /home/takashi/.config/discord/0.0.71/modules/pending/discord_rpc-1.zip
+2024-10-18T13:48:15.452Z [Modules] Finished module installations. [success: 1] [failure: 0]

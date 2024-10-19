@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_icon": {
+         "38": "images/icon38.png"
+      }
+   },
+   "background": {
+      "service_worker": "MPA_Background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "MPA_Content.js" ],
+      "matches": [ "https://mposs.force.com/*", "https://portal.post.japanpost.jp/*", "https://login.post.japanpost.jp/*", "https://*.go.jp/*", "https://*.e-shishobako.ne.jp/*", "https://*.lg.jp/*", "https://*.e-taxrenkei.jp/*", "https://aizuwakamatsu.mylocal.jp/*", "https://*.mypg.jp/*", "https://*.onshikaku.org/*", "https://*.online-web-development.net/*", "https://portal.city.higashimurayama.tokyo.jp/*", "https://nsa.pref.nara.jp/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "様々なオンライン行政サービスで、マイナンバーカードを利用するためのアプリケーションです。",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh/RL1qmHcqaqOLIFv4gRIdjlXn//0QUS5dUhfsyHAtxEIeLyU4hNcrAPLb33pcMV+MHF4ZxsyHMFaK1J6y6NBDu0Nr4AZfoVnMp1zEh+49gzct0FUU0EWOphhE2xq3JDLtrXbsvBEmfPELZO0+3u/vE0W69JM/dir7YbnYFfezDZisnSzG93gC4HV0fXg6TUyLX4FcgDBVoyTgczo79rCbjQ+gz/vjXzpWlMd+lAhCnxCWcl1VIkeZsjOQnibqZmC/+wZ3Zwjh7MOQfvZWlfLRWIll3t/JGVgxSXojjKz4k0JjSGN73fnWvTv+9fjbMtrbfO+GEl2leTtg8SZ2I/NQIDAQAB",
+   "manifest_version": 3,
+   "name": "マイナポータル",
+   "permissions": [ "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "36"
+}

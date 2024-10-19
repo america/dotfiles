@@ -1,0 +1,6 @@
+2024/10/19-07:55:11.511 1265b Reusing MANIFEST /home/takashi/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/10/19-07:55:11.512 1265b Recovering log #90
+2024/10/19-07:55:11.512 1265b Reusing old log /home/takashi/.config/google-chrome/Default/Sync Data/LevelDB/000090.log 
+2024/10/19-08:54:26.151 1265d Level-0 table #95: started
+2024/10/19-08:54:26.157 1265d Level-0 table #95: 119536 bytes OK
+2024/10/19-08:54:26.166 1265d Delete type=0 #90

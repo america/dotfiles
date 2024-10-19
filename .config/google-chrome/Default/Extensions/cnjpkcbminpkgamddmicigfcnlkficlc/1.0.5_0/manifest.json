@@ -1,0 +1,26 @@
+{
+   "action": {
+      "default_icon": {
+         "38": "images/40.png"
+      }
+   },
+   "background": {
+      "service_worker": "MKPF_Background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "MKPF_Main.js" ],
+      "matches": [ "https://id.mykey.soumu.go.jp/*", "https://external.id.mykey.soumu.go.jp/*" ]
+   } ],
+   "description": "マイナポイントのアプリケーションです。",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/20.png",
+      "48": "images/58.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgFF05POWEvxSvnSxFc75dx2GYtTJTfpZl4B8OduHTmrplb8fUmLgAFvCiZrsB1J291WffGSOP62EKxES9t3ZeQR8uVSQtz2NW/YugpFjwqhSDeAOAeI0F34QaPOWXVLDc0PImrOKotgHvknVE5535HzyOsu+8pODkrkC/LE5RrN5cwM3Gsdmnsk6RdLMuio1/phrvTH5+ee86sZ1SqbQT07WUbf2vL86ipodLJuhEDTnm0b8fwD2hohFMKW0HC0aLmPi/47DoeSs5LHxZH7qCTPI9CzoUW30kwwjMywxpNzpwvjuBdQ/mYaNOSHd/UeNZUXx8KDnzaWlsURpjCkMnwIDAQAB",
+   "manifest_version": 3,
+   "name": "マイナポイント",
+   "permissions": [ "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5"
+}

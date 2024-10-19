@@ -1,0 +1,367 @@
+/*
+ NortonLifeLock copyright header start
+
+ Copyright (c) 2021 NortonLifeLock Inc. All rights reserved.
+
+ THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF NORTONLIFELOCK
+ INC.  USE, DISCLOSURE OR REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR
+ EXPRESS WRITTEN PERMISSION OF NORTONLIFELOCK INC.
+
+ The Licensed Software and Documentation are deemed to be commercial computer
+ software as defined in FAR 12.212 and subject to restricted rights as defined
+ in FAR Section 52.227-19 "Commercial Computer Software - Restricted Rights"
+ and DFARS 227.7202, “Rights in Commercial Computer Software or Commercial
+ Computer Software Documentation”, as applicable, and any successor regulations.
+ Any use, modification, reproduction release, performance, display or disclosure
+ of the Licensed Software and Documentation by the U.S. Government shall be
+ solely in accordance with the terms of this Agreement.
+
+ NortonLifeLock copyright header stop
+
+*/
+
+/* font faces */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: 'normal';
+}
+
+/* TODO: below Inter-* font faces should be eventually removed and not used anywhere directly */
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url('fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: 'normal';
+}
+
+@font-face {
+  font-family: 'PT Mono';
+  src: url('fonts/PT-Mono.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.import-wrapper {
+  /*font-family: "SegoeUI";*/
+  font-size: 14px;
+  margin-top: 18px;
+  height: 100%;
+}
+
+.import-wrapper .list-view {
+  height: 88%;
+}
+
+.import-list-wrapper {
+  overflow: auto;
+  max-height: 186px;
+}
+
+.import-list {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.list-header {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #212529;
+  position: relative;
+  top: 2px;
+  font-size: 16px;
+  /*font-family: "SegoeUI-SemiBold";*/
+}
+
+.ellipsify {
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 400px;
+}
+
+.password-cell .ellipsify {
+  min-width: 110px;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.transparent-btn {
+  background: transparent;
+  border: none;
+  outline: none !important;
+  padding: 0;
+}
+
+.filled-btn {
+  background: #fee189;
+  outline: none !important;
+  border: none;
+}
+
+.footer-filled-btn {
+  white-space: nowrap;
+  padding: 8px 32px;
+}
+
+li.row-background {
+  background: #f8f8f8;
+}
+
+.import-footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px !important;
+}
+
+.import-footer .info-text {
+  /*font-family: "SegoeUI";*/
+  margin-bottom: 0;
+  color: #767676;
+  font-size: 13px;
+  line-height: 1.38;
+  font-weight: 600;
+}
+
+body[dir='rtl'] .import-footer .info-text {
+  text-align: right;
+}
+
+.import-footer .left-section {
+  display: flex;
+  margin-right: 15%;
+}
+
+body[dir='rtl'] .import-footer .left-section {
+  margin-right: 0;
+  margin-left: 15%;
+}
+
+.import-footer .left-section:before {
+  content: '';
+  background: url(../images/info-black-24-dp.svg) no-repeat;
+  width: 26px;
+  height: 26px;
+  padding: 5px 7px;
+  vertical-align: middle;
+  background-size: contain;
+  align-self: center;
+  margin-right: 10px;
+}
+
+body[dir='rtl'] .import-footer .left-section:before {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.import-footer .right-section {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.import-footer .back-button {
+  color: #0089c6;
+  margin-right: 16px;
+  white-space: nowrap;
+}
+
+body[dir='rtl'] .import-footer .back-button {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+li .checkbox-column {
+  text-align: center;
+  padding-left: 8px;
+}
+
+header button {
+  padding: 0px;
+}
+
+header button.arrow-btn {
+  margin: 4px 12px;
+}
+
+.masked-value-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 165px;
+}
+
+.masked-value-container .ellipsify {
+  flex: 0 0 150px;
+}
+
+ul.import-list {
+  list-style: none;
+}
+
+li.import-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.import-list-item .list-cell:first-of-type {
+  padding-top: 0px;
+}
+
+.import-tables-wrapper .import-footer {
+  display: flex;
+  justify-content: end;
+}
+
+/**
+Import table style specific to truekey
+*/
+
+.import-tables-wrapper .import-list-item,
+.true-key-import-wrapper .import-list-item {
+  padding: 12px 0px;
+  border-bottom: 1px solid gainsboro;
+  justify-content: flex-start;
+}
+
+.import-tables-wrapper .import-list-wrapper,
+.true-key-import-wrapper .import-list-wrapper {
+  padding-bottom: 10px;
+}
+
+.import-tables-wrapper .import-list-item:first-of-type,
+.true-key-import-wrapper .import-list-item:first-of-type {
+  padding-top: 0px;
+}
+
+.import-tables-wrapper .import-list,
+.true-key-import-wrapper .import-list {
+  margin: 0px 20px 0px 0px;
+  padding-left: 22px;
+}
+
+.import-tables-wrapper .transparent-btn.checkbox,
+.true-key-import-wrapper .transparent-btn.checkbox {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 7px;
+}
+
+.checkbox-column .checkbox {
+  top: 2px !important;
+}
+
+.import-tables-wrapper.completed header .transparent-btn.checkbox,
+.true-key-import-wrapper.completed header .transparent-btn.checkbox {
+  display: none;
+}
+
+.import-tables-wrapper .transparent-btn.checkbox > img,
+.true-key-import-wrapper .transparent-btn.checkbox > img {
+  width: 100%;
+}
+
+.import-tables-wrapper .row-background,
+.true-key-import-wrapper .row-background {
+  background: transparent;
+}
+
+.import-tables-wrapper .import-wrapper,
+.true-key-import-wrapper .import-wrapper {
+  height: 470px;
+}
+
+.import-tables-wrapper .import-wrapper .list-view,
+.true-key-import-wrapper .import-wrapper .list-view {
+  height: 400px;
+  max-width: 695px;
+  margin: auto;
+  overflow: auto;
+}
+
+.import-tables-wrapper .import-footer,
+.true-key-import-wrapper .import-footer {
+  max-width: calc(100% - 60px);
+  margin: auto;
+}
+
+.import-tables-wrapper .import-list-item > .ellipsify,
+.true-key-import-wrapper .import-list-item > .ellipsify {
+  width: 185px;
+  margin: 0px 15px;
+  text-align: left;
+}
+
+body[dir='rtl'] .import-tables-wrapper .import-list-item > .ellipsify,
+body[dir='rtl'] .true-key-import-wrapper .import-list-item > .ellipsify {
+  text-align: right;
+}
+
+.import-tables-wrapper .import-wrapper .list-view header,
+.true-key-import-wrapper .import-wrapper .list-view header {
+  padding-bottom: 15px;
+}
+
+body[dir='rtl'] .true-key-import-wrapper .import-wrapper .list-view header,
+body[dir='rtl'] .import-data-content-csw .import-wrapper .list-view header {
+  display: flex;
+}

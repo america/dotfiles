@@ -1,0 +1,114 @@
+{
+	"SUSPICIOUS LINK":
+	{
+		"message": "COLLEGAMENTO SOSPETTO"
+	},
+	"Norton now warns you of suspicious links in your email to protect you from malicious activity.":
+	{
+		"message": "Norton ora ti avvisa se le e-mail contengono collegamenti sospetti per proteggerti da attivit\u00e0 dannose."
+	},
+	"You're browsing safely in Isolation Mode":
+	{
+		"message":"Stai navigando in sicurezza in modalit\u00e0 di isolamento"
+	},
+	"Learn More":
+	{
+		"message": "Ulteriori informazioni"
+	},
+	"Provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "Fornisce una protezione aggiuntiva quando visiti siti Web rischiosi che potrebbero contenere malware o exploit del browser."
+	},
+	"Should you use webmail, Facebook or Twitter, we'll alert you regarding any suspicious links before you visit them.":
+	{
+		"message": "Se usi la webmail, Facebook o Twitter, ti avvisiamo sui collegamenti sospetti prima di visitarli."
+	},
+	"To enable these features, sign in to your NortonLifeLock Account.":
+	{
+		"message": "Per attivare queste funzionalit\u00e0, accedi all\u2018account NortonLifeLock."
+	},
+	"Continue Without Isolation Mode":
+	{
+		"message": "Continua senza la modalit\u00e0 di isolamento"
+	},
+	"Sign In":
+	{
+		"message": "Accedi"
+	},
+	"Continue":
+	{
+		"message": "Continua"
+	},
+	"Cancel":
+	{
+		"message": "Annulla"
+	},
+	"Leave Feedback":
+	{
+		"message": "Lascia commenti"
+	},
+	"If you visit this site...":
+	{
+		"message": "Se visiti questo sito..."
+	},
+	"Isolation Mode":
+	{
+		"message": "Modalit\u00e0 di isolamento"
+	},
+	"provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "fornisce una protezione aggiuntiva quando visiti siti Web rischiosi che potrebbero contenere malware o exploit del browser."
+	},
+	"Banking Protection":
+	{
+		"message": "Protezione attivit\u00e0 bancarie"
+	},
+	"provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "offre sicurezza aggiuntiva per le transazioni online e contribuisce a proteggere le informazioni finanziarie e altri dati personali dagli hacker."
+	},
+	"Remember for this website":
+	{
+		"message": "Ricorda per questo sito Web"
+	},
+	"Remember for all banking websites":
+	{
+		"message": "Ricorda per tutti i siti Web di attivit\u00e0 bancarie"
+	},
+	"Sign in to your NortonLifeLock account to enable Isolation Mode.":
+	{
+		"message": "Accedi all\u2019account NortonLifeLock per abilitare la modalit\u00e0 di isolamento."
+	},
+	"We’ll highlight suspicious links in Webmail, Facebook, Twitter and other accounts.":
+	{
+		"message": "Verranno segnalati i collegamenti sospetti in Webmail, Facebook, Twitter e altri account."
+	},
+	"OK":
+	{
+		"message": "OK"
+	},
+	"Try this feature":
+	{
+		"message": "Prova questa funzionalit\u00e0"
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "Offre sicurezza aggiuntiva per le transazioni online e contribuisce a proteggere le informazioni finanziarie e altri dati personali dagli hacker."
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers. You can turn this feature off in":
+	{
+		"message": "Offre sicurezza aggiuntiva per le transazioni online e contribuisce a proteggere le informazioni finanziarie e altri dati personali dagli hacker. \u00c8 possibile disabilitare questa funzionalit\u00e0 in"
+	},
+	"Settings":
+	{
+		"message": "Impostazioni"
+	},
+	"Banking Protection Enabled":
+	{
+		"message": "Protezione attivit\u00e0 bancarie attivata"
+	},
+	"Banking Protection Disabled":
+	{
+		"message": "Protezione attivit\u00e0 bancarie disattivata"
+	}
+}

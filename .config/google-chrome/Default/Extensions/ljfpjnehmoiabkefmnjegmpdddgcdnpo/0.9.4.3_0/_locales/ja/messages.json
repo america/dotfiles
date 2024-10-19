@@ -1,0 +1,155 @@
+{
+   "conf_clearall": {
+      "message": "すべて消去"
+   },
+   "conf_none": {
+      "message": "無し"
+   },
+   "conf_notsaved": {
+      "message": "まだ保存されていません"
+   },
+   "conf_save": {
+      "message": "保存"
+   },
+   "conf_saved": {
+      "message": "保存されました"
+   },
+   "conf_setdefault": {
+      "message": "デフォルト値をセット"
+   },
+   "ext_description": {
+      "message": "この拡張機能は、ブラウザのUser Agentを切り替えることができます。"
+   },
+   "ext_name": {
+      "message": "Ultimate User Agent Switcher, URL sniffer"
+   },
+   "locale": {
+      "message": "ja"
+   },
+   "msg_active": {
+      "message": "有効"
+   },
+   "msg_activenow": {
+      "message": "今すぐ有効にする!!"
+   },
+   "msg_add": {
+      "message": "新規追加"
+   },
+   "msg_agentstring": {
+      "message": "User Agent文字列"
+   },
+   "msg_apply": {
+      "message": "適用"
+   },
+   "msg_applycurrenttab": {
+      "message": "現在のタブにのみ適用されます"
+   },
+   "msg_areyousure": {
+      "message": "本当によろしいですか？"
+   },
+   "msg_autorefresh": {
+      "message": "現在のタブを表示し直す"
+   },
+   "msg_clearlog": {
+      "message": "消去"
+   },
+   "msg_close": {
+      "message": "閉じる"
+   },
+   "msg_defaultstring": {
+      "message": "値を設定しない場合はChromeのUser Agent文字列になります。"
+   },
+   "msg_delete": {
+      "message": "削除"
+   },
+   "msg_edit": {
+      "message": "編集"
+   },
+   "msg_enablepattern": {
+      "message": "パターンの有効化"
+   },
+   "msg_enablesniffer": {
+      "message": "URL snifferを有効化"
+   },
+   "msg_enableurlpattern": {
+      "message": "URLパターンを有効化"
+   },
+   "msg_export": {
+      "message": "エクスポート"
+   },
+   "msg_filter": {
+      "message": "適用するフィルタ"
+   },
+   "msg_filterstoapply": {
+      "message": "適用するフィルタ(未選択の場合はすべてに適用)"
+   },
+   "msg_header": {
+      "message": "ヘッダ"
+   },
+   "msg_higherpriority": {
+      "message": "数字が小さいほど優先度が高い。"
+   },
+   "msg_import": {
+      "message": "インポート"
+   },
+   "msg_link": {
+      "message": "リンク"
+   },
+   "msg_loaddefault": {
+      "message": "デフォルト値を読み込む"
+   },
+   "msg_loadeddefault": {
+      "message": "デフォルト値が読み込まれました。"
+   },
+   "msg_movedown": {
+      "message": "下へ移動"
+   },
+   "msg_moveup": {
+      "message": "上へ移動"
+   },
+   "msg_name": {
+      "message": "名前"
+   },
+   "msg_occurerror": {
+      "message": "エラーがあります。"
+   },
+   "msg_option": {
+      "message": "オプション"
+   },
+   "msg_pattern": {
+      "message": "パターン"
+   },
+   "msg_ratedesc": {
+      "message": "もしあなたがこれを気に入ってもらえたなら、お友達への紹介と五つ星の評価をいただけるとありがたいです。"
+   },
+   "msg_ratethisitem": {
+      "message": "この拡張機能を評価する"
+   },
+   "msg_refresh": {
+      "message": "再読み込み"
+   },
+   "msg_refreshalltabs": {
+      "message": "すべてのタブをリフレッシュ"
+   },
+   "msg_regexp": {
+      "message": "正規表現の前に r/ を記述してください"
+   },
+   "msg_selectone": {
+      "message": "選んでください。"
+   },
+   "msg_time": {
+      "message": "時間"
+   },
+   "msg_useragentlist": {
+      "message": "User Agentリスト"
+   },
+   "msg_userpattern": {
+      "message": "ユーザーパターン"
+   },
+   "msg_view": {
+      "message": "表示"
+   },
+   "msg_viewlog2": {
+      "message": "ログを表示"
+   }
+}

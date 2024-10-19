@@ -1,0 +1,51 @@
+{
+   "background": {
+      "page": "background/background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/chrome-b-plus.png",
+      "default_popup": "background/popup.html",
+      "default_title": "Hatena Bookmark"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Ctrl+B",
+            "mac": "MacCtrl+Shift+B"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "content/login_check.js" ],
+      "matches": [ "http://www.hatena.ne.jp/login", "https://www.hatena.ne.jp/login", "http://www.hatena.ne.jp/login*", "https://www.hatena.ne.jp/login*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "js": [ "content/logout.js" ],
+      "matches": [ "http://www.hatena.ne.jp/logout", "https://www.hatena.ne.jp/logout", "http://www.hatena.ne.jp/logout*", "https://www.hatena.ne.jp/logout*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "css": [ "content/widget_embedder.css" ],
+      "js": [ "content/widget_embedder.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "ja",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "images/favicon128.png",
+      "16": "images/favicon16.png",
+      "32": "images/favicon32.png",
+      "48": "images/favicon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQSmfQ1fTCCx6Fz8AGUdPOPIHJRXsctQvxgPjTnbE9rQVMJWhwXVEfYvGV0Ht+7rGhnf2K4EFD2kEHYUAmUCR0e74Em086dipJewh1N0tZLgxZ6aLimbnqJdisYMymqRzoAadDqpx76HUKrAeVnw0Rgnl+7V2xpAsMY7jHjYK43wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "background/config.html",
+   "permissions": [ "http://*/*", "https://*/*", "tabs", "unlimited_storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.4.3"
+}

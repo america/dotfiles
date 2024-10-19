@@ -1,0 +1,60 @@
+<!--
+  ~ Copyright © 2022 PaperCut Software International Pty. Ltd.
+  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title class="translated" data-key="loginTitle"></title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="dark-bg">
+<div class="login-page">
+    <h1 class="login-heading translated" data-key="passwordRequired"></h1>
+    <span class="error-message translated" id="error-message-invalid-creds" data-key="invalidCredentials"></span>
+    <span class="error-message translated" id="error-message-denied-group-restriction" data-key="accessDeniedByGroupRestriction"></span>
+    <span class="error-message translated" id="error-message-email-unregistered" data-key="emailUnregisteredInPaperCut"></span>
+    <span class="error-message translated" id="error-message-grant-access" data-key="grantAccessError"></span>
+    <span class="error-message translated" id="error-message-unknown-g-account" data-key="unknownGoogleAccountError"></span>
+    <span class="error-message translated" id="error-message-gsuite-not-supported" data-key="gSuiteNotSupportedError"></span>
+    <span class="error-message translated" id="error-message-connection-failed" data-key="connectionFailedError"></span>
+    <span class="error-message translated" id="error-message-gsuite-third-party-access" data-key="gsuiteDirectoryAccessNotConfigured"></span>
+    <span class="error-message" id="error-message-show-verbatim" data-key="directGSuiteError"></span>
+    <form id="login-form">
+        <div id="login-form-username">
+            <div class="form-control">
+                <label for="username" class="translated" data-key="username"></label>
+                <input id="username" type="text" name="username" class="text-input" required/>
+            </div>
+            <div class="form-control">
+                <label for="password" class="translated" data-key="password"></label>
+                <input id="password" type="password" name="password" class="text-input" required/>
+            </div>
+            <div class="form-control">
+                <button id="login" type="button" name="login">
+                    <span class="translated" data-key="print"></span>
+                    <div class="loader translated" data-key="loading"></div>
+                </button>
+            </div>
+        </div>
+        <div id="login-form-or" class="translated or" data-key="or">or</div>
+        <div id="login-form-google" class="form-control">
+            <button id="googlelogin" type="button" name="googlelogin">
+                <span class="translated" data-key="continueWithGoogle"></span>
+                <div class="loader translated" data-key="loading"></div>
+            </button>
+        </div>
+    </form>
+    <img class="powered-by-papercut" src="img/powered-by-papercut.svg">
+</div>
+<div class="form-control" id="remember-me-container">
+    <label for="remember" class="checkbox-container">
+        <span class="translated" data-key="rememberMe"></span>
+        <input id="remember" type="checkbox" class="checkbox" checked="checked"/>
+        <span class="checkbox"></span>
+    </label>
+</div>
+<script type="text/javascript" src="scripts/login.js"></script>
+</body>
+</html>

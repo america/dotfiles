@@ -1,0 +1,23 @@
+{
+   "ext_description": {
+      "message": "提取並保存 ChatGPT 對話到 markdown、文本、JSON、CSV 和圖像。"
+   },
+   "ext_fulltitle": {
+      "message": "ChatGPT 匯出器 - 輕鬆提取聊天對話"
+   },
+   "ext_name": {
+      "message": "ChatGPT 匯出器"
+   },
+   "ext_subname": {
+      "message": "輕鬆提取聊天對話"
+   },
+   "feedback": {
+      "message": "問題迴響"
+   },
+   "language": {
+      "message": "Chinese, Traditional"
+   },
+   "thanks": {
+      "message": "感謝您的使用～"
+   }
+}

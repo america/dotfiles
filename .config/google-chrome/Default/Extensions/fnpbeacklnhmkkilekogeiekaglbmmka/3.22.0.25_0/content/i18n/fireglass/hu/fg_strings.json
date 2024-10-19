@@ -1,0 +1,114 @@
+{
+	"SUSPICIOUS LINK":
+	{
+		"message": "GYAN\u00daS HIVATKOZ\u00c1S"
+	},
+	"Norton now warns you of suspicious links in your email to protect you from malicious activity.":
+	{
+		"message": "A Norton figyelmezteti \u00d6nt az e-mailben szerepl\u0151 gyan\u00fas linkekre, hogy meg\u00f3vja a rosszindulat\u00fa tev\u00e9kenys\u00e9gekt\u0151l."
+	},
+	"You're browsing safely in Isolation Mode":
+	{
+		"message":"Jelenleg biztons\u00e1gosan b\u00f6ng\u00e9szik elszigetelt m\u00f3dban"
+	},
+	"Learn More":
+	{
+		"message": "Tov\u00e1bbi r\u00e9szletek"
+	},
+	"Provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "Ez tov\u00e1bbi v\u00e9delmet ny\u00fajt, ha olyan kock\u00e1zatos weboldalakat l\u00e1togat meg, amelyek rosszindulat\u00fa programokat tartalmazhatnak vagy b\u00f6ng\u00e9sz\u0151hib\u00e1kat haszn\u00e1lhatnak ki."
+	},
+	"Should you use webmail, Facebook or Twitter, we'll alert you regarding any suspicious links before you visit them.":
+	{
+		"message": "Webes levelez\u00e9s, Facebook vagy Twitter haszn\u00e1lata k\u00f6zben figyelmeztetj\u00fck a gyan\u00fas linkekre, miel\u0151tt megl\u00e1togatn\u00e1 azokat."
+	},
+	"To enable these features, sign in to your NortonLifeLock Account.":
+	{
+		"message": "E funkci\u00f3k enged\u00e9lyez\u00e9s\u00e9hez jelentkezzen be a NortonLifeLock-fi\u00f3kj\u00e1ba."
+	},
+	"Continue Without Isolation Mode":
+	{
+		"message": "Folytat\u00e1s elszigetelt m\u00f3d n\u00e9lk\u00fcl"
+	},
+	"Sign In":
+	{
+		"message": "Bejelentkez\u00e9s"
+	},
+	"Continue":
+	{
+		"message": "Folytat\u00e1s"
+	},
+	"Cancel":
+	{
+		"message": "M\u00e9gse"
+	},
+	"Leave Feedback":
+	{
+		"message": "Visszajelz\u00e9s"
+	},
+	"If you visit this site...":
+	{
+		"message": "Ha felkeresi ezt a webhelyet..."
+	},
+	"Isolation Mode":
+	{
+		"message": "Az Elszigetelt m\u00f3d"
+	},
+	"provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "tov\u00e1bbi v\u00e9delmet ny\u00fajt, ha olyan kock\u00e1zatos webhelyeket l\u00e1togat meg, amelyek rosszindulat\u00fa programokat tartalmazhatnak, vagy b\u00f6ng\u00e9sz\u0151hib\u00e1kat haszn\u00e1lhatnak ki."
+	},
+	"Banking Protection":
+	{
+		"message": "A Banki v\u00e9delem"
+	},
+	"provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "tov\u00e1bbi biztons\u00e1got ny\u00fajt az online tranzakci\u00f3khoz, \u00e9s seg\u00edt p\u00e9nz\u00fcgyi inform\u00e1ci\u00f3it \u00e9s egy\u00e9b szem\u00e9lyes adatait a hackerekt\u0151l megv\u00e9deni."
+	},
+	"Remember for this website":
+	{
+		"message": "Jegyezze meg ehhez a webhelyhez"
+	},
+	"Remember for all banking websites":
+	{
+		"message": "Jegyezze meg az \u00f6sszes p\u00e9nzint\u00e9zeti webhelyhez"
+	},
+	"Sign in to your NortonLifeLock account to enable Isolation Mode.":
+	{
+		"message": "Az Elszigetelt m\u00f3d haszn\u00e1lat\u00e1hoz jelentkezzen be NortonLifeLock-fi\u00f3kj\u00e1ba."
+	},
+	"We’ll highlight suspicious links in Webmail, Facebook, Twitter and other accounts.":
+	{
+		"message": "Felh\u00edvjuk figyelm\u00e9t a gyan\u00fas hivatkoz\u00e1sokra a Webmail-, a Facebook-, a Twitter- \u00e9s az egy\u00e9b fi\u00f3kokban."
+	},
+	"OK":
+	{
+		"message": "OK"
+	},
+	"Try this feature":
+	{
+		"message": "Pr\u00f3b\u00e1lja ki ezt a funkci\u00f3t"
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "Tov\u00e1bbi biztons\u00e1got ny\u00fajt az online tranzakci\u00f3khoz, \u00e9s seg\u00edt p\u00e9nz\u00fcgyi inform\u00e1ci\u00f3it \u00e9s egy\u00e9b szem\u00e9lyes adatait a hackerekt\u0151l megv\u00e9deni."
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers. You can turn this feature off in":
+	{
+		"message": "Tov\u00e1bbi biztons\u00e1got ny\u00fajt az online tranzakci\u00f3khoz, \u00e9s seg\u00edt p\u00e9nz\u00fcgyi inform\u00e1ci\u00f3it \u00e9s egy\u00e9b szem\u00e9lyes adatait a hackerekt\u0151l megv\u00e9deni. Ez a funkci\u00f3 kikapcsolhat\u00f3 itt:"
+	},
+	"Settings":
+	{
+		"message": "Be\u00e1ll\u00edt\u00e1sok"
+	},
+	"Banking Protection Enabled":
+	{
+		"message": "Banki \u00fcgyint\u00e9z\u00e9s v\u00e9delme enged\u00e9lyezve"
+	},
+	"Banking Protection Disabled":
+	{
+		"message": "Banki \u00fcgyint\u00e9z\u00e9s v\u00e9delme letiltva"
+	}
+}

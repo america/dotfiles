@@ -1,0 +1,23 @@
+{
+   "ext_description": {
+      "message": "Trích xuất và lưu trữ cuộc trò chuyện ChatGPT dưới dạng markdown, text, JSON, CSV và hình ảnh."
+   },
+   "ext_fulltitle": {
+      "message": "ChatGPT Exporter - Trình xuất ChatGPT"
+   },
+   "ext_name": {
+      "message": "ChatGPT Exporter"
+   },
+   "ext_subname": {
+      "message": "Trình xuất ChatGPT"
+   },
+   "feedback": {
+      "message": "Phản hồi"
+   },
+   "language": {
+      "message": "Vietnamese"
+   },
+   "thanks": {
+      "message": "Xây dựng với ❤️. Cảm ơn đã sử dụng."
+   }
+}

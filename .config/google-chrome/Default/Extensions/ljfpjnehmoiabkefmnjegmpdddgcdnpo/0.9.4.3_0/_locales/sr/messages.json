@@ -1,0 +1,173 @@
+{
+   "conf_clearall": {
+      "message": "Очисти све"
+   },
+   "conf_none": {
+      "message": "ништа"
+   },
+   "conf_notsaved": {
+      "message": "Није сачувано."
+   },
+   "conf_save": {
+      "message": "Сачувај"
+   },
+   "conf_saved": {
+      "message": "Сачувано."
+   },
+   "conf_setdefault": {
+      "message": "Подразумевано"
+   },
+   "ext_description": {
+      "message": "Овај додатак може да промени кориснички агент прегледача. Омогућава вам и да пронађете све HTTP URL адресе."
+   },
+   "ext_name": {
+      "message": "Ultimate User Agent Switcher, URL sniffer"
+   },
+   "locale": {
+      "message": "sr"
+   },
+   "msg_active": {
+      "message": "Активан"
+   },
+   "msg_activenow": {
+      "message": "Активирај"
+   },
+   "msg_add": {
+      "message": "Додај"
+   },
+   "msg_agentstring": {
+      "message": "Ниска корисничког агента"
+   },
+   "msg_apply": {
+      "message": "Примени"
+   },
+   "msg_areyousure": {
+      "message": "Јесте ли сигурни?"
+   },
+   "msg_autocloseonclick": {
+      "message": "Аутоматски затвори при клику било где на страници"
+   },
+   "msg_autorefresh": {
+      "message": "Аутоматски освежи тренутну картицу"
+   },
+   "msg_autoselectinput": {
+      "message": "Аутоматски изабери при клику на поље за унос"
+   },
+   "msg_changedua": {
+      "message": "Кориснички агент је промењен"
+   },
+   "msg_clearlog": {
+      "message": "Очисти"
+   },
+   "msg_close": {
+      "message": "Затвори"
+   },
+   "msg_defaultchrome": {
+      "message": "Подразумевано (Chrome)"
+   },
+   "msg_defaultstring": {
+      "message": "Празно поље означава подразумевани кориснички агент – Chrome."
+   },
+   "msg_delete": {
+      "message": "Обриши"
+   },
+   "msg_edit": {
+      "message": "Уреди"
+   },
+   "msg_enablepattern": {
+      "message": "Омогући образац"
+   },
+   "msg_enablesniffer": {
+      "message": "Анализатор саобраћаја"
+   },
+   "msg_enableurlpattern": {
+      "message": "URL образац"
+   },
+   "msg_export": {
+      "message": "Извези"
+   },
+   "msg_filter": {
+      "message": "Филтери за примену"
+   },
+   "msg_filterstoapply": {
+      "message": "Филтери за примену (примењује се на све филтере ако не изаберете ниједан)"
+   },
+   "msg_filtertoview": {
+      "message": "Филтери за приказ"
+   },
+   "msg_header": {
+      "message": "Заглавље"
+   },
+   "msg_higherpriority": {
+      "message": "Мањи број има већи приоритет."
+   },
+   "msg_import": {
+      "message": "Увези"
+   },
+   "msg_link": {
+      "message": "Веза"
+   },
+   "msg_loaddefault": {
+      "message": "Учитај подразумевано"
+   },
+   "msg_loadeddefault": {
+      "message": "Учитане су подразумеване вредности."
+   },
+   "msg_movedown": {
+      "message": "Помери надоле"
+   },
+   "msg_moveup": {
+      "message": "Помери нагоре"
+   },
+   "msg_myuseragent": {
+      "message": "Мој кориснички агент"
+   },
+   "msg_name": {
+      "message": "Име"
+   },
+   "msg_occurerror": {
+      "message": "Дошло је до грешке."
+   },
+   "msg_option": {
+      "message": "Опције"
+   },
+   "msg_orgheader": {
+      "message": "Изворно заглавље"
+   },
+   "msg_pattern": {
+      "message": "Образац"
+   },
+   "msg_ratedesc": {
+      "message": "Ако вам се свиђа, оцените додатак са пет звездица и препоручите га пријатељима."
+   },
+   "msg_ratethisitem": {
+      "message": "Оцените додатак"
+   },
+   "msg_refresh": {
+      "message": "Освежи"
+   },
+   "msg_regexp": {
+      "message": "Можете да користите регуларни израз. Налепите „r/“ пре њега."
+   },
+   "msg_selectone": {
+      "message": "Изаберите једно."
+   },
+   "msg_time": {
+      "message": "Време"
+   },
+   "msg_useragentlist": {
+      "message": "Списак корисничких агената"
+   },
+   "msg_userpattern": {
+      "message": "Кориснички образац"
+   },
+   "msg_view": {
+      "message": "Погледај"
+   },
+   "msg_viewlog": {
+      "message": "Погледај евиденцију анализатора"
+   },
+   "msg_viewlog2": {
+      "message": "Погледај евиденцију"
+   }
+}

@@ -1,0 +1,1 @@
+!function(n){(n.NSSS=n.NSSS||{}).extensionURLValidatorHelper=function(n){const t=n["constants"];var N={getNortonExtensionIdentifiers:async function(){return n.chromeGlobal.THREE_IN_ONE_EXTENSION?[]:[...t.NORTON_HP_EXTENSION_IDS,...t.NORTON_DS_EXTENSION_IDS]}};return N}((n.SymBfw,n.NSSS))}(executionContext);

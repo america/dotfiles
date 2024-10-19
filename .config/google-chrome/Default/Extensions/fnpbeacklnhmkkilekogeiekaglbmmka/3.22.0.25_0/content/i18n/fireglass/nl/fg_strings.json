@@ -1,0 +1,114 @@
+{
+	"SUSPICIOUS LINK":
+	{
+		"message": "VERDACHTE LINK"
+	},
+	"Norton now warns you of suspicious links in your email to protect you from malicious activity.":
+	{
+		"message": "Norton Safe Web waarschuwt u nu voor gevaarlijke links in e-mails zodat u wordt beschermd tegen schadelijke activiteit."
+	},
+	"You're browsing safely in Isolation Mode":
+	{
+		"message":"U internet nu veilig in de Isolatiemodus"
+	},
+	"Learn More":
+	{
+		"message": "Meer informatie"
+	},
+	"Provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "Biedt extra bescherming wanneer u naar riskante sites gaat die mogelijk malware of browserexploits bevatten."
+	},
+	"Should you use webmail, Facebook or Twitter, we'll alert you regarding any suspicious links before you visit them.":
+	{
+		"message": "Als u webmail, Facebook of Twitter gebruikt, waarschuwen we u over eventuele verdachte links voordat u ze bezoekt."
+	},
+	"To enable these features, sign in to your NortonLifeLock Account.":
+	{
+		"message": "Meld u aan bij uw NortonLifeLock-account om deze functies in te schakelen."
+	},
+	"Continue Without Isolation Mode":
+	{
+		"message": "Doorgaan zonder Isolatiemodus"
+	},
+	"Sign In":
+	{
+		"message": "Aanmelden"
+	},
+	"Continue":
+	{
+		"message": "Doorgaan"
+	},
+	"Cancel":
+	{
+		"message": "Annuleren"
+	},
+	"Leave Feedback":
+	{
+		"message": "Feedback geven"
+	},
+	"If you visit this site...":
+	{
+		"message": "Wanneer u naar deze site gaat..."
+	},
+	"Isolation Mode":
+	{
+		"message": "Isolatiemodus"
+	},
+	"provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "biedt extra bescherming wanneer u naar riskante sites gaat die mogelijk malware of browserexploits bevatten."
+	},
+	"Banking Protection":
+	{
+		"message": "Bescherming tijdens het bankieren"
+	},
+	"provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "biedt extra beveiliging voor online transacties en helpt uw financi\u00eble informatie en andere persoonlijke gegevens bij hackers vandaan te houden."
+	},
+	"Remember for this website":
+	{
+		"message": "Onthouden voor deze website"
+	},
+	"Remember for all banking websites":
+	{
+		"message": "Onthouden voor alle websites voor bankieren"
+	},
+	"Sign in to your NortonLifeLock account to enable Isolation Mode.":
+	{
+		"message": "Meld u aan bij uw NortonLifeLock-account om de Isolatiemodus in te schakelen."
+	},
+	"We’ll highlight suspicious links in Webmail, Facebook, Twitter and other accounts.":
+	{
+		"message": "We markeren verdachte links in webmail-, Facebook-, Twitter- en andere accounts."
+	},
+	"OK":
+	{
+		"message": "OK"
+	},
+	"Try this feature":
+	{
+		"message": "Deze functie proberen"
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "Biedt extra beveiliging voor online transacties en helpt uw financi\u00eble informatie en andere persoonlijke gegevens bij hackers vandaan te houden."
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers. You can turn this feature off in":
+	{
+		"message": "Biedt extra beveiliging voor online transacties en helpt uw financi\u00eble informatie en andere persoonlijke gegevens bij hackers vandaan te houden. U kunt deze functie uitschakelen in"
+	},
+	"Settings":
+	{
+		"message": "Instellingen"
+	},
+	"Banking Protection Enabled":
+	{
+		"message": "Bescherming tijdens internetbankieren ingeschakeld"
+	},
+	"Banking Protection Disabled":
+	{
+		"message": "Bescherming tijdens internetbankieren uitgeschakeld"
+	}
+}

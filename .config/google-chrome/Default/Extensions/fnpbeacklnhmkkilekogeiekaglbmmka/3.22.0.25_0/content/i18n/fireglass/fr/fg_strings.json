@@ -1,0 +1,114 @@
+{
+	"SUSPICIOUS LINK":
+	{
+		"message": "LIEN SUSPECT"
+	},
+	"Norton now warns you of suspicious links in your email to protect you from malicious activity.":
+	{
+		"message": "Norton vous avertit d\u00e9sormais des liens suspects dans votre messagerie pour vous prot\u00e9ger contre les activit\u00e9s malveillantes."
+	},
+	"You're browsing safely in Isolation Mode":
+	{
+		"message":"Vous naviguez en toute s\u00e9curit\u00e9 en mode Isolement"
+	},
+	"Learn More":
+	{
+		"message": "En savoir plus"
+	},
+	"Provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "fournit une protection suppl\u00e9mentaire lorsque vous consultez des sites web dangereux qui peuvent contenir des malwares ou des exploits de navigateur."
+	},
+	"Should you use webmail, Facebook or Twitter, we'll alert you regarding any suspicious links before you visit them.":
+	{
+		"message": "que vous utilisiez Webmail, Facebook ou Twitter, nous vous enverrons une alerte en cas de lien suspect avant que vous y acc\u00e9diez."
+	},
+	"To enable these features, sign in to your NortonLifeLock Account.":
+	{
+		"message": "Pour activer ces fonctionnalit\u00e9s, connectez-vous \u00e0 votre compte NortonLifeLock."
+	},
+	"Continue Without Isolation Mode":
+	{
+		"message": "Continuer sans mode Isolement"
+	},
+	"Sign In":
+	{
+		"message": "Connexion"
+	},
+	"Continue":
+	{
+		"message": "Continuer"
+	},
+	"Cancel":
+	{
+		"message": "Annuler"
+	},
+	"Leave Feedback":
+	{
+		"message": "Vos commentaires"
+	},
+	"If you visit this site...":
+	{
+		"message": "Si vous consultez ce site..."
+	},
+	"Isolation Mode":
+	{
+		"message": "Le mode Isolement"
+	},
+	"provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "fournit une protection suppl\u00e9mentaire lorsque vous consultez des sites web dangereux qui peuvent contenir des malwares ou des exploits de navigateur."
+	},
+	"Banking Protection":
+	{
+		"message": "Protection bancaire"
+	},
+	"provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "fournit une s\u00e9curit\u00e9 suppl\u00e9mentaire pour les transactions en ligne et vous aide \u00e0 conserver vos informations financi\u00e8res et d\u2019autres donn\u00e9es personnelles \u00e0 l\u2019abri des pirates."
+	},
+	"Remember for this website":
+	{
+		"message": "M\u00e9moriser pour ce site web"
+	},
+	"Remember for all banking websites":
+	{
+		"message": "M\u00e9moriser pour tous les sites web bancaires"
+	},
+	"Sign in to your NortonLifeLock account to enable Isolation Mode.":
+	{
+		"message": "Connectez-vous \u00e0 votre compte NortonLifeLock pour activer le mode Isolement."
+	},
+	"We’ll highlight suspicious links in Webmail, Facebook, Twitter and other accounts.":
+	{
+		"message": "Nous mettrons en \u00e9vidence les liens suspects dans les comptes Webmail, Facebook, Twitter et autres."
+	},
+	"OK":
+	{
+		"message": "OK"
+	},
+	"Try this feature":
+	{
+		"message": "Essayer cette fonction"
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "Fournit une s\u00e9curit\u00e9 suppl\u00e9mentaire pour les transactions en ligne et vous aide \u00e0 conserver vos informations financi\u00e8res et autres donn\u00e9es personnelles \u00e0 l\u2019abri des pirates."
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers. You can turn this feature off in":
+	{
+		"message": "Fournit une s\u00e9curit\u00e9 suppl\u00e9mentaire pour les transactions en ligne et vous aide \u00e0 conserver vos informations financi\u00e8res et autres donn\u00e9es personnelles \u00e0 l\u2019abri des pirates. Vous pouvez d\u00e9sactiver cette fonction dans"
+	},
+	"Settings":
+	{
+		"message": "Param\u00e8tres"
+	},
+	"Banking Protection Enabled":
+	{
+		"message": "Protection des op\u00e9rations bancaires activ\u00e9e"
+	},
+	"Banking Protection Disabled":
+	{
+		"message": "Protection des op\u00e9rations bancaires d\u00e9sactiv\u00e9e"
+	}
+}

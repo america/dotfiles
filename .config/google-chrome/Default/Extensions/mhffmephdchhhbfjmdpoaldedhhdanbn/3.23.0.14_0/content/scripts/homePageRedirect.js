@@ -1,0 +1,1 @@
+class HomePageRedirect{async redirectHomePage(){document.location.href=SymBfw.extensionAdapter.getExtensionURL(NSSS.constants.HOME_PAGE)}}let homePageRedirect=new HomePageRedirect;homePageRedirect.redirectHomePage();

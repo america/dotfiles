@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "Sık kullandığınız sitelerde oturum açmanızı kolaylaştıran bulut tabanlı parola yöneticisi."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Norton Password Manager"
+   }
+}

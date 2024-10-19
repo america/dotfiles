@@ -1,0 +1,25 @@
+{
+   "author": "Louis Maddox",
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' https://www.googleapis.com; object-src 'self'",
+   "description": "One-click download for files from open tabs, lists of URLs, or scholarly article PDFs from their associated DOI.",
+   "homepage_url": "https://github.com/lmmx/tabsave",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwScVmTlyQz1QjBL3uik3iWd4Ne8yoMPujrGkAdE7kEPPDdTCqNQ5TyWXzPtKKmmOH7NCBpRaOX1yV/yNRbGUKPDLVRVUna5wKxyM+Q6zkrLweEY70ji9GvkBFpbiRy/Jiig0/QGmiXQ18aFLHo8qLCnFsQmmv9Ev5o8xOJmS2uoRzgNgvRSW4V+VpQDKk4ov9lBVeRTuBjySyE4eKp8oUxIeRPqqSYeH0RAup5gfLQkQGTkq+3yZCbhDCBAbHm8TbDQPEEgVIm2/RHUMIVmxbFVPGxgCIhxvD2ylSx2dAcjrUIY53tyUIoVWkQJaSKeUCS7/XYIKt43uElyV9f04dQIDAQAB",
+   "manifest_version": 2,
+   "name": "Tab Save",
+   "omnibox": {
+      "keyword": "tabsave"
+   },
+   "options_page": "options.html",
+   "permissions": [ "downloads", "tabs", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.0.2"
+}

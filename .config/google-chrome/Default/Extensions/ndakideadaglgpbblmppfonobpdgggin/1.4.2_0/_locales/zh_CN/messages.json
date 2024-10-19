@@ -1,0 +1,107 @@
+{
+   "BYODUpgradeLink": {
+      "message": "升级 Mobility Print"
+   },
+   "BYODUpgradeMessage": {
+      "message": "您需要更新 Mobility Print 版本才能继续打印。"
+   },
+   "ManagedUpgradeLink": {
+      "message": "View Migration Guide"
+   },
+   "ManagedUpgradeMessage": {
+      "message": "This version of Mobility Print will soon stop working. Ask your IT team to use this migration guide to upgrade you to the latest Mobility Print."
+   },
+   "accessDeniedByGroupRestriction": {
+      "message": "打印机访问因组限制而被拒绝"
+   },
+   "clickToChoose": {
+      "message": "点击\u003Cstrong>更改\u003C/strong>以选择打印机。"
+   },
+   "connectionFailedError": {
+      "message": "我们检测到网络连接问题。请检查您是否连接到网络并重试。"
+   },
+   "continueWithGoogle": {
+      "message": "使用 Google 登录"
+   },
+   "emailUnregisteredInPaperCut": {
+      "message": "您的电子邮件未在 PaperCut 中注册。 请联系您的系统管理员。"
+   },
+   "gSuiteNotSupportedError": {
+      "message": "Google 登录现在不可用。如要打印，请使用您的打印用户名和密码。"
+   },
+   "grantAccessError": {
+      "message": "如要打印，请使用您的打印用户名和密码或您的 Google 账户进行验证。"
+   },
+   "gsuiteDirectoryAccessNotConfigured": {
+      "message": "登录失败。请检查您的 G Suite 是否被配置为允许第三方应用程序访问 Directory 数据，包括域和公用数据。"
+   },
+   "importantConnected": {
+      "message": "\u003Cstrong>重要提示：\u003C/strong>请确保您连接到您的组织的网络。"
+   },
+   "indexTitle": {
+      "message": "Mobility Print 验证"
+   },
+   "invalidCredentials": {
+      "message": "无效的用户名或密码"
+   },
+   "loading": {
+      "message": "加载中..."
+   },
+   "loginTitle": {
+      "message": "Mobility Print 验证"
+   },
+   "makeSure": {
+      "message": "请确保您选择了由 PaperCut 图标标识的 Mobility Print 打印机。"
+   },
+   "migratedAndDeletedApp": {
+      "message": "我们已为您迁移了您的设置并删除了旧应用程序。"
+   },
+   "openToPrint": {
+      "message": "打开要打印的页面。"
+   },
+   "optionsTitle": {
+      "message": "Mobility Print 选项。"
+   },
+   "or": {
+      "message": "或"
+   },
+   "password": {
+      "message": "密码"
+   },
+   "passwordRequired": {
+      "message": "登录以打印"
+   },
+   "print": {
+      "message": "登录并打印"
+   },
+   "readyToPrint": {
+      "message": "您已准备好打印！"
+   },
+   "readyToPrintImported": {
+      "message": "全做完了！ Mobility Print 已升级，您可以开始打印了！"
+   },
+   "rememberMe": {
+      "message": "记住我"
+   },
+   "rightClick": {
+      "message": "如果可以打印，请右击；然后选择\u003Cstrong>打印\u003C/strong>"
+   },
+   "selectFromList": {
+      "message": "从列表中选择打印机。"
+   },
+   "serverURI": {
+      "message": "Mobility Print 服务器 URI"
+   },
+   "unknownGoogleAccountError": {
+      "message": "未知的用户账户。如要打印，请使用您的打印用户名或密码或选择不同的 Google 账户。"
+   },
+   "username": {
+      "message": "用户名"
+   },
+   "welcomeToPrint": {
+      "message": "欢迎使用\u003Cbr/> PaperCut Mobility Print"
+   },
+   "whenPrompted": {
+      "message": "在提示输入您的 PaperCut 用户名和密码时。"
+   }
+}

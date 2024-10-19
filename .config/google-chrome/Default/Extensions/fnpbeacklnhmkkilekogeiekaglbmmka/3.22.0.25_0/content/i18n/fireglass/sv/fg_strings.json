@@ -1,0 +1,114 @@
+{
+	"SUSPICIOUS LINK":
+	{
+		"message": "MISST\u00c4NKT L\u00c4NK"
+	},
+	"Norton now warns you of suspicious links in your email to protect you from malicious activity.":
+	{
+		"message": "Nu varnar Norton dig f\u00f6r misst\u00e4nkta l\u00e4nkar i din e-post som skydd mot skadlig aktivitet."
+	},
+	"You're browsing safely in Isolation Mode":
+	{
+		"message":"Du surfar s\u00e4kert i isoleringsl\u00e4ge"
+	},
+	"Learn More":
+	{
+		"message": "Mer information"
+	},
+	"Provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "H\u00e4r f\u00e5r du extra skydd n\u00e4r du \u00e4r inne p\u00e5 riskabla webbplatser som kan inneh\u00e5lla malware eller g\u00f6ra o\u00f6nskade intr\u00e5ng i webbl\u00e4saren."
+	},
+	"Should you use webmail, Facebook or Twitter, we'll alert you regarding any suspicious links before you visit them.":
+	{
+		"message": "Om du anv\u00e4nder webb-e-post, Facebook eller Twitter varnar vi dig f\u00f6r misst\u00e4nkta l\u00e4nkar innan du klickar p\u00e5 dem."
+	},
+	"To enable these features, sign in to your NortonLifeLock Account.":
+	{
+		"message": "Om du vill aktivera funktionerna \u00e4r det bara att logga in p\u00e5 ditt NortonLifeLock-konto."
+	},
+	"Continue Without Isolation Mode":
+	{
+		"message": "Forts\u00e4tt utan isoleringsl\u00e4get"
+	},
+	"Sign In":
+	{
+		"message": "Logga in"
+	},
+	"Continue":
+	{
+		"message": "Forts\u00e4tt"
+	},
+	"Cancel":
+	{
+		"message": "Avbryt"
+	},
+	"Leave Feedback":
+	{
+		"message": "Ge feedback"
+	},
+	"If you visit this site...":
+	{
+		"message": "Om du bes\u00f6ker denna webbplats..."
+	},
+	"Isolation Mode":
+	{
+		"message": "Isoleringsl\u00e4ge"
+	},
+	"provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "tillhandah\u00e5ller extra skydd n\u00e4r du \u00e4r inne p\u00e5 riskabla webbplatser som kan inneh\u00e5lla malware eller g\u00f6ra o\u00f6nskade intr\u00e5ng i webbl\u00e4saren."
+	},
+	"Banking Protection":
+	{
+		"message": "Skydd vid bank\u00e4renden"
+	},
+	"provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "tillhandah\u00e5ller extra s\u00e4kerhet f\u00f6r internettransaktioner och hj\u00e4lper dig att h\u00e5lla din ekonomiska information och annan personlig information borta fr\u00e5n hackare."
+	},
+	"Remember for this website":
+	{
+		"message": "Kom ih\u00e5g f\u00f6r denna webbplats"
+	},
+	"Remember for all banking websites":
+	{
+		"message": "Kom ih\u00e5g f\u00f6r alla webbplatser d\u00e4r man utf\u00f6r bank\u00e4renden"
+	},
+	"Sign in to your NortonLifeLock account to enable Isolation Mode.":
+	{
+		"message": "Logga in p\u00e5 ditt NortonLifeLock-konto f\u00f6r att aktivera isoleringsl\u00e4ge."
+	},
+	"We’ll highlight suspicious links in Webmail, Facebook, Twitter and other accounts.":
+	{
+		"message": "Vi markerar misst\u00e4nkta l\u00e4nkar i webbmejl, Facebook, Twitter och andra konton."
+	},
+	"OK":
+	{
+		"message": "OK"
+	},
+	"Try this feature":
+	{
+		"message": "Prova funktionen"
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "Tillhandah\u00e5ller extra s\u00e4kerhet f\u00f6r internettransaktioner och hj\u00e4lper dig att h\u00e5lla din ekonomiska information och annan personlig information borta fr\u00e5n hackare."
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers. You can turn this feature off in":
+	{
+		"message": "Tillhandah\u00e5ller extra s\u00e4kerhet f\u00f6r internettransaktioner och hj\u00e4lper dig att h\u00e5lla din ekonomiska information och annan personlig information borta fr\u00e5n hackare. Du kan inaktivera funktionen i"
+	},
+	"Settings":
+	{
+		"message": "Inst\u00e4llningar"
+	},
+	"Banking Protection Enabled":
+	{
+		"message": "Skydd f\u00f6r bank\u00e4renden aktiverat"
+	},
+	"Banking Protection Disabled":
+	{
+		"message": "Skydd f\u00f6r bank\u00e4renden inaktiverat"
+	}
+}

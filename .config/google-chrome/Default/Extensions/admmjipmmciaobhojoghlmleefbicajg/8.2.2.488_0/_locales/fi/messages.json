@@ -1,0 +1,10 @@
+{
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "Pilvipohjainen salasanojen hallintatyökalu, jonka avulla suosikkisivustoille kirjautuminen käy helposti."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Norton Password Manager"
+   }
+}

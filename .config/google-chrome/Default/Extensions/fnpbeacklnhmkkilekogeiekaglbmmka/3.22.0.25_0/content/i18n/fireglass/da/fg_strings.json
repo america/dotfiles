@@ -1,0 +1,114 @@
+{
+	"SUSPICIOUS LINK":
+	{
+		"message": "MIST\u00c6NKELIGT LINK"
+	},
+	"Norton now warns you of suspicious links in your email to protect you from malicious activity.":
+	{
+		"message": "Norton advarer dig nu om mist\u00e6nkelige links i din mail for at beskytte dig mod skadelig aktivitet."
+	},
+	"You're browsing safely in Isolation Mode":
+	{
+		"message":"Du surfer sikkert i isolationstilstand"
+	},
+	"Learn More":
+	{
+		"message": "Flere oplysninger"
+	},
+	"Provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "Giver ekstra beskyttelse, n\u00e5r du bes\u00f8ger risikable websteder, der kan indeholde malware eller browsers\u00e5rbarheder."
+	},
+	"Should you use webmail, Facebook or Twitter, we'll alert you regarding any suspicious links before you visit them.":
+	{
+		"message": "Hvis du bruger webmail, Facebook eller Twitter, advarer vi dig om mist\u00e6nkelige links, f\u00f8r du \u00e5bner dem."
+	},
+	"To enable these features, sign in to your NortonLifeLock Account.":
+	{
+		"message": "For at aktivere disse funktioner skal du logge p\u00e5 din NortonLifeLock-konto."
+	},
+	"Continue Without Isolation Mode":
+	{
+		"message": "Forts\u00e6t uden isolationstilstand"
+	},
+	"Sign In":
+	{
+		"message": "Log p\u00e5"
+	},
+	"Continue":
+	{
+		"message": "Forts\u00e6t"
+	},
+	"Cancel":
+	{
+		"message": "Annuller"
+	},
+	"Leave Feedback":
+	{
+		"message": "Giv feedback"
+	},
+	"If you visit this site...":
+	{
+		"message": "Hvis du bes\u00f8ger dette websted ..."
+	},
+	"Isolation Mode":
+	{
+		"message": "Isolationstilstand"
+	},
+	"provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "giver ekstra beskyttelse, n\u00e5r du bes\u00f8ger risikable websteder, der kan indeholde malware eller browsers\u00e5rbarheder."
+	},
+	"Banking Protection":
+	{
+		"message": "Beskyttelse ved brug af netbank"
+	},
+	"provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "giver yderligere sikkerhed i forbindelse med onlinetransaktioner og hj\u00e6lper med at beskytte dine bankoplysninger og andre personlige data mod hackere."
+	},
+	"Remember for this website":
+	{
+		"message": "Husk for dette websted"
+	},
+	"Remember for all banking websites":
+	{
+		"message": "Husk for alle netbankwebsteder"
+	},
+	"Sign in to your NortonLifeLock account to enable Isolation Mode.":
+	{
+		"message": "Log p\u00e5 din NortonLifeLock-konto, hvis du vil aktivere Isolationstilstand."
+	},
+	"We’ll highlight suspicious links in Webmail, Facebook, Twitter and other accounts.":
+	{
+		"message": "Vi vil fremh\u00e6ve mist\u00e6nkelige links i Webmail, Facebook, Twitter og andre konti."
+	},
+	"OK":
+	{
+		"message": "OK"
+	},
+	"Try this feature":
+	{
+		"message": "Pr\u00f8v funktionen"
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "Giver yderligere sikkerhed i forbindelse med onlinetransaktioner og hj\u00e6lper med at beskytte dine bankoplysninger og andre personlige data mod hackere."
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers. You can turn this feature off in":
+	{
+		"message": "Giver yderligere sikkerhed i forbindelse med onlinetransaktioner og hj\u00e6lper med at beskytte dine bankoplysninger og andre personlige data mod hackere. Funktionen kan deaktiveres i"
+	},
+	"Settings":
+	{
+		"message": "Indstillinger"
+	},
+	"Banking Protection Enabled":
+	{
+		"message": "Beskyttelse ved brug af netbank aktiveret"
+	},
+	"Banking Protection Disabled":
+	{
+		"message": "Beskyttelse ved brug af netbank deaktiveret"
+	}
+}

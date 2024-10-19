@@ -1,0 +1,185 @@
+{
+   "conf_clearall": {
+      "message": "Effacez tout"
+   },
+   "conf_none": {
+      "message": "Aucun(e)"
+   },
+   "conf_notsaved": {
+      "message": "n'a pas été enregistré"
+   },
+   "conf_save": {
+      "message": "Sauvegarder"
+   },
+   "conf_saved": {
+      "message": "A été enregistré"
+   },
+   "conf_setdefault": {
+      "message": "Définir par défaut"
+   },
+   "ext_description": {
+      "message": "Cette extension peut basculer l'User Agent d'un navigateur web et vous permet de trouver toutes les URLs HTTP."
+   },
+   "ext_name": {
+      "message": "Ultimate User Agent Switcher, URL sniffer"
+   },
+   "locale": {
+      "message": "fr"
+   },
+   "msg_active": {
+      "message": "Actif"
+   },
+   "msg_activenow": {
+      "message": "Activez maintenant!!"
+   },
+   "msg_add": {
+      "message": "Ajouter nouveau"
+   },
+   "msg_agentstring": {
+      "message": "Chaîne User Agent"
+   },
+   "msg_apply": {
+      "message": "Appliquer"
+   },
+   "msg_applycurrenttab": {
+      "message": "Appliquer uniquement à l'onglet courant"
+   },
+   "msg_areyousure": {
+      "message": "Êtes-vous sur ?"
+   },
+   "msg_autocloseonclick": {
+      "message": "Fermeture automatique quand vous cliquez n'importe où sur la page"
+   },
+   "msg_autorefresh": {
+      "message": "Rafraîchir automatiquement l'onglet courant"
+   },
+   "msg_autoselectinput": {
+      "message": "Sélectionner automatiquement lorsque vous cliquez dans la zone de texte."
+   },
+   "msg_changedua": {
+      "message": "User Agent changé"
+   },
+   "msg_clearlog": {
+      "message": "Effacer"
+   },
+   "msg_close": {
+      "message": "Fermer"
+   },
+   "msg_defaultchrome": {
+      "message": "Valeurs par défaut (Chrome courant)"
+   },
+   "msg_defaultstring": {
+      "message": "Une chaîne vide utilise la valeur par défaut de l'User Agent de Chrome."
+   },
+   "msg_delete": {
+      "message": "Supprimer"
+   },
+   "msg_edit": {
+      "message": "Modifier"
+   },
+   "msg_enablepattern": {
+      "message": "Activer le pattern"
+   },
+   "msg_enablesniffer": {
+      "message": "Activer le sniffeur d'URL"
+   },
+   "msg_enableurlpattern": {
+      "message": "Activer le pattern d'URL"
+   },
+   "msg_export": {
+      "message": "Exporter"
+   },
+   "msg_filter": {
+      "message": "Filtres à appliquer"
+   },
+   "msg_filterstoapply": {
+      "message": "Filtre à appliquer (Si vous ne sélectionnez aucun filtre, s'applique à tous les filtres)"
+   },
+   "msg_filtertoview": {
+      "message": "Filtres à voir"
+   },
+   "msg_header": {
+      "message": "En-tête"
+   },
+   "msg_hidefromlist": {
+      "message": "Cacher la liste de l'agent utilisateur"
+   },
+   "msg_higherpriority": {
+      "message": "Un plus petit nombre a une priorité plus grande."
+   },
+   "msg_import": {
+      "message": "Importer"
+   },
+   "msg_link": {
+      "message": "Lien"
+   },
+   "msg_loaddefault": {
+      "message": "Charger les valeurs par défaut"
+   },
+   "msg_loadeddefault": {
+      "message": "Les valeurs par défaut ont été chargées."
+   },
+   "msg_movedown": {
+      "message": "Déplacer vers le bas"
+   },
+   "msg_moveup": {
+      "message": "Déplacer vers le haut"
+   },
+   "msg_myuseragent": {
+      "message": "Mon User Agent"
+   },
+   "msg_name": {
+      "message": "Nom"
+   },
+   "msg_occurerror": {
+      "message": "Il y a une erreur."
+   },
+   "msg_option": {
+      "message": "Options"
+   },
+   "msg_orgheader": {
+      "message": "En-tête original"
+   },
+   "msg_pattern": {
+      "message": "Pattern"
+   },
+   "msg_ratedesc": {
+      "message": "Si vous l'aimez, nous apprécierions si vous nous accordiez 5 étoiles et le dites à vos amis"
+   },
+   "msg_ratethisitem": {
+      "message": "Évaluer cette extension"
+   },
+   "msg_refresh": {
+      "message": "Rafraîchir"
+   },
+   "msg_refreshalltabs": {
+      "message": "Actualiser tous les onglets"
+   },
+   "msg_regexp": {
+      "message": "Vous pouvez utiliser des expressions régulières. Collez \"r/\" avant l'expression régulière."
+   },
+   "msg_select": {
+      "message": "Select"
+   },
+   "msg_selectone": {
+      "message": "Choisissez une valeur."
+   },
+   "msg_time": {
+      "message": "Heure"
+   },
+   "msg_useragentlist": {
+      "message": "Ma liste d'User Agents"
+   },
+   "msg_userpattern": {
+      "message": "Pattern utilisateur"
+   },
+   "msg_view": {
+      "message": "Voir"
+   },
+   "msg_viewlog": {
+      "message": "Voir le log du sniffeur d'URL"
+   },
+   "msg_viewlog2": {
+      "message": "Voir le log"
+   }
+}

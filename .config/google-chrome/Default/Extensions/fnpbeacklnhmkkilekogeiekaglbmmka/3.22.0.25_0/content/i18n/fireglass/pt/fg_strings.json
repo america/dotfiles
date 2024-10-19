@@ -1,0 +1,114 @@
+{
+	"SUSPICIOUS LINK":
+	{
+		"message": "LIGA\u00c7\u00c3O SUSPEITA"
+	},
+	"Norton now warns you of suspicious links in your email to protect you from malicious activity.":
+	{
+		"message": "Agora, o Norton avisa-o de liga\u00e7\u00f5es suspeitas no seu e-mail, para o proteger contra atividades maliciosas."
+	},
+	"You're browsing safely in Isolation Mode":
+	{
+		"message":"Est\u00e1 a navegar em seguran\u00e7a no Modo de Isolamento"
+	},
+	"Learn More":
+	{
+		"message": "Saber Mais"
+	},
+	"Provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "Fornece prote\u00e7\u00e3o adicional ao visitar Web sites perigosos que possam conter malware ou exploits de browser."
+	},
+	"Should you use webmail, Facebook or Twitter, we'll alert you regarding any suspicious links before you visit them.":
+	{
+		"message": "Se utilizar o Webmail, o Facebook ou o Twitter, ser\u00e1 alertado da exist\u00eancia de liga\u00e7\u00f5es suspeitas antes de as visitar."
+	},
+	"To enable these features, sign in to your NortonLifeLock Account.":
+	{
+		"message": "Para ativar estas funcionalidades, inicie sess\u00e3o na sua Conta NortonLifeLock."
+	},
+	"Continue Without Isolation Mode":
+	{
+		"message": "Continuar Sem o Modo de Isolamento"
+	},
+	"Sign In":
+	{
+		"message": "Iniciar Sess\u00e3o"
+	},
+	"Continue":
+	{
+		"message": "Continuar"
+	},
+	"Cancel":
+	{
+		"message": "Cancelar"
+	},
+	"Leave Feedback":
+	{
+		"message": "Enviar Feedback"
+	},
+	"If you visit this site...":
+	{
+		"message": "Se visitar este site..."
+	},
+	"Isolation Mode":
+	{
+		"message": "O Modo de Isolamento"
+	},
+	"provides additional protection when visiting risky websites that may contain malware or browser exploits.":
+	{
+		"message": "fornece prote\u00e7\u00e3o adicional ao visitar Web sites perigosos que possam conter malware ou exploits de browser."
+	},
+	"Banking Protection":
+	{
+		"message": "A Prote\u00e7\u00e3o Para Transa\u00e7\u00f5es Financeiras"
+	},
+	"provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "fornece seguran\u00e7a adicional para transa\u00e7\u00f5es online e ajuda a manter os seus dados financeiros e outros dados pessoais protegidos contra hackers."
+	},
+	"Remember for this website":
+	{
+		"message": "Lembrar para este Web site"
+	},
+	"Remember for all banking websites":
+	{
+		"message": "Lembrar para todos os Web sites de institui\u00e7\u00f5es financeiras"
+	},
+	"Sign in to your NortonLifeLock account to enable Isolation Mode.":
+	{
+		"message": "Inicie sess\u00e3o na sua conta NortonLifeLock para ativar o Modo de Isolamento."
+	},
+	"We’ll highlight suspicious links in Webmail, Facebook, Twitter and other accounts.":
+	{
+		"message": "Ser\u00e1 alertado para liga\u00e7\u00f5es suspeitas em Webmails, no Facebook, no Twitter e noutras contas."
+	},
+	"OK":
+	{
+		"message": "OK"
+	},
+	"Try this feature":
+	{
+		"message": "Experimentar esta funcionalidade"
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers.":
+	{
+		"message": "Fornece seguran\u00e7a adicional para transa\u00e7\u00f5es online e ajuda a manter os seus dados financeiros e outros dados pessoais protegidos contra hackers."
+	},
+	"Provides additional security for online transactions and helps keep your financial information and other personal data away from hackers. You can turn this feature off in":
+	{
+		"message": "Fornece seguran\u00e7a adicional para transa\u00e7\u00f5es online e ajuda a manter os seus dados financeiros e outros dados pessoais protegidos contra hackers. Pode desativar esta funcionalidade em"
+	},
+	"Settings":
+	{
+		"message": "Defini\u00e7\u00f5es"
+	},
+	"Banking Protection Enabled":
+	{
+		"message": "Prote\u00e7\u00e3o de Transa\u00e7\u00f5es Banc\u00e1rias Ativada"
+	},
+	"Banking Protection Disabled":
+	{
+		"message": "Prote\u00e7\u00e3o de Transa\u00e7\u00f5es Banc\u00e1rias Desativada"
+	}
+}

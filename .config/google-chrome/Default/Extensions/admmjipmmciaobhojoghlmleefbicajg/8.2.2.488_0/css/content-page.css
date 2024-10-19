@@ -1,0 +1,107 @@
+/*
+     NortonLifeLock copyright header start
+
+ Copyright (c) 2020 NortonLifeLock Inc. All rights reserved.
+
+ THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF NORTONLIFELOCK
+ INC.  USE, DISCLOSURE OR REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR
+ EXPRESS WRITTEN PERMISSION OF NORTONLIFELOCK INC.
+
+ The Licensed Software and Documentation are deemed to be commercial computer
+ software as defined in FAR 12.212 and subject to restricted rights as defined
+ in FAR Section 52.227-19 "Commercial Computer Software - Restricted Rights"
+ and DFARS 227.7202, “Rights in Commercial Computer Software or Commercial
+ Computer Software Documentation”, as applicable, and any successor regulations.
+ Any use, modification, reproduction release, performance, display or disclosure
+ of the Licensed Software and Documentation by the U.S. Government shall be
+ solely in accordance with the terms of this Agreement.
+
+ NortonLifeLock copyright header stop
+*/
+
+/* the static styles for the iframe */
+#symc-in-page-popup {
+  overflow: hidden;
+  position: absolute;
+  display: block;
+  z-index: 2147483647;
+  background-color: transparent;
+  visibility: visible;
+}
+
+#symc-modal-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+}
+
+#symc-notification-popup {
+  position: fixed;
+  top: 30px;
+  display: block;
+  z-index: 2147483646;
+  background-color: transparent;
+  min-height: 170px;
+}
+
+#compromised-password-ribbon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2147483646;
+  min-height: auto;
+  max-width: 100%;
+}
+
+.theme_default.login.compromised-password-ribbon-padding {
+  padding-top: 55px;
+}
+
+#root.compromised-password-ribbon-padding {
+  padding-top: 55px;
+}
+
+#compromised-password-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2147483646;
+  min-height: auto;
+}
+
+.notification-show {
+  all: unset;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2147483647;
+  background-color: transparent;
+  visibility: visible;
+  min-height: 240px;
+  max-width: 450px;
+  border: unset;
+  border-radius: 8px;
+}
+
+.notification-show[dir='rtl'] {
+  left: 20px;
+}
+
+.notification-hide {
+  all: unset;
+  visibility: hidden;
+}
+
+.notification-show {
+  visibility: visible;
+}
+
+[data-autochangebyidsafe] iframe.notification-show[src*='notification.html'] {
+  display: none;
+}

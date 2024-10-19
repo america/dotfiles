@@ -1,0 +1,23 @@
+{
+   "ext_description": {
+      "message": "ChatGPTの会話をマークダウン、テキスト、JSON、CSV、画像に抽出して保存します。"
+   },
+   "ext_fulltitle": {
+      "message": "ChatGPT エクスポーター - チャット会話を簡単に抽出"
+   },
+   "ext_name": {
+      "message": "ChatGPT エクスポーター"
+   },
+   "ext_subname": {
+      "message": "チャット会話を簡単に抽出"
+   },
+   "feedback": {
+      "message": "フィードバック"
+   },
+   "language": {
+      "message": "Japanese"
+   },
+   "thanks": {
+      "message": "❤️でビルドします。 ご利用いただきありがとうございます。"
+   }
+}
