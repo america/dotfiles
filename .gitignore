@@ -6,3 +6,7 @@ auto-save-list
 *.el~
 .emacs.d/session*
 .emacs.d/elpa
+
+# 機密情報を除外
+.secrets.zsh
+
