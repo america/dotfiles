@@ -1,7 +1,7 @@
 # dotfiles
 
-[![Release](https://img.shields.io/github/v/release/america/dotfiles.git?label=release)](https://github.com/username/repo/releases)
-[![License](https://img.shields.io/github/license/amrica/dotfiles.git)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/america/dotfiles?label=release)](https://github.com/america/dotfiles/releases)
+[![License](https://img.shields.io/github/license/america/dotfiles)](LICENSE)
 
 ## Dotfiles for a Custom Development Environment
 
