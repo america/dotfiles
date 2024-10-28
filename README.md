@@ -1,4 +1,3 @@
-
 Dotfiles for a Custom Development Environment
 This repository contains my personal configuration files (dotfiles) for setting up a development environment. These configurations are optimized for productivity, simplicity, and customization.
 
@@ -110,5 +109,3 @@ Missing Dependencies: Ensure any required dependencies are installed, especially
 Symbolic Link Conflicts: Remove existing configurations or back them up before creating symlinks.
 License
 This repository is licensed under the MIT License. See LICENSE for details.
-
-
