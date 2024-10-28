@@ -1,3 +1,8 @@
+# dotfiles
+
+[![Release](https://img.shields.io/github/v/release/america/dotfiles.git?label=release)](https://github.com/username/repo/releases)
+[![License](https://img.shields.io/github/license/amrica/dotfiles.git)](LICENSE)
+
 ## Dotfiles for a Custom Development Environment
 
 This repository contains my personal configuration files (dotfiles) for setting up a development environment. These configurations are optimized for productivity, simplicity, and customization.
