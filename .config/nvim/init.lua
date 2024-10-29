@@ -58,3 +58,9 @@ require('cmp-config')
 require('lsp-config')
 require('lualine-config')
 require('bufferline-config')
+
+-- 自動バックアップ設定
+vim.opt.backup = true                -- バックアップを有効にする
+vim.opt.backupdir = '~/.config/nvim/backup//'  -- バックアップファイルの保存先
+vim.opt.undofile = true               -- Undoファイルを保存する
+vim.opt.undodir = '~/.config/nvim/undo//'      -- Undoファイルの保存先
