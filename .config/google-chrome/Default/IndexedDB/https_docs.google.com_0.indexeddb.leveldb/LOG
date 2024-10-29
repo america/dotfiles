@@ -1,3 +1,15 @@
-2024/10/19-09:38:56.598 1265b Reusing MANIFEST /home/takashi/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/19-09:38:56.599 1265b Recovering log #4
-2024/10/19-09:38:56.599 1265b Reusing old log /home/takashi/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000004.log 
+2024/10/29-21:34:25.002 58a Reusing MANIFEST /home/takashi/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/29-21:34:25.002 58a Recovering log #4
+2024/10/29-21:34:25.002 58a Reusing old log /home/takashi/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000004.log 
+2024/10/29-21:34:40.717 58b Level-0 table #8: started
+2024/10/29-21:34:40.720 58b Level-0 table #8: 209 bytes OK
+2024/10/29-21:34:40.726 58b Delete type=0 #4
+2024/10/29-21:34:40.726 58b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/10/29-21:34:40.726 58b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 679 : 1
+2024/10/29-21:34:40.726 58b Compacting 1@1 + 1@2 files
+2024/10/29-21:34:40.729 58b Generated table #9@1: 206 keys, 3109 bytes
+2024/10/29-21:34:40.729 58b Compacted 1@1 + 1@2 files => 3109 bytes
+2024/10/29-21:34:40.735 58b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/10/29-21:34:40.735 58b Delete type=2 #5
+2024/10/29-21:34:40.735 58b Delete type=2 #8
+2024/10/29-21:34:40.735 58b Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 679 : 1 .. (end); will stop at (end)

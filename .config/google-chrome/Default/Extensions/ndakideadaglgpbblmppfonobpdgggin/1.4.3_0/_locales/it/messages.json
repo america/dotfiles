@@ -1,0 +1,107 @@
+{
+   "BYODUpgradeLink": {
+      "message": "Aggiorna Mobility Print"
+   },
+   "BYODUpgradeMessage": {
+      "message": "È necessario aggiornare la versione di Mobility Print per continuare a stampare."
+   },
+   "ManagedUpgradeLink": {
+      "message": "View Migration Guide"
+   },
+   "ManagedUpgradeMessage": {
+      "message": "This version of Mobility Print will soon stop working. Ask your IT team to use this migration guide to upgrade you to the latest Mobility Print."
+   },
+   "accessDeniedByGroupRestriction": {
+      "message": "Accesso alla stampante negato dalla restrizione del gruppo"
+   },
+   "clickToChoose": {
+      "message": "clicca su \u003Cstrong> Modifica \u003C/strong> per selezionare una stampante."
+   },
+   "connectionFailedError": {
+      "message": "Abbiamo rilevato un problema di connessione di rete. Verifica di essere connesso alla rete e riprova."
+   },
+   "continueWithGoogle": {
+      "message": "Entra con google"
+   },
+   "emailUnregisteredInPaperCut": {
+      "message": "La tua email non è registrata in PaperCut. Contatta l'amministratore di sistema."
+   },
+   "gSuiteNotSupportedError": {
+      "message": "Il login con google non è disponinile al momento. Pers tampare utlizza i tuoi username e passaword per stamapre"
+   },
+   "grantAccessError": {
+      "message": "per stampare autenticati con il tuo username e la tua password sul tuo account google"
+   },
+   "gsuiteDirectoryAccessNotConfigured": {
+      "message": "Accesso non riuscito. Verifica che G Suite sia configurato in modo che le app di terze parti possano accedere ai dati della Directory, inclusi dominio e dati pubblici."
+   },
+   "importantConnected": {
+      "message": "\u003Cstrong>Important:\u003C/strong> Assicurati di essere connesso alla rete dell'organizzazione."
+   },
+   "indexTitle": {
+      "message": "Autenticazione Mobility Print"
+   },
+   "invalidCredentials": {
+      "message": "Usermane o password errati"
+   },
+   "loading": {
+      "message": "caricamento"
+   },
+   "loginTitle": {
+      "message": "Autenticazione su mobility print"
+   },
+   "makeSure": {
+      "message": "assicurati di selezionare una stampante mobility print identificata dall'icona di papercut"
+   },
+   "migratedAndDeletedApp": {
+      "message": "Abbiamo migrato le tue impostazioni ed eliminato la vecchia app per te."
+   },
+   "openToPrint": {
+      "message": "Apri la pagina da stampare"
+   },
+   "optionsTitle": {
+      "message": "Opzioni mobility print"
+   },
+   "or": {
+      "message": ""
+   },
+   "password": {
+      "message": "password"
+   },
+   "passwordRequired": {
+      "message": "Entra per stampare"
+   },
+   "print": {
+      "message": "Entra e stampa"
+   },
+   "readyToPrint": {
+      "message": "Sei pronto per stampare"
+   },
+   "readyToPrintImported": {
+      "message": "Tutto fatto! Mobility Print è stato aggiornato e sei pronto per stampare!"
+   },
+   "rememberMe": {
+      "message": "Ricordamelo"
+   },
+   "rightClick": {
+      "message": "Se la stampa è disponibile, clicca il tasto destro del mouse; poi seleziona \u003Cstrong>Stampa\u003C/strong>"
+   },
+   "selectFromList": {
+      "message": "Seleziona una stampante dall'elenco"
+   },
+   "serverURI": {
+      "message": "Mobility Print server URI"
+   },
+   "unknownGoogleAccountError": {
+      "message": "Account utente sconosciuto. Per stampare seleziona un account google differente o utilizza il tuoi usaername e password di stampa"
+   },
+   "username": {
+      "message": "Nome utente"
+   },
+   "welcomeToPrint": {
+      "message": "Benvenuto a\u003Cbr/> PaperCut Mobility Print"
+   },
+   "whenPrompted": {
+      "message": "Quando richiesto immettere il nome utente e la password di PaperCut."
+   }
+}

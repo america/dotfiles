@@ -1,0 +1,107 @@
+{
+   "BYODUpgradeLink": {
+      "message": "Upgrade Mobility Print"
+   },
+   "BYODUpgradeMessage": {
+      "message": "You need to update your version of Mobility Print to keep printing working."
+   },
+   "ManagedUpgradeLink": {
+      "message": "View Migration Guide"
+   },
+   "ManagedUpgradeMessage": {
+      "message": "This version of Mobility Print will soon stop working. Ask your IT team to use this migration guide to upgrade you to the latest Mobility Print."
+   },
+   "accessDeniedByGroupRestriction": {
+      "message": "Printer access denied by group restriction"
+   },
+   "clickToChoose": {
+      "message": "Click \u003Cstrong>Change\u003C/strong> to choose a printer."
+   },
+   "connectionFailedError": {
+      "message": "We've detected a network connection issue. Please check you're connected to the network and try again."
+   },
+   "continueWithGoogle": {
+      "message": "Sign in with Google"
+   },
+   "emailUnregisteredInPaperCut": {
+      "message": "Your email is not registered in PaperCut. Please contact your system administrator."
+   },
+   "gSuiteNotSupportedError": {
+      "message": "Google login isn't available right now. To print, use your printing username and password."
+   },
+   "grantAccessError": {
+      "message": "To print, authenticate with either your printing username and password or your Google account."
+   },
+   "gsuiteDirectoryAccessNotConfigured": {
+      "message": "Failed to sign in. Check that your G Suite is configured to let third-party apps access Directory data, including domain and public data."
+   },
+   "importantConnected": {
+      "message": "\u003Cstrong>Important:\u003C/strong> Make sure you are connected to your organization’s network."
+   },
+   "indexTitle": {
+      "message": "Mobility Print Authentication"
+   },
+   "invalidCredentials": {
+      "message": "Invalid username or password"
+   },
+   "loading": {
+      "message": "Loading..."
+   },
+   "loginTitle": {
+      "message": "Mobility Print Authentication"
+   },
+   "makeSure": {
+      "message": "Make sure you select a Mobility Print printer as identified by the PaperCut icon"
+   },
+   "migratedAndDeletedApp": {
+      "message": "We've migrated your settings and deleted the old app for you."
+   },
+   "openToPrint": {
+      "message": "Open the page to print."
+   },
+   "optionsTitle": {
+      "message": "Mobility Print Options"
+   },
+   "or": {
+      "message": "or"
+   },
+   "password": {
+      "message": "Password"
+   },
+   "passwordRequired": {
+      "message": "Sign in to print"
+   },
+   "print": {
+      "message": "Sign in and print"
+   },
+   "readyToPrint": {
+      "message": "You are ready to print!"
+   },
+   "readyToPrintImported": {
+      "message": "All done! Mobility Print has been upgraded and you're ready to print!"
+   },
+   "rememberMe": {
+      "message": "Remember me"
+   },
+   "rightClick": {
+      "message": "If printing is available, right-click; then select \u003Cstrong>Print\u003C/strong>"
+   },
+   "selectFromList": {
+      "message": "Select a printer from the list."
+   },
+   "serverURI": {
+      "message": "Mobility Print server URI"
+   },
+   "unknownGoogleAccountError": {
+      "message": "Unknown user account. To print, use your printing username and password or select a different Google account."
+   },
+   "username": {
+      "message": "Username"
+   },
+   "welcomeToPrint": {
+      "message": "Welcome to\u003Cbr/> PaperCut Mobility Print"
+   },
+   "whenPrompted": {
+      "message": "When prompted enter your PaperCut username and password."
+   }
+}

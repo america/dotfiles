@@ -1,3 +1,19 @@
-2024/10/19-09:35:03.614 1265b Reusing MANIFEST /home/takashi/.config/google-chrome/Default/IndexedDB/chrome-extension_pioclpoplcdbaefihamjohnefbikjilc_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/19-09:35:03.614 1265b Recovering log #94
-2024/10/19-09:35:03.615 1265b Reusing old log /home/takashi/.config/google-chrome/Default/IndexedDB/chrome-extension_pioclpoplcdbaefihamjohnefbikjilc_0.indexeddb.leveldb/000094.log 
+2024/10/29-21:33:25.039 58a Reusing MANIFEST /home/takashi/.config/google-chrome/Default/IndexedDB/chrome-extension_pioclpoplcdbaefihamjohnefbikjilc_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/29-21:33:25.039 58a Recovering log #94
+2024/10/29-21:33:25.041 58a Level-0 table #97: started
+2024/10/29-21:33:25.046 58a Level-0 table #97: 298413 bytes OK
+2024/10/29-21:33:25.047 58a Recovering log #450
+2024/10/29-21:33:25.049 58a Reusing old log /home/takashi/.config/google-chrome/Default/IndexedDB/chrome-extension_pioclpoplcdbaefihamjohnefbikjilc_0.indexeddb.leveldb/000450.log 
+2024/10/29-21:33:25.054 58a Delete type=2 #354
+2024/10/29-21:33:25.054 58a Delete type=2 #448
+2024/10/29-21:33:25.054 58a Delete type=2 #451
+2024/10/29-21:33:25.054 58a Delete type=0 #94
+2024/10/29-21:33:25.055 58b Compacting 4@0 + 1@1 files
+2024/10/29-21:33:25.062 58b Generated table #451@0: 118 keys, 7284 bytes
+2024/10/29-21:33:25.062 58b Compacted 4@0 + 1@1 files => 7284 bytes
+2024/10/29-21:33:25.067 58b compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/29-21:33:25.068 58b Delete type=2 #86
+2024/10/29-21:33:25.068 58b Delete type=2 #89
+2024/10/29-21:33:25.068 58b Delete type=2 #92
+2024/10/29-21:33:25.068 58b Delete type=2 #95
+2024/10/29-21:33:25.068 58b Delete type=2 #97
