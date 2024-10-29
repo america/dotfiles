@@ -1,7 +1,0 @@
-2024/10/19-08:03:10.409 1265c Reusing MANIFEST /home/takashi/.config/google-chrome/Default/IndexedDB/https_mako-note.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/19-08:03:10.409 1265c Recovering log #3
-2024/10/19-08:03:10.409 1265c Reusing old log /home/takashi/.config/google-chrome/Default/IndexedDB/https_mako-note.com_0.indexeddb.leveldb/000003.log 
-2024/10/19-08:03:46.579 1265c Level-0 table #5: started
-2024/10/19-08:03:46.582 1265c Level-0 table #5: 3317 bytes OK
-2024/10/19-08:03:46.587 1265c Delete type=0 #3
-2024/10/19-08:03:46.587 1265c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

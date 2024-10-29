@@ -1,6 +1,0 @@
-2024/10/29-08:56:18.127 571 Creating DB /home/takashi/.config/google-chrome/Default/IndexedDB/https_www.paypal.com_0.indexeddb.leveldb since it was missing.
-2024/10/29-08:56:18.134 571 Reusing MANIFEST /home/takashi/.config/google-chrome/Default/IndexedDB/https_www.paypal.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/29-08:56:46.970 571 Level-0 table #5: started
-2024/10/29-08:56:46.972 571 Level-0 table #5: 3112 bytes OK
-2024/10/29-08:56:46.977 571 Delete type=0 #3
-2024/10/29-08:56:46.977 571 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -10,3 +10,4 @@ auto-save-list
 # 機密情報を除外
 .secrets.zsh
 
+.config/google-chrome/
