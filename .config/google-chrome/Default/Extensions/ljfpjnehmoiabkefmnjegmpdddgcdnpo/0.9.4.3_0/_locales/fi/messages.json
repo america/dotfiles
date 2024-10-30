@@ -1,8 +1,0 @@
-{
-   "ext_description": {
-      "message": "Tämä laajennus voi vaihtaa käyttäjä agentti selaimen. ja sen avulla voit löytää kaikki HTTP URL."
-   },
-   "ext_name": {
-      "message": "Ultimate User Agent Switcher, URL sniffer"
-   }
-}

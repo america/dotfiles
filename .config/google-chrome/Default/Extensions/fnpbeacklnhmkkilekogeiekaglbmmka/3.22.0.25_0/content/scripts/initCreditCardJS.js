@@ -1,1 +1,0 @@
-var CreditCard=globalThis.exports||{};

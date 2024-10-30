@@ -1,8 +1,0 @@
-{
-    "MobilityPrintServerHosts": {
-        "Value": ["http://10.100.65.46:9163", "http://mobilityqa.pb1.lan:9163"]
-    },
-    "CloudPrintInviteLinks": {
-        "Value": ["https://mobilityprint.papercut.com/OrgID/test-register123/?token=ewerrrrtrt", "https://mobilityprint.papercut.com/OrgID/mobserverid/?token=hudhhddudjd"]
-    }
-}

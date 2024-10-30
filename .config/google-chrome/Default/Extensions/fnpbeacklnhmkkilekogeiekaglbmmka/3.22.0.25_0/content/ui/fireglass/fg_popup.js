@@ -1,1 +1,0 @@
-window.onload=function(){window.FG.helpers.get_localized_strings("security_popup",function(e){for(var n=Object.keys(e),t=Object.values(e),o=0;o<n.length;o++)document.getElementById(n[o]).innerHTML=t[o]})};

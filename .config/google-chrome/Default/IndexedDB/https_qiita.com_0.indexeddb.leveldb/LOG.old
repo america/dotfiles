@@ -1,7 +1,0 @@
-2024/10/18-22:25:07.723 1b763 Reusing MANIFEST /home/takashi/.config/google-chrome/Default/IndexedDB/https_qiita.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/18-22:25:07.723 1b763 Recovering log #3
-2024/10/18-22:25:07.724 1b763 Reusing old log /home/takashi/.config/google-chrome/Default/IndexedDB/https_qiita.com_0.indexeddb.leveldb/000003.log 
-2024/10/18-22:26:16.590 1b764 Level-0 table #5: started
-2024/10/18-22:26:16.593 1b764 Level-0 table #5: 5776 bytes OK
-2024/10/18-22:26:16.601 1b764 Delete type=0 #3
-2024/10/18-22:26:16.601 1b764 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
