@@ -10,3 +10,12 @@ auto-save-list
 # 機密情報を除外
 .secrets.zsh
 
+.config/google-chrome/
+.config/mozc/.history.db
+.config/mozc/.history.db
+.config/google-chrome/
+.config/discord/
+.config/mozc/.session.ipc
+.config/mozc/mozc_tool.log
+.config/fcitx/
+.config/ibus/
