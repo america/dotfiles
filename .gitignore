@@ -19,3 +19,7 @@ auto-save-list
 .config/mozc/mozc_tool.log
 .config/fcitx/
 .config/ibus/
+
+.config/nvim/backup/
+.config/nvim/undo/
+
