@@ -24,7 +24,7 @@ set $term alacritty
 set $menu ~/.bin/mywofi.sh
 
 # start google-chrome
-bindsym $mod+g exec /usr/bin/google-chrome
+bindsym $mod+g exec /usr/bin/google-chrome-stable
 
 # start discord
 bindsym $mod+Shift+d exec /usr/bin/discord

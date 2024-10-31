@@ -1,0 +1,142 @@
+--- Startup times for process: Primary/TUI ---
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.000  000.000: --- NVIM STARTING ---
+000.145  000.145: event init
+000.232  000.087: early init
+001.087  000.855: locale set
+001.129  000.042: init first window
+001.368  000.239: inits 1
+001.373  000.005: window checked
+001.376  000.002: parsing arguments
+001.795  000.036  000.036: require('vim.shared')
+001.866  000.033  000.033: require('vim.inspect')
+001.907  000.031  000.031: require('vim._options')
+001.908  000.111  000.047: require('vim._editor')
+001.909  000.165  000.019: require('vim._init_packages')
+001.910  000.369: init lua interpreter
+002.479  000.569: --- NVIM STARTED ---
+
+--- Startup times for process: Embedded ---
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.000  000.000: --- NVIM STARTING ---
+000.090  000.090: event init
+000.145  000.055: early init
+000.947  000.802: locale set
+000.971  000.024: init first window
+001.136  000.164: inits 1
+001.143  000.007: window checked
+001.144  000.002: parsing arguments
+001.455  000.024  000.024: require('vim.shared')
+001.515  000.028  000.028: require('vim.inspect')
+001.551  000.026  000.026: require('vim._options')
+001.552  000.094  000.040: require('vim._editor')
+001.552  000.133  000.014: require('vim._init_packages')
+001.553  000.276: init lua interpreter
+001.609  000.056: expanding arguments
+001.621  000.012: inits 2
+001.815  000.194: init highlight
+001.816  000.001: waiting for UI
+001.876  000.061: done waiting for UI
+001.879  000.003: clear screen
+001.921  000.005  000.005: require('vim.keymap')
+002.271  000.391  000.386: require('vim._defaults')
+002.273  000.003: init default mappings & autocommands
+002.828  000.030  000.030: sourcing /usr/share/nvim/runtime/ftplugin.vim
+002.942  000.018  000.018: sourcing /usr/share/nvim/runtime/indent.vim
+003.088  000.093  000.093: sourcing /usr/share/nvim/archlinux.lua
+003.092  000.112  000.019: sourcing /etc/xdg/nvim/sysinit.vim
+004.481  000.121  000.121: require('packer.util')
+004.501  001.089  000.967: require('packer')
+004.669  000.167  000.167: require('packer.log')
+004.977  000.102  000.102: require('packer.async')
+005.185  000.071  000.071: require('packer.result')
+005.188  000.209  000.139: require('packer.jobs')
+005.193  000.514  000.202: require('packer.plugin_utils')
+005.339  000.139  000.139: require('packer.snapshot')
+006.083  000.044  000.044: require('cmp.utils.debug')
+006.311  000.118  000.118: require('cmp.utils.char')
+006.316  000.231  000.113: require('cmp.utils.str')
+006.702  000.137  000.137: require('cmp.utils.misc')
+006.757  000.054  000.054: require('cmp.utils.buffer')
+006.858  000.100  000.100: require('cmp.utils.api')
+006.873  000.477  000.186: require('cmp.utils.keymap')
+006.875  000.558  000.081: require('cmp.utils.feedkeys')
+007.341  000.045  000.045: require('cmp.types.cmp')
+007.437  000.095  000.095: require('cmp.types.lsp')
+007.472  000.033  000.033: require('cmp.types.vim')
+007.473  000.212  000.039: require('cmp.types')
+007.475  000.311  000.099: require('cmp.config.mapping')
+007.523  000.047  000.047: require('cmp.utils.cache')
+007.729  000.128  000.128: require('cmp.config.compare')
+007.730  000.206  000.078: require('cmp.config.default')
+007.740  000.691  000.127: require('cmp.config')
+007.749  000.873  000.182: require('cmp.utils.async')
+007.863  000.043  000.043: require('cmp.utils.pattern')
+007.866  000.116  000.074: require('cmp.context')
+008.496  000.218  000.218: require('cmp.utils.snippet')
+008.630  000.133  000.133: require('cmp.matcher')
+008.634  000.601  000.250: require('cmp.entry')
+008.641  000.775  000.174: require('cmp.source')
+008.833  000.050  000.050: require('cmp.utils.event')
+009.133  000.043  000.043: require('cmp.utils.options')
+009.136  000.203  000.161: require('cmp.utils.window')
+009.138  000.303  000.100: require('cmp.view.docs_view')
+009.453  000.058  000.058: require('cmp.utils.autocmd')
+009.458  000.319  000.261: require('cmp.view.custom_entries_view')
+009.629  000.171  000.171: require('cmp.view.wildmenu_entries_view')
+009.763  000.132  000.132: require('cmp.view.native_entries_view')
+009.881  000.117  000.117: require('cmp.view.ghost_text_view')
+009.888  001.247  000.155: require('cmp.view')
+010.263  004.532  000.688: require('cmp.core')
+010.381  000.051  000.051: require('cmp.config.sources')
+010.429  000.046  000.046: require('cmp.config.window')
+010.467  004.934  000.306: require('cmp')
+010.796  005.297  000.363: require('cmp-config')
+012.045  000.015  000.015: require('vim.fs')
+012.060  000.134  000.119: require('vim.lsp.log')
+012.485  000.424  000.424: require('vim.lsp.protocol')
+013.527  000.238  000.238: require('vim.lsp._snippet_grammar')
+013.623  000.093  000.093: require('vim.highlight')
+013.627  000.003  000.003: require('vim.F')
+013.637  001.148  000.815: require('vim.lsp.util')
+013.938  000.141  000.141: require('vim.lsp.sync')
+013.942  000.303  000.162: require('vim.lsp._changetracking')
+014.232  000.289  000.289: require('vim.lsp.rpc')
+014.269  002.936  000.638: require('vim.lsp')
+014.316  003.220  000.284: require('lspconfig.util')
+014.394  000.077  000.077: require('lspconfig.async')
+014.397  003.484  000.188: require('lspconfig.configs')
+014.404  003.576  000.091: require('lspconfig')
+014.477  000.072  000.072: require('lspconfig.configs.pyright')
+014.825  000.154  000.154: require('lspconfig.manager')
+014.886  000.058  000.058: require('lspconfig.configs.ts_ls')
+015.109  000.098  000.098: require('lspconfig.configs.clangd')
+015.267  004.469  000.511: require('lsp-config')
+015.654  000.079  000.079: require('lualine_require')
+015.830  000.533  000.454: require('lualine')
+016.253  000.067  000.067: require('lualine.themes.gruvbox_dark')
+018.110  000.054  000.054: require('lualine.utils.mode')
+018.822  003.553  002.898: require('lualine-config')
+019.117  000.028  000.028: require('bufferline.lazy')
+019.360  000.232  000.232: require('bufferline.commands')
+019.632  000.259  000.259: require('bufferline.config')
+019.642  000.782  000.263: require('bufferline')
+020.097  000.134  000.134: require('bufferline.utils')
+020.100  000.381  000.248: require('bufferline.groups')
+020.155  000.034  000.034: require('bufferline.constants')
+020.215  000.057  000.057: require('bufferline.colors')
+020.513  000.105  000.105: require('bufferline.highlights')
+021.238  000.175  000.175: require('vim.version')
+022.113  001.112  000.937: require('bufferline.hover')
+022.489  000.288  000.288: require('bufferline.ui')
+022.518  003.693  000.935: require('bufferline-config')
+022.587  000.548: --- NVIM STARTED ---
+
