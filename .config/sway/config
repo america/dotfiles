@@ -38,15 +38,11 @@ bindsym $mod+t exec thunderbird
 # start Slack
 bindsym $mod+Shift+s exec slack
 
-# Your preferred application launcher
-# Note: pass the final command to swaymsg so that the resulting window can be opened
-# on the original workspace that the command was run on.
+# Auto-execution command on Sway startup
+# Set background image
+exec swaybg -o DP-2 -i ~/01_wallpaper/wallpaperbetter.sunset03_1920x1080.jpg -m fill \
+            -o HDMI-A-1 -i ~/01_wallpaper/wallpaperbetter.sunset03_1920x1080.jpg -m fill
 
-### Output configuration
-#
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-
-# Example configuration:
 set $display_main DP-2
 set $display_sub01 HDMI-A-1
 output $display_main res 1920x1080 pos 0 0
