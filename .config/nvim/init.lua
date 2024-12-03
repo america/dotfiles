@@ -4,29 +4,14 @@ vim.opt.clipboard:append('unnamedplus')
 vim.opt.number = true                  -- 行番号を表示
 vim.opt.relativenumber = true          -- 相対行番号を表示
 
--- Packerの設定
-vim.cmd [[packadd packer.nvim]]
+-- プラグイン設定を読み込む
+require('plugins')
 
-require('packer').startup(function(use)
-  -- Packer自体の管理
-  use 'wbthomason/packer.nvim'
-
-  -- プラグインの例: LSP設定、オートコンプリート、シンタックスハイライト
-  use 'neovim/nvim-lspconfig'      -- LSP設定
-  use 'hrsh7th/nvim-cmp'           -- オートコンプリート
-  use 'hrsh7th/cmp-nvim-lsp'       -- LSPとの連携
-  use 'hrsh7th/cmp-buffer'         -- バッファ内の単語補完
-  use 'hrsh7th/cmp-path'           -- パス補完
-  use 'hrsh7th/cmp-vsnip'          -- スニペット補完（vsnipを使う場合）
-  use 'hrsh7th/vim-vsnip'          -- スニペットエンジン
-  use 'kyazdani42/nvim-web-devicons' -- アイコン表示用
-  use 'nvim-treesitter/nvim-treesitter' -- シンタックスハイライト
-  use 'tpope/vim-fugitive'            -- Git管理
-  use 'nvim-lualine/lualine.nvim'     -- ステータスライン
-  use {'akinsho/bufferline.nvim', requires = 'nvim-tree/nvim-web-devicons'}
-  use 'plasticboy/vim-markdown'    -- Markdown syntax highlighting
-  use 'godlygeek/tabular'          -- テーブルのフォーマットを助ける
-end)
+-- その他の設定を読み込む
+require('cmp-config')
+require('lsp-config')
+require('lualine-config')
+require('bufferline-config')
 
 -- プラグインの設定ファイルを読み込み
 require('cmp-config')                   -- オートコンプリート設定
@@ -62,14 +47,6 @@ vim.api.nvim_set_keymap('v', 'k', 'gk', { noremap = true, silent = true })
 -- 補完
 vim.api.nvim_set_keymap('i', '<expr><TAB>', 'pumvisible() ? "<C-n>" : "<TAB>"', { noremap = true, silent = true }) -- 補完候補を選択
 vim.api.nvim_set_keymap('i', '<expr><S-TAB>', 'pumvisible() ? "<C-p>" : "<S-TAB>"', { noremap = true, silent = true }) 
-
--- ノーマルモードでスペース2回でCocList
-vim.api.nvim_set_keymap('n', '<space><space>', ':<C-u>CocList<cr>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<space>h', ':<C-u>call CocAction("doHover")<cr>', { noremap = true, silent = true }) -- スペースhでHover
-vim.api.nvim_set_keymap('n', '<space>df', '<Plug>(coc-definition)', { noremap = true, silent = true }) -- スペースdfでDefinition
-vim.api.nvim_set_keymap('n', '<space>rf', '<Plug>(coc-references)', { noremap = true, silent = true }) -- スペースrfでReferences
-vim.api.nvim_set_keymap('n', '<space>rn', '<Plug>(coc-rename)', { noremap = true, silent = true }) -- スペースrnでRename
-vim.api.nvim_set_keymap('n', '<space>fmt', '<Plug>(coc-format)', { noremap = true, silent = true }) -- スペースfmtでFormat
 
 -- Tab関連のキーバインディング
 vim.api.nvim_set_keymap('n', '<Tab>', '<Cmd>tabnext<CR><C-G>', { noremap = true, silent = true })
