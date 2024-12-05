@@ -23,3 +23,4 @@ auto-save-list
 .config/nvim/backup/
 .config/nvim/undo/
 
+*.log

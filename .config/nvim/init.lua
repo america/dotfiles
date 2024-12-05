@@ -21,9 +21,9 @@ require('bufferline-config')            -- タブライン設定
 
 -- 自動バックアップ設定
 vim.opt.backup = true                -- バックアップを有効にする
-vim.opt.backupdir = '~/.config/nvim/backup//'  -- バックアップファイルの保存先
+vim.opt.backupdir = vim.fn.expand('~/.config/nvim/backup//')  -- バックアップファイルの保存先
 vim.opt.undofile = true               -- Undoファイルを保存する
-vim.opt.undodir = '~/.config/nvim/undo//'      -- Undoファイルの保存先
+vim.opt.undodir = vim.fn.expand('~/.config/nvim/undo//')      -- Undoファイルの保存先
 
 -- キーマッピングの設定
 vim.g.mapleader = " " -- leaderをスペースに変更
