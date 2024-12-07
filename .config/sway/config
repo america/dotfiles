@@ -40,14 +40,22 @@ bindsym $mod+Shift+s exec slack
 
 # Auto-execution command on Sway startup
 # Set background image
-exec swaybg -o DP-2 -i ~/01_wallpaper/wallpaperbetter.sunset03_1920x1080.jpg -m fill \
-            -o HDMI-A-1 -i ~/01_wallpaper/wallpaperbetter.sunset03_1920x1080.jpg -m fill
+exec swaybg -o DP-2 -i ~/01_wallpaper/wallpaperbetter.com_sunset_main_1920x1080.jpg -m fill \
+            -o HDMI-A-1 -i ~/01_wallpaper/wallpaperbetter.com_sunset_sub01_1920x1080.jpg -m fill
 
 set $display_main DP-2
 set $display_sub01 HDMI-A-1
 output $display_main res 1920x1080 pos 0 0
 output $display_sub01 res 1920x1080 pos 1920 0
 # You can get the names of your outputs by running: swaymsg -t get_outputs
+
+# Manual Screen Lock
+bindsym $mod+Control+L exec env LANG=en.US_UTF-8 swaylock --fade-in 5 --image /home/takashi/01_wallpaper/wallpaperbetter.com_sunset_fadein_1920x1080.jpg -f
+
+exec_always swayidle -w \
+    timeout 600 'swaylock -f --fade-in 5 --image ~/01_wallpaper/wallpaperbetter.com_sunset_fadein_1920x1080.jpg' \
+    timeout 1200 'swaymsg "output * dpms off"' \
+    resume 'swaymsg "output * dpms on"'
 
 ### Key bindings
 #
