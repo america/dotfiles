@@ -1,1 +1,0 @@
-"use strict";chrome.runtime.onInstalled.addListener(function(a){console.log("previousVersion",a.previousVersion)});
