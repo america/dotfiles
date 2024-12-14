@@ -24,3 +24,10 @@ auto-save-list
 .config/nvim/undo/
 
 *.log
+*.tmp
+.cache/
+
+# Slack and Discord cache
+.config/Slack/*
+.config/Discord/*
+
