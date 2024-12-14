@@ -32,3 +32,10 @@ auto-save-list
 .config/Discord/*
 
 .zprezto/
+
+.config/BraveSoftware/
+.config/Thunar/
+.config/chromium/
+.config/discord/
+.config/ibus/
+.config/xfce4/
