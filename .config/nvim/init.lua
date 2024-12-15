@@ -7,17 +7,13 @@ vim.opt.relativenumber = true          -- 相対行番号を表示
 -- プラグイン設定を読み込む
 require('plugins')
 
--- その他の設定を読み込む
-require('cmp-config')
-require('lsp-config')
-require('lualine-config')
-require('bufferline-config')
-
 -- プラグインの設定ファイルを読み込み
 require('cmp-config')                   -- オートコンプリート設定
 require('lsp-config')                   -- LSP設定
 require('lualine-config')               -- ステータスライン設定
 require('bufferline-config')            -- タブライン設定
+require('treesitter-config')
+require('settings.colors')
 
 -- 自動バックアップ設定
 vim.opt.backup = true                -- バックアップを有効にする
@@ -59,8 +55,3 @@ vim.api.nvim_set_keymap('n', '<C-lt>', ':tabmove -' .. vim.v.count1 .. '<CR>', {
 vim.api.nvim_set_keymap('n', '<C->>', ':tabmove +' .. vim.v.count1 .. '<CR>', { noremap = true, expr = true })
 vim.api.nvim_set_keymap('n', 'gr', '<Cmd>tabnext<CR><C-G>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'gR', '<Cmd>tabprevious<CR><C-G>', { noremap = true, silent = true })
-
--- 変更されていないタブとウィンドウをすべて閉じる
---vim.cmd [[ cabbr qa tabdo windo if !&modified | try | close | catch | quit | endtry | endif ]]
--- 確認なしで開いているタブとウィンドウを閉じる
---vim.cmd [[ cabbr qq tabdo windo try | close | catch | quit! | endtry ]]

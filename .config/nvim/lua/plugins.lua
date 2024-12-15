@@ -14,9 +14,25 @@ return require('packer').startup(function(use)
   use 'hrsh7th/vim-vsnip'
   use 'kyazdani42/nvim-web-devicons'
   use 'nvim-treesitter/nvim-treesitter'
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate',
+    config = function()
+        require'nvim-treesitter.configs'.setup {
+            ensure_installed = { "html", "go" }, -- 必要な言語をインストール
+            highlight = {
+                enable = true, -- ハイライトを有効化
+                additional_vim_regex_highlighting = false,
+            },
+        }
+    end
+}
   use 'tpope/vim-fugitive'
   use 'nvim-lualine/lualine.nvim'
   use {'akinsho/bufferline.nvim', requires = 'nvim-tree/nvim-web-devicons'}
   use 'plasticboy/vim-markdown'
   use 'godlygeek/tabular'
+  use 'tdewolff/vim-html-template'
+  use 'morhetz/gruvbox' -- Gruvbox
+  use 'joshdick/onedark.vim' -- OneDark
 end)
