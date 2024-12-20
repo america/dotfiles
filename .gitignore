@@ -69,3 +69,5 @@ untracked_files.txt
 
 # PulseAudio のキャッシュファイル
 .config/pulse/*.tdb
+
+.config/Code - OSS/
