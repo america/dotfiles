@@ -14,10 +14,10 @@ cmp.setup({
         ['<CR>'] = cmp.mapping.confirm({ select = true }),
     },
     sources = {
+        { name = "copilot" },  -- Copilotソースを有効化
         { name = 'nvim_lsp' },
         { name = 'buffer' },
         { name = 'path' },
         { name = 'vsnip' },
     },
 })
-

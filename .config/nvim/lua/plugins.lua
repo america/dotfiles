@@ -13,7 +13,6 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-vsnip'
   use 'hrsh7th/vim-vsnip'
   use 'kyazdani42/nvim-web-devicons'
-  use 'nvim-treesitter/nvim-treesitter'
   use {
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate',
@@ -26,13 +25,36 @@ return require('packer').startup(function(use)
             },
         }
     end
-}
+  }
   use 'tpope/vim-fugitive'
   use 'nvim-lualine/lualine.nvim'
   use {'akinsho/bufferline.nvim', requires = 'nvim-tree/nvim-web-devicons'}
   use 'plasticboy/vim-markdown'
   use 'godlygeek/tabular'
-  use 'tdewolff/vim-html-template'
   use 'morhetz/gruvbox' -- Gruvbox
   use 'joshdick/onedark.vim' -- OneDark
+  use 'altercation/vim-colors-solarized' --Solarized
+  use {
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
+    event = "InsertEnter",
+    config = function()
+      require("copilot").setup({
+        suggestion = { enabled = false },
+        panel = { enabled = false },
+      })
+    end,
+  }
+
+  use {
+    "CopilotC-Nvim/CopilotChat.nvim",
+    branch = "main",
+    requires = {
+      "zbirenbaum/copilot.lua",
+      "nvim-lua/plenary.nvim",
+    },
+    config = function()
+      require("CopilotChat").setup()
+    end,
+  }
 end)
