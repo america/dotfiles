@@ -71,3 +71,6 @@ untracked_files.txt
 .config/pulse/*.tdb
 
 .config/Code - OSS/
+.config/Code/
+.config/gh/
+.config/github-copilot/
