@@ -14,6 +14,9 @@ require('lualine-config')               -- ステータスライン設定
 require('bufferline-config')            -- タブライン設定
 require('treesitter-config')
 require('settings.colors')
+--require('copilot_config')
+require('keymaps')
+--('copilot_chat_config.init')
 
 -- 自動バックアップ設定
 vim.opt.backup = true                -- バックアップを有効にする
@@ -55,3 +58,6 @@ vim.api.nvim_set_keymap('n', '<C-lt>', ':tabmove -' .. vim.v.count1 .. '<CR>', {
 vim.api.nvim_set_keymap('n', '<C->>', ':tabmove +' .. vim.v.count1 .. '<CR>', { noremap = true, expr = true })
 vim.api.nvim_set_keymap('n', 'gr', '<Cmd>tabnext<CR><C-G>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'gR', '<Cmd>tabprevious<CR><C-G>', { noremap = true, silent = true })
+
+-- GiHub Copilot Chatのキーバインディング
+--vim.api.nvim_set_keymap('n', '<Leader>gc', ':Copilot<CR>', { noremap = true, silent = true })
