@@ -75,3 +75,4 @@ untracked_files.txt
 .config/gh/
 .config/github-copilot/
 .config/mimeapps.list
+.config/zellij/
