@@ -7,3 +7,4 @@ vim.api.nvim_set_keymap('n', '<Leader>cf', '<cmd>CopilotChatFix 日本語で説�
 vim.api.nvim_set_keymap('n', '<Leader>co', '<cmd>CopilotChatOptimize 日本語で説明してください<CR>', opts)
 vim.api.nvim_set_keymap('n', '<Leader>ct', '<cmd>CopilotChatTests 日本語で説明してください<CR>', opts)
 vim.api.nvim_set_keymap('n', '<Leader>cco', '<cmd>CopilotChatCommit<CR>', opts)
+vim.api.nvim_set_keymap('n', '<Leader>cs', '<cmd>CopilotChatCommitStaged<CR>', opts)
