@@ -1,8 +1,22 @@
-vim.opt.clipboard:append('unnamedplus')
-
 -- 基本オプション設定
 vim.opt.number = true                  -- 行番号を表示
 vim.opt.relativenumber = true          -- 相対行番号を表示
+
+-- インデント設定
+vim.opt.expandtab = true      -- タブをスペースに変換
+vim.opt.tabstop = 2           -- タブ文字の幅
+vim.opt.shiftwidth = 2        -- 自動インデントの幅
+vim.opt.softtabstop = -1      -- softtabstopを無効化（shiftwidthの値を使用）
+vim.opt.smartindent = true    -- スマートインデントを有効化
+
+-- ファイルタイプ別のインデント設定
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "python",
+  callback = function()
+    vim.opt_local.tabstop = 4
+    vim.opt_local.shiftwidth = 4
+  end
+})
 
 -- プラグイン設定を読み込む
 require('plugins')
@@ -14,8 +28,9 @@ require('lualine-config')               -- ステータスライン設定
 require('bufferline-config')            -- タブライン設定
 require('treesitter-config')
 require('settings.colors')
---require('copilot_config')
+require('copilot_config')
 require('keymaps')
+require('ibl-config')
 --('copilot_chat_config.init')
 
 -- 自動バックアップ設定
@@ -61,3 +76,24 @@ vim.api.nvim_set_keymap('n', 'gR', '<Cmd>tabprevious<CR><C-G>', { noremap = true
 
 -- GiHub Copilot Chatのキーバインディング
 --vim.api.nvim_set_keymap('n', '<Leader>gc', ':Copilot<CR>', { noremap = true, silent = true })
+
+if vim.fn.executable("wl-copy") == 1 then
+  vim.g.clipboard = {
+  name = "wl-clipboard",
+  copy = {
+    ["+"] = "wl-copy --foreground --type text/plain",
+    ["*"] = "wl-copy --foreground --primary --type text/plain",
+  },
+  paste = {
+    ["+"] = function()
+      return vim.fn.systemlist('wl-paste --no-newline|sed -e "s/\r$//"', { "" }, 1)
+    end,
+    ["*"] = function()
+      return vim.fn.systemlist('wl-paste --primary --no-newline|sed -e "s/\r$//"', { "" }, 1)
+    end,
+  },
+  cache_enabled = true,
+  }
+end
+
+vim.opt.clipboard = "unnamedplus"
