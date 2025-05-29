@@ -1,0 +1,27 @@
+window {
+    margin: 5px;
+    border: 2px solid #3B4252;
+    background-color: rgba(46, 52, 64, 0.9);
+    color: #D8DEE9;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+#entry {
+    padding: 5px;
+    border-bottom: 1px solid #4C566A;
+}
+
+#entry:selected {
+    background-color: #434C5E;
+    color: #ECEFF4;
+}
+
+#input {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    background-color: #3B4252;
+    color: #ECEFF4;
+}
