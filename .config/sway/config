@@ -1,24 +1,12 @@
-### 基本設定
-set $mod Mod4
-set $mybind bindsym --to-code
-set $left h
-set $down j
-set $up k
-set $right l
-set $term alacritty
-set $menu ~/.bin/mywofi.sh
-
-include ~/.config/sway/keybindings.conf
-include ~/.config/sway/startup.conf
+include ~/.config/sway/vars.conf
 include ~/.config/sway/output.conf
-include ~/.config/sway/workspaces.conf
-include ~/.config/sway/appearance.conf
-include ~/.config/sway/statusbar.conf
+include ~/.config/sway/background.conf
+include ~/.config/sway/appbindings.conf
+include ~/.config/sway/startup.conf
+include ~/.config/sway/keybindings.conf
+include ~/.config/sway/bar.conf
 include ~/.config/sway/clipboard.conf
 include ~/.config/sway/ddc.conf
-include ~/.config/sway/audio.conf
-include ~/.config/sway/mouse_cursor.conf
-
+include ~/.config/sway/volume.conf
+include ~/.config/sway/cursor.conf
 include /etc/sway/config.d/*
-
-exec fcitx5
